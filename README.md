@@ -2,7 +2,7 @@
 
 An interactive working paper and reproducible research snapshot by [Tobé Madu](https://www.linkedin.com/in/tobemadu/).
 
-- **Live paper:** https://coin-history-research.teeceem5.chatgpt.site/
+- **Live paper:** https://tcmadt.github.io/coin-history-research/
 - **Data snapshot:** 14 October 2026
 - **Benchmark:** Bitcoin (BTC)
 - **Formal screened sample:** 746 altcoins
@@ -28,7 +28,7 @@ Every highlighted number is checked by `scripts/verify_publication_claims.py`.
 
 ### Human readers
 
-1. Read the [live paper](https://coin-history-research.teeceem5.chatgpt.site/).
+1. Read the [live paper](https://tcmadt.github.io/coin-history-research/).
 2. Read [dist/methodology.md](dist/methodology.md) for definitions and research rules.
 3. Use [docs/CLAIMS.md](docs/CLAIMS.md) to trace each headline result to its output file.
 4. Use [docs/DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md) to interpret the datasets.
@@ -93,4 +93,4 @@ The original upstream ingestion inputs referenced by `build_data.py` are not inc
 
 Tobé Madu, “Do Altcoins Outperform Bitcoin?”, 2026.
 
-https://coin-history-research.teeceem5.chatgpt.site/
+https://tcmadt.github.io/coin-history-research/
