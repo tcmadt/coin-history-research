@@ -1,0 +1,107 @@
+ticker,asset_id,name,last_valid_price,raw_last_price,days_before_cutoff,reason,verified_delisting,verified_zero_recovery,rule_applied,evidence,1y_mature_entries_ending_after_last_quote,2y_mature_entries_ending_after_last_quote,3y_mature_entries_ending_after_last_quote,4y_mature_entries_ending_after_last_quote,5y_mature_entries_ending_after_last_quote,potentially_affected_1_to_5y_entries
+ALPACA,alpaca,Alpaca Finance,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,57,57,285
+AMPL,ampl,Ampleforth,2026-03-25,2026-03-25,203,source history ends; cause unverified,False,False,False,,203,203,203,203,203,1015
+ANC,anc,Anchor Protocol,2025-06-25,2025-06-25,476,source history ends; cause unverified,False,False,False,,365,477,476,476,211,2005
+ANT,ant,Aragon,2024-11-07,2024-11-07,706,Kraken delisting with ETH redemption; not zero recovery,True,False,False,https://support.kraken.com/articles/delisting-of-aragon-ant,366,707,706,706,707,3192
+ARV,arv,Ariva,2025-12-08,2025-12-08,310,source history ends; cause unverified,False,False,False,,310,311,310,310,7,1248
+REP,rep,Augur,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,7,7,7,7,35
+BOND,bond,BarnBridge,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,57,57,285
+BCD,bcd,Bitcoin Diamond,2025-07-13,2025-07-13,458,source history ends; cause unverified,False,False,False,,365,459,458,458,458,2198
+BTG,btg,Bitcoin Gold,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,57,57,285
+BIT,bit,BitDAO,2025-07-01,2025-07-01,470,source history ends; cause unverified,False,False,False,,365,471,470,115,0,1421
+BMX,bmx,BitMart,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,0,0,0,114
+TIME,time,Chrono.tech,2026-05-20,2026-05-20,147,source history ends; cause unverified,False,False,False,,147,147,147,147,147,735
+CLV,clv,CLV,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,57,57,285
+CONV,conv,Convergence,2025-08-07,2025-08-07,433,source history ends; cause unverified,False,False,False,,365,434,433,433,204,1869
+CREAM,cream,Cream Finance,2025-10-22,2025-10-22,357,source history ends; cause unverified,False,False,False,,357,358,357,357,357,1786
+CTA,cta,Cross The Ages,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,7,0,0,0,14
+CRPT,crpt,Crypterium,2024-09-18,2024-09-18,756,source history ends; cause unverified,False,False,False,,366,731,756,756,757,3366
+CUDOS,cudos,CUDOS,2024-11-07,2024-11-07,706,source history ends; cause unverified,False,False,False,,366,707,706,639,274,2692
+DECHAT,dechat,Dechat,2025-08-07,2025-08-07,433,source history ends; cause unverified,False,False,False,,365,180,0,0,0,545
+TREMP,tremp,Doland Tremp,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,0,0,0,0,57
+DYP_NEW,dyp_new,Dypius,2026-03-03,2026-03-03,225,source history ends; cause unverified,False,False,False,,225,225,46,0,0,496
+DYP,dyp,Dypius (Old),2025-01-23,2025-01-23,629,source history ends; cause unverified,False,False,False,,366,630,629,591,226,2442
+ERN,ern,Ethernity Chain,2025-10-22,2025-10-22,357,source history ends; cause unverified,False,False,False,,357,358,357,357,218,1647
+FTN,ftn,Fasttoken,2026-01-27,2026-01-27,260,source history ends; cause unverified,False,False,False,,260,68,0,0,0,328
+FRONT,front,Frontier,2024-09-18,2024-09-18,756,source history ends; cause unverified,False,False,False,,366,731,756,756,392,3001
+FX,fx,Function X,2025-11-02,2025-11-02,346,source history ends; cause unverified,False,False,False,,346,347,346,346,346,1731
+GARI,gari,Gari Network,2026-06-15,2026-06-15,121,source history ends; cause unverified,False,False,False,,121,121,121,121,0,484
+GO,go,GoChain,2026-03-25,2026-03-25,203,source history ends; cause unverified,False,False,False,,203,203,203,203,203,1015
+MOBILE,mobile,Helium Mobile,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,0,0,0,114
+HOUSE,house,Housecoin,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,0,0,0,0,7
+J,j,Jambo,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,0,0,0,0,7
+AKRO,akro,Kaon (Old),2025-05-13,2025-05-13,519,source history ends; cause unverified,False,False,False,,365,520,519,519,421,2344
+KAI,kai,KardiaChain,2025-08-07,2025-08-07,433,source history ends; cause unverified,False,False,False,,365,434,433,433,433,2098
+KP3R,kp3r,Keep3rV1,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,57,57,285
+QLC,qlc,Kepple,2023-05-11,2023-05-11,1252,source history ends; cause unverified,False,False,False,,72,72,72,0,0,216
+KIN,kin,Kin,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,57,57,285
+KLAY,klay,Klaytn,2024-12-12,2024-12-12,671,source history ends; cause unverified,False,False,False,,366,672,671,671,591,2971
+KMD,kmd,Komodo,2026-04-16,2026-04-16,181,source history ends; cause unverified,False,False,False,,181,181,181,181,181,905
+KCS,kcs,KuCoin Token,2021-01-10,2021-01-10,2103,source history ends; cause unverified,False,False,False,,283,283,283,283,283,1415
+LOKA,loka,League of Kingdoms Arena,2026-01-14,2026-01-14,273,source history ends; cause unverified,False,False,False,,273,274,273,157,0,977
+LOOM,loom,Loom Network,2025-12-08,2025-12-08,310,source history ends; cause unverified,False,False,False,,310,311,310,310,310,1551
+LTO,lto,LTO Network,2026-01-14,2026-01-14,273,source history ends; cause unverified,False,False,False,,273,274,273,273,273,1366
+MNGO,mngo,Mango,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,0,0,171
+OM,om,MANTRA (Old),2026-03-31,2026-03-31,197,source history ends; cause unverified,False,False,False,,197,197,197,197,197,985
+MEMEFI,memefi,MemeFi,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,0,0,0,0,7
+MICHI,michi,michi,2026-06-15,2026-06-15,121,source history ends; cause unverified,False,False,False,,0,0,0,0,0,0
+DAR,dar,Mines of Dalarnia,2025-06-01,2025-06-01,500,source history ends; cause unverified,False,False,False,,365,501,480,115,0,1461
+MITH,mith,Mithril,2026-04-16,2026-04-16,181,source history ends; cause unverified,False,False,False,,181,181,181,181,181,905
+MBOX,mbox,MOBOX,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,7,7,7,7,35
+MTA,mta,mStable Governance Token: Meta (MTA),2025-07-13,2025-07-13,458,source history ends; cause unverified,False,False,False,,365,459,458,458,445,2185
+MULTI,multi,Multichain,2025-07-01,2025-07-01,470,source history ends; cause unverified,False,False,False,,365,471,228,0,0,1064
+NTRN,ntrn,Neutron,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,5,0,0,119
+NFTX,nftx,NFTX,2024-11-07,2024-11-07,706,source history ends; cause unverified,False,False,False,,366,697,331,0,0,1394
+NU,nu,NuCypher,2023-04-17,2023-04-17,1276,NU to T migration documented; review conversion rather than assume zero,False,False,False,https://www.threshold.network/blog/decentralized-merger,365,730,903,718,353,3069
+NULS,nuls,NULS,2025-12-08,2025-12-08,310,source history ends; cause unverified,False,False,False,,310,311,310,310,310,1551
+O3,o3,O3 Swap,2025-05-13,2025-05-13,519,source history ends; cause unverified,False,False,False,,365,319,0,0,0,684
+OAX,oax,OAX,2025-12-08,2025-12-08,310,source history ends; cause unverified,False,False,False,,310,311,310,310,310,1551
+OHM,ohm,Olympus,2023-08-16,2023-08-16,1155,source history ends; cause unverified,False,False,False,,365,671,671,365,0,2072
+OMNI,omni,Omni Network,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,0,0,0,114
+ONSTON,onston,ONSTON,2023-11-30,2023-11-30,1049,source history ends; cause unverified,False,False,False,,275,275,228,0,0,778
+OOKI,ooki,Ooki Protocol,2025-08-07,2025-08-07,433,source history ends; cause unverified,False,False,False,,365,434,433,186,0,1418
+OPN_OPENTICKETINGECOSYSTEM,opn_openticketingecosystem,OPEN Ticketing Ecosystem,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,0,0,0,0,0,0
+SOS,sos,OpenDAO,2025-06-25,2025-06-25,476,source history ends; cause unverified,False,False,False,,365,477,476,287,0,1605
+ORN,orn,Orion,2025-06-01,2025-06-01,500,source history ends; cause unverified,False,False,False,,365,501,500,500,400,2266
+PRQ,prq,PARSIQ,2025-06-25,2025-06-25,476,source history ends; cause unverified,False,False,False,,365,477,476,476,420,2214
+PLANCK,planck,Planck,2026-06-15,2026-06-15,121,source history ends; cause unverified,False,False,False,,0,0,0,0,0,0
+PLA,pla,PlayDapp (Old),2024-06-16,2024-06-16,850,source history ends; cause unverified,False,False,False,,366,731,802,437,72,2408
+POLC,polc,Polkacity,2026-06-15,2026-06-15,121,source history ends; cause unverified,False,False,False,,121,121,121,0,0,363
+TRADE,trade,Polytrade,2024-01-08,2024-01-08,1010,source history ends; cause unverified,False,False,False,,39,39,0,0,0,78
+ICE,ice,Popsicle Finance,2024-01-08,2024-01-08,1010,source history ends; cause unverified,False,False,False,,145,145,59,0,0,349
+CVP,cvp,PowerPool,2025-06-25,2025-06-25,476,source history ends; cause unverified,False,False,False,,365,477,476,476,333,2127
+QASH,qash,QASH,2024-12-12,2024-12-12,671,source history ends; cause unverified,False,False,False,,366,672,671,671,672,3052
+QRDO,qrdo,Qredo,2024-11-07,2024-11-07,706,source history ends; cause unverified,False,False,False,,366,707,706,410,45,2234
+QSP,qsp,Quantstamp,2024-09-02,2024-09-02,772,source history ends; cause unverified,False,False,False,,366,731,772,772,773,3414
+RLY,rly,Rally,2026-01-14,2026-01-14,273,source history ends; cause unverified,False,False,False,,273,274,273,273,223,1316
+RGT,rgt,Rari Governance Token,2022-11-17,2022-11-17,1427,source history ends; cause unverified,False,False,False,,365,498,498,464,99,1924
+RFOX,rfox,RFOX,2024-08-07,2024-08-07,798,source history ends; cause unverified,False,False,False,,251,251,0,0,0,502
+RBN,rbn,Ribbon Finance,2025-07-13,2025-07-13,458,source history ends; cause unverified,False,False,False,,365,459,458,371,6,1659
+RLB,rlb,Rollbit Coin,2024-01-08,2024-01-08,1010,source history ends; cause unverified,False,False,False,,145,145,59,0,0,349
+ROOK,rook,Rook,2026-01-14,2026-01-14,273,source history ends; cause unverified,False,False,False,,273,274,273,273,273,1366
+SLND,slnd,Save,2025-03-27,2025-03-27,566,source history ends; cause unverified,False,False,False,,284,120,0,0,0,404
+SFUND,sfund,Seedify.fund,2026-07-13,2026-07-13,93,source history ends; cause unverified,False,False,False,,93,93,93,93,43,415
+KEY,key,SelfKey,2026-08-18,2026-08-18,57,source history ends; cause unverified,False,False,False,,57,57,57,57,57,285
+SLERF,slerf,SLERF,2026-06-15,2026-06-15,121,source history ends; cause unverified,False,False,False,,121,121,0,0,0,242
+SXP,sxp,Solar,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,7,7,7,7,35
+USDR,usdr,StablR USD,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,0,0,0,0,7
+FITFI,fitfi,Step App,2026-10-07,2026-10-07,7,source history ends; cause unverified,False,False,False,,7,7,7,7,0,28
+STMX,stmx,StormX,2026-03-25,2026-03-25,203,source history ends; cause unverified,False,False,False,,203,203,203,203,203,1015
+STPT,stpt,STP,2025-07-13,2025-07-13,458,source history ends; cause unverified,False,False,False,,365,459,458,458,458,2198
+DATA,data,Streamr,2026-07-08,2026-10-14,98,quality quarantine; not evidence of failure,False,False,False,,98,98,98,98,94,486
+SWRV,swrv,Swerve,2025-03-27,2025-03-27,566,source history ends; cause unverified,False,False,False,,365,567,566,566,388,2452
+SYLO,sylo,Sylo,2026-03-25,2026-03-25,203,source history ends; cause unverified,False,False,False,,203,203,203,0,0,609
+XYM,xym,Symbol,2025-07-01,2025-07-01,470,source history ends; cause unverified,False,False,False,,365,471,470,470,210,1986
+PAY,pay,TenX,2025-06-25,2025-06-25,476,source history ends; cause unverified,False,False,False,,365,477,476,476,476,2270
+TOKE,toke,Tokemak,2026-02-09,2026-02-09,247,source history ends; cause unverified,False,False,False,,247,248,247,247,28,1017
+TOMO,tomo,TomoChain,2023-11-30,2023-11-30,1049,source history ends; cause unverified,False,False,False,,365,730,1048,1049,1049,4241
+CHESS,chess,Tranchess,2026-04-16,2026-04-16,181,source history ends; cause unverified,False,False,False,,181,181,181,181,51,775
+TRIBE,tribe,Tribe,2026-04-16,2026-04-16,181,source history ends; cause unverified,False,False,False,,181,181,181,181,181,905
+ULTIMA,ultima,Ultima,2025-07-01,2025-07-01,470,source history ends; cause unverified,False,False,False,,328,68,0,0,0,396
+VGX,vgx,VGX Token,2026-07-13,2026-07-13,93,source history ends; cause unverified,False,False,False,,93,93,93,93,0,372
+TVK,tvk,Virtua,2026-01-14,2026-01-14,273,source history ends; cause unverified,False,False,False,,273,274,273,273,273,1366
+VITE,vite,VITE,2025-06-18,2025-06-18,483,source history ends; cause unverified,False,False,False,,365,484,228,0,0,1077
+WTC,wtc,Waltonchain,2024-06-16,2024-06-16,850,source history ends; cause unverified,False,False,False,,366,731,850,850,851,3648
+XCAD,xcad,XCAD Network,2026-05-20,2026-05-20,147,source history ends; cause unverified,False,False,False,,147,147,147,0,0,441
+UTK,utk,xMoney (Old),2026-05-20,2026-05-20,147,source history ends; cause unverified,False,False,False,,147,147,147,147,147,735
+ZKS,zks,ZKSpace,2024-01-25,2024-01-25,993,source history ends; cause unverified,False,False,False,,365,730,992,646,281,3014

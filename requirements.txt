@@ -1,0 +1,2 @@
+# Only the upstream ingestion script requires a third-party Python package.
+pandas>=2.0

@@ -1,0 +1,32 @@
+# Do Altcoins Outperform Bitcoin?
+
+Purpose: Reproducible research comparing altcoin returns with Bitcoin over matched dates.
+Author: Tobé Madu
+Published snapshot: 2026-10-14
+Repository: https://github.com/tcmadt/coin-history-research
+Live paper: https://coin-history-research.teeceem5.chatgpt.site/
+
+Recommended read order:
+1. /AGENTS.md
+2. /PROJECT_MANIFEST.json
+3. /docs/CLAIMS.md
+4. /dist/methodology.md
+5. /docs/DATA_DICTIONARY.md
+6. Relevant scripts and generated outputs
+
+Primary files:
+- /dist/index.html: published paper
+- /dist/app.js: chart and interaction logic
+- /dist/data/: frozen observations and generated bundles
+- /dist/*.csv: analysis and audit outputs
+- /scripts/: generators and independent verification
+- /research/: portfolio policy and preserved membership snapshots
+
+Verification command: make verify
+
+Critical cautions:
+- Missing exit prices are unknown, not zero.
+- Prices are not carried forward.
+- Overlapping windows are not independent observations.
+- The fixed cross-horizon cohort contains 279 coins.
+- The repository includes the frozen derived snapshot, not the original aggregation workspace.

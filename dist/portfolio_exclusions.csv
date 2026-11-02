@@ -1,0 +1,104 @@
+asset,name,reason
+aave,Aave,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+lend,Aave (lend),migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+ae,Aeternity,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+ageur,Angle Protocol,pegged asset or underlying-asset receipt
+beamx,BEAM (ex Merit Circle),migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+bfusd,BFUSD,pegged asset or underlying-asset receipt
+tryb,BiLira,pegged asset or underlying-asset receipt
+bnsol,Binance Staked SOL,pegged asset or underlying-asset receipt
+busd,Binance USD,pegged asset or underlying-asset receipt
+btc,Bitcoin,benchmark
+btm,BytomDAO,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+cusd,Celo Dollar,pegged asset or underlying-asset receipt
+cbbtc,Coinbase Wrapped BTC,pegged asset or underlying-asset receipt
+cqt,Covalent,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+cxt,Covalent X Token,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+crvusd,crvUSD,pegged asset or underlying-asset receipt
+dai,Dai,pegged asset or underlying-asset receipt
+eos,EOS,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+susde,Ethena Staked USDe,pegged asset or underlying-asset receipt
+usde,Ethena USDe,pegged asset or underlying-asset receipt
+eeth,ether.fi Staked ETH,pegged asset or underlying-asset receipt
+eurc,EURC,pegged asset or underlying-asset receipt
+usdf,Falcon USD,pegged asset or underlying-asset receipt
+ftm,Fantom,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+fdusd,First Digital USD,pegged asset or underlying-asset receipt
+frxeth,Frax Ether,pegged asset or underlying-asset receipt
+fxs,Frax Share,Unresolved 411x up/477x down quote pair
+frxusd,Frax USD,pegged asset or underlying-asset receipt
+fbtc,Function FBTC,pegged asset or underlying-asset receipt
+gal,Galxe,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+gusd,Gemini Dollar,pegged asset or underlying-asset receipt
+gho,GHO,pegged asset or underlying-asset receipt
+usdg,Global Dollar,pegged asset or underlying-asset receipt
+glm,Golem,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+g,Gravity,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+hifi,Hifi Finance,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+mft,Hifi Finance (Old),migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+hbtc,Huobi BTC,pegged asset or underlying-asset receipt
+icx,ICON,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+jitosol,Jito Staked SOL,pegged asset or underlying-asset receipt
+rseth,Kelp DAO Restaked ETH,pegged asset or underlying-asset receipt
+knc,Kyber Network Crystal,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+frax,Legacy Frax Dollar (previously Frax),pegged asset or underlying-asset receipt
+steth,Lido Staked ETH,pegged asset or underlying-asset receipt
+stsol,Lido Staked SOL,pegged asset or underlying-asset receipt
+lseth,Liquid Staked ETH,pegged asset or underlying-asset receipt
+lusd,Liquity USD,pegged asset or underlying-asset receipt
+lbtc,Lombard Staked BTC,pegged asset or underlying-asset receipt
+lrc,Loopring,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+maid,MaidSafeCoin (legacy),Legacy history ends before study cutoff; not assumed worthless.
+mkr,Maker,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+meth,Mantle Staked Ether,pegged asset or underlying-asset receipt
+mpl,Maple,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+syrup,Maple Finance,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+msol,Marinade Staked SOL,pegged asset or underlying-asset receipt
+mc,Merit Circle,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+nas,Nebulas,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+usdy,Ondo US Dollar Yield,pegged asset or underlying-asset receipt
+usdp,Pax Dollar,pegged asset or underlying-asset receipt
+paxg,PAX Gold,pegged asset or underlying-asset receipt
+pax,Paxos Standard,pegged asset or underlying-asset receipt
+pyusd,PayPal USD,pegged asset or underlying-asset receipt
+pol,POL (ex-MATIC),migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+matic,Polygon,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+pons,Pons,Young case study. CoinGecko midnight observations use a separately matched BTC series.
+qtum,Qtum,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+quick_new,Quickswap,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+quick,QuickSwap (Old),migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+renbtc,renBTC,pegged asset or underlying-asset receipt
+render,Render,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+rndr,Render Token,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+rlp,Resolv Liquidity Provider Token,pegged asset or underlying-asset receipt
+revv,REVV,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+rlusd,Ripple USD,pegged asset or underlying-asset receipt
+sky_sky,Sky,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+solvbtc,Solv Protocol SolvBTC,pegged asset or underlying-asset receipt
+s,Sonic (prev. FTM),migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+ethx,Stader ETHx,pegged asset or underlying-asset receipt
+strx,Staked TRX,pegged asset or underlying-asset receipt
+stonk,STONK (StonkFun),Young case study. CoinGecko midnight observations use a separately matched BTC series.
+sun,Sun Token,Unresolved historical unit discontinuities
+sweth,Swell Ethereum,pegged asset or underlying-asset receipt
+usdt,Tether,pegged asset or underlying-asset receipt
+eurt,Tether EURt,pegged asset or underlying-asset receipt
+xaut,Tether Gold,pegged asset or underlying-asset receipt
+tusd,TrueUSD,pegged asset or underlying-asset receipt
+u,Union,Unresolved 944x discontinuity
+u_unitedstables,United Stables,pegged asset or underlying-asset receipt
+usat,USAT,pegged asset or underlying-asset receipt
+usd1,USD1,pegged asset or underlying-asset receipt
+usdc,USDC (USD Coin),pegged asset or underlying-asset receipt
+usdd,USDD,pegged asset or underlying-asset receipt
+usds,USDS,pegged asset or underlying-asset receipt
+usd0,Usual,pegged asset or underlying-asset receipt
+a,Vaulta,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+vet,VeChain,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+wbeth,Wrapped Beacon ETH,pegged asset or underlying-asset receipt
+wbtc,Wrapped Bitcoin,pegged asset or underlying-asset receipt
+weeth,Wrapped eETH,pegged asset or underlying-asset receipt
+weth,Wrapped Ether,pegged asset or underlying-asset receipt
+wsteth,Wrapped liquid staked Ether 2.0,pegged asset or underlying-asset receipt
+wsol,Wrapped Solana,pegged asset or underlying-asset receipt
+zil,Zilliqa,migration or parallel representation; excluded from aggregate to avoid double counting/false losses

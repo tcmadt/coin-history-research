@@ -1,0 +1,9 @@
+*.csv text
+*.json text
+*.md text
+*.py text
+*.js text
+*.css text
+*.html text
+*.gz binary
+*.png binary

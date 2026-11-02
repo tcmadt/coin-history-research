@@ -1,0 +1,73 @@
+cmc_id,cmc_symbol,cmc_name,cm_asset,mapping
+1027,ETH,Ethereum,eth,exact normalized name and ticker
+52,XRP,XRP,xrp,exact normalized name and ticker
+2,LTC,Litecoin,ltc,exact normalized name and ticker
+1831,BCH,Bitcoin Cash,bch,exact normalized name and ticker
+1839,BNB,BNB,bnb,explicit CMC-ID alias
+1765,EOS,EOS,eos,exact normalized name and ticker
+3602,BSV,Bitcoin SV,bsv,exact normalized name and ticker
+1958,TRX,TRON,trx,exact normalized name and ticker
+512,XLM,Stellar,xlm,exact normalized name and ticker
+2010,ADA,Cardano,ada,exact normalized name and ticker
+328,XMR,Monero,xmr,exact normalized name and ticker
+3957,LEO,UNUS SED LEO,leo,exact normalized name and ticker
+131,DASH,Dash,dash,exact normalized name and ticker
+1376,NEO,Neo,neo,exact normalized name and ticker
+1975,LINK,Chainlink,link,exact normalized name and ticker
+1720,MIOTA,IOTA,miota,exact normalized name and ticker
+3794,ATOM,Cosmos,atom,exact normalized name and ticker
+2011,XTZ,Tezos,xtz,exact normalized name and ticker
+1321,ETC,Ethereum Classic,etc,exact normalized name and ticker
+873,XEM,NEM,xem,exact normalized name and ticker
+1518,MKR,Maker,mkr,exact normalized name and ticker
+2502,HT,Huobi Token,ht,exact normalized name and ticker
+4676,MEXC,MEXC Token,,unmapped
+4949,999,999,,unmapped
+3296,MIN,MINDOL,,unmapped
+3635,CRO,Cronos,cro,explicit CMC-ID alias
+4162,STO,Storeum,,Historical Storeum is not StakeStone
+4981,TAGZ5,TAGZ5,,unmapped
+5015,HEX,HEX,,unmapped
+4598,ACA,Acash Coin,,Historical Acash Coin is not Acala
+3077,VET,VeChain,vet,exact normalized name and ticker
+3607,VEST,VestChain,,unmapped
+6636,DOT,Polkadot,dot,exact normalized name and ticker
+5864,YFI,yearn.finance,yfi,exact normalized name and ticker
+2280,FIL,Filecoin,fil,exact normalized name and ticker
+2416,THETA,THETA,theta,explicit CMC-ID alias
+7083,UNI,Uniswap,uni,exact normalized name and ticker
+74,DOGE,Dogecoin,doge,exact normalized name and ticker
+7278,AAVE,Aave,aave,exact normalized name and ticker
+5805,AVAX,Avalanche,avax,exact normalized name and ticker
+6892,EGLD,Elrond,egld,explicit CMC-ID alias
+4172,LUNA,Terra,luna,explicit CMC-ID alias
+4066,CHZ,Chiliz,chz,exact normalized name and ticker
+5426,SOL,Solana,sol,exact normalized name and ticker
+4256,KLAY,Klaytn,klay,exact normalized name and ticker
+8916,ICP,Internet Computer,icp,exact normalized name and ticker
+5994,SHIB,Shiba Inu,shib,exact normalized name and ticker
+3890,MATIC,Polygon,matic,exact normalized name and ticker
+4030,ALGO,Algorand,algo,exact normalized name and ticker
+6783,AXS,Axie Infinity,axs,exact normalized name and ticker
+1966,MANA,Decentraland,mana,exact normalized name and ticker
+6535,NEAR,NEAR Protocol,near,exact normalized name and ticker
+3513,FTM,Fantom,ftm,exact normalized name and ticker
+4195,FTT,FTX Token,ftt,exact normalized name and ticker
+11419,GRAM,Gram (prev. Toncoin),gram,exact normalized name and ticker
+21794,APT,Aptos,apt,exact normalized name and ticker
+3897,OKB,OKB,okb,exact normalized name and ticker
+10603,IMX,Immutable,imx,exact normalized name and ticker
+4642,HBAR,Hedera,hbar,exact normalized name and ticker
+24478,PEPE,Pepe,pepe,exact normalized name and ticker
+20396,KAS,Kaspa,kas,exact normalized name and ticker
+20947,SUI,Sui,sui,exact normalized name and ticker
+3773,FET,Artificial Superintelligence Alliance,fet,exact normalized name and ticker
+32196,HYPE,Hyperliquid,hype,exact normalized name and ticker
+11092,BGB,Bitget Token,,unmapped
+6536,OM,MANTRA,om,explicit CMC-ID alias
+35697,PI,Pi,,unmapped
+27075,MNT,Mantle,mnt,exact normalized name and ticker
+1437,ZEC,Zcash,zec,exact normalized name and ticker
+37263,CC,Canton,cc,explicit CMC-ID alias
+35491,M,MemeCore,,unmapped
+7326,DEXE,DeXe,dexe,exact normalized name and ticker

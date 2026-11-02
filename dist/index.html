@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Most altcoins beat Bitcoin briefly, but few do so reliably. An interactive ten-year follow-up to Willy Woo using 746 screened coins and six monthly rebalanced baskets." name="description"/>
+<meta content="Do Altcoins Outperform Bitcoin?" property="og:title"/>
+<meta content="Most altcoins get a moment against Bitcoin. Almost none keep it." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://coin-history-research.teeceem5.chatgpt.site/" property="og:url"/>
+<meta content="https://coin-history-research.teeceem5.chatgpt.site/figures/02_relative_paths.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Do Altcoins Outperform Bitcoin?" name="twitter:title"/>
+<meta content="Most altcoins get a moment against Bitcoin. Almost none keep it." name="twitter:description"/>
+<meta content="https://coin-history-research.teeceem5.chatgpt.site/figures/02_relative_paths.png" name="twitter:image"/>
+<script>if(location.pathname!=="/"&&location.pathname!=="/index.html")location.replace("/"+location.search+location.hash)</script>
+<title>Do Altcoins Outperform Bitcoin?</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<main>
+<header>
+<p class="byline">AN INTERACTIVE WORKING PAPER · SNAPSHOT: 14 OCTOBER 2026 <span class="draft-badge">Draft</span></p>
+<h1>Do Altcoins Outperform Bitcoin?</h1>
+<p class="author-line">Tobé Madu<span class="disclosure-link"> · <a href="#disclosures">Disclosures</a></span> · <button class="paper-pdf" id="paper-pdf" type="button">Save / share PDF</button></p>
+<p class="abstract">
+<b>Abstract.</b> Nearly every altcoin in this study beat Bitcoin (BTC) at some point, but very few did it consistently. Among the 279 coins with at least one complete five-year price window, 98.2% beat BTC from at least one one-year start date, while only 1.8% beat it from most one-year starts. The gap widened with time: the typical coin finished one year with 49% as much wealth as BTC and five years with just 6%. Waiting for a coin to get bigger or buying a group of the largest coins did not reliably improve the odds. Only 4.9% beat BTC five years after reaching a $100 million market cap, and all six modeled portfolios built from the largest eligible altcoins trailed BTC from July 2019 through October 2026. In a separate analysis of why coins lost ground, issuing more tokens explained 29% of the average five-year gap. The other 71% came from the market valuing these networks less relative to Bitcoin.</p>
+<details class="paper-toc" open="">
+<summary>Table of contents</summary>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li>
+<a href="#paper-methods">Data and methods</a>
+</li>
+<li>
+<a href="#results">Results</a>
+<ol>
+<li>
+<a href="#individual-view">How often do coins beat BTC?</a>
+</li>
+<li>
+<a href="#age-view">What happens to altcoins over time?</a>
+</li>
+<li>
+<a href="#study-view">Does a larger market cap improve the odds?</a>
+</li>
+<li><a href="#portfolio-view">Does diversification help?</a></li>
+<li><a href="#why-fall-behind">Why do altcoins fall behind?</a></li>
+<li><a href="#winner-patterns">What did the winners have in common?</a></li>
+<li><a href="#market-breadth">Has broad altcoin outperformance become less common?</a></li>
+</ol>
+</li>
+<li><a href="#limits">Discussion</a></li>
+<li><a href="#references-drawer">References and research files</a></li>
+</ol>
+</details>
+</header>
+<a hidden="" href="?view=history" id="home-link">← Home</a>
+<div id="paper-body">
+<section id="introduction">
+<h2>1. Introduction</h2>
+<p>In 2016, <a href="https://woobull.com/data-visualisation-118-coins-plotted-over-time-this-is-why-hodl-alt-coin-indexes-dont-work/">Willy Woo plotted 118 altcoins against Bitcoin</a> and summed up the result in four words: “shit runs downhill.” Altcoins could soar for a while and still be poor long-term holds against BTC.</p>
+<p>Ten years later, the question is not simply whether he was right. It is where the pattern breaks. A network can be useful without its token outperforming Bitcoin. Every dollar invested in an altcoin could have remained in BTC, so the relevant question is whether taking the extra risk paid off, how often, and for how long.</p>
+<p>That comparison gets harder because “altcoins” is a loose category. Some are networks, some are businesses with tokens attached, and some are sustained mostly by stories. This paper tests them from several angles: coin by coin, after different market-cap milestones, across their observed lives, and through simple portfolios. The goal is to distinguish a temporary rally from a durable win, then ask what made the exceptions different.</p>
+<p>Figure 1 shows the raw histories before the summaries do: brief rallies are common, but most lines spend more time losing ground against BTC.</p>
+<section id="history-explorer">
+<section id="history-view">
+<div class="explorer-toolbar" id="explorer-toolbar">
+<details class="filter-drawer" id="explorer-controls">
+<summary>Filters</summary>
+<div class="filter-content">
+<div class="controls primary">
+<div class="coin-control">
+<span class="control-label">Coins</span>
+<details class="coin-picker" id="coin-picker">
+<summary id="coin-picker-label">Select coins</summary>
+<div class="picker-panel">
+<input aria-label="Search coins" autocomplete="off" id="coin-search" placeholder="Search a name or ticker" type="search"/>
+<div class="picker-actions">
+<button id="select-all" type="button">Select all</button>
+<button id="clear-selection" type="button">Clear selection</button>
+</div>
+<div aria-label="Select coins" class="coin-options" id="coin-options" role="group">
+</div>
+</div>
+</details>
+</div>
+<label>Time period<select id="preset">
+<option value="all">All time</option>
+<option value="1y">1 year</option>
+<option value="2y">2 years</option>
+<option value="3y">3 years</option>
+<option value="4y">4 years</option>
+<option value="5y">5 years</option>
+</select>
+</label>
+</div>
+<div class="controls explorer-filters">
+<label>Show from first market-cap touch<select id="explorer-cap">
+<option value="0">No cap hurdle</option>
+<option value="10000000">$10M</option>
+<option value="100000000">$100M</option>
+<option value="1000000000">$1B</option>
+<option value="10000000000">$10B</option>
+</select>
+</label>
+<label>First listed year<select id="explorer-vintage">
+<option value="all">All years</option>
+</select>
+</label>
+<label>Minimum age at snapshot<select id="explorer-min-age">
+<option value="0">Any age</option>
+<option value="1">1 year</option>
+<option value="2">2 years</option>
+<option value="3">3 years</option>
+<option value="5">5 years</option>
+</select>
+</label>
+<label>Maximum age at snapshot<select id="explorer-max-age">
+<option value="99">Any age</option>
+<option value="1">1 year</option>
+<option value="2">2 years</option>
+<option value="3">3 years</option>
+<option value="5">5 years</option>
+</select>
+</label>
+<label>Horizontal axis<select id="explorer-axis">
+<option selected="" value="calendar">Calendar date</option>
+<option value="age">Observed history · %</option>
+<option value="actual_age">Years since first price</option>
+</select>
+</label>
+</div>
+<div aria-label="Selected coins" class="selected" id="selected">
+</div>
+<div class="spotlight-control">
+<label for="spotlight">Highlight a coin</label>
+<input aria-label="Highlight a plotted coin by name or ticker; clear the search to release" autocomplete="off" id="spotlight" list="spotlight-list" placeholder="Name or ticker, e.g. NEAR" type="search"/>
+<datalist id="spotlight-list">
+</datalist>
+</div>
+</div>
+</details>
+</div>
+<p aria-live="polite" class="range-note" id="range-note">
+</p>
+<p aria-live="polite" class="sr-only" id="highlight-result">
+</p>
+<figure class="paper-figure figure-wide">
+<h4 class="figure-title"><span class="figure-number">Figure 1.</span> Most altcoins bleed against Bitcoin over time.</h4>
+<div class="chart-host" id="chart-host">
+<svg aria-label="Each line represents one altcoin. Most lines fall over time, meaning the altcoin lost ground to Bitcoin." id="chart" role="img" tabindex="0">
+</svg>
+<button aria-label="Download Figure 1 as PNG" class="figure-download" data-chart="chart" title="Download PNG" type="button">↓ PNG</button>
+</div>
+<figcaption><span id="caption">Each line is one altcoin. 1× means equal starting dollars in the altcoin and BTC ended at the same value; 0.5× means the altcoin ended worth half as much. A falling line means the altcoin is losing ground to BTC.</span><span class="figure-source">Source: Coin History Research; Coin Metrics and separately labeled CoinGecko histories. Data through 14 October 2026.</span></figcaption>
+</figure>
+<details class="download-drawer">
+<summary>Download &amp; share</summary>
+<div class="export-row">
+<button id="export-svg" type="button">Download SVG</button>
+<button hidden="" id="export-png" type="button">Legacy PNG export</button>
+<button id="export-csv" type="button">Download data CSV</button>
+<button id="print" type="button">Print / PDF</button>
+<button id="copy-link" type="button">Copy this view’s link</button>
+</div>
+</details>
+<p class="small muted" hidden="" id="status" role="status">
+</p>
+</section>
+</section>
+</section>
+<section id="paper-methods">
+<h2>2. Data and methods</h2>
+<p>The study begins with 844 asset histories, including BTC. Removing stablecoins, wrapped or bridged assets, unresolved token changes and other excluded instruments leaves 746 altcoins. Of these, 279 have at least one complete five-year price window. The same group is used for every holding-period comparison, so changes across horizons do not come from changing the coins. Of the 279, 272 also have matching five-year market-cap data. The formal tests use Coin Metrics; the explorer adds two separately labeled histories from CoinGecko.</p>
+<p>Every comparison puts the same starting amount into an altcoin and BTC on the same day, then measures both on the same ending day. For each holding period from one to five years, the study repeats that comparison from every daily start date with enough history. These periods overlap, so they are different views of history rather than independent bets. Because later entry dates cannot be observed over longer horizons, a separate robustness test holds entry dates constant across all five horizons; it produces the same decline and is <a href="#ref-robustness">reported in References</a>. If either the entry or exit price is missing, the result remains unknown. The study never carries forward an old price or assumes the coin fell to zero. Separate tests line coins up by age, wait until they cross sustained market-cap thresholds, or build portfolios using only information available before each rebalance.</p>
+<p>The study measures price returns rather than total returns. It does not add staking rewards or airdrops, and it does not subtract trading costs, spreads or market impact. Those omissions cut both ways, although the measurable gaps mostly make altcoins look better. Even crediting every altcoin with a generous 20% annual yield lifts the median five-year result to only 0.16× BTC. Detailed rules, limitations, the AI disclosure and the replication package appear in References.<sup><a aria-label="Study rules" href="#ref-rules">[1]</a></sup><sup><a aria-label="Limitations and directional bias" href="#ref-limitations">[2]</a></sup><sup><a aria-label="AI disclosure" href="#ref-ai">[3]</a></sup></p>
+</section>
+<section id="results">
+<h2>3. Results</h2>
+<section id="individual-view">
+<h3>3.1. How often do coins beat BTC?</h3>
+<p class="section-intro">The simplest and most generous test is whether an altcoin ever beats BTC over one year. The analysis follows the same 279 coins and tests every eligible daily start date. Figure 2 compares two very different standards: winning at least once and winning from more than half of priced start dates.</p>
+<div aria-live="polite" class="finding-grid" hidden="" id="rolling-headline">
+</div>
+<figure class="paper-figure figure-simple">
+<h4 class="figure-title"><span class="figure-number">Figure 2.</span> Almost every coin gets a moment; almost none keep it.</h4>
+<div class="chart-figure-host" id="rolling-comparison-host">
+<svg aria-label="Among 279 coins with at least one complete five-year price window, 98.2 percent beat Bitcoin from at least one one-year start, while 1.8 percent beat it from most one-year starts" id="rolling-comparison" role="img">
+</svg>
+<button aria-label="Download Figure 2 as PNG" class="figure-download" data-chart="rolling-comparison" title="Download PNG" type="button">↓ PNG</button>
+</div>
+<figcaption>Same 279 coins throughout. The figure compares beating BTC from at least one one-year start with beating it from more than half of priced one-year starts.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
+</figure>
+<p>Nearly every coin passed the first test: 274 of 279 beat BTC from at least one start. Only five did so from most starts. The opportunity to outperform was common. The ability to repeat it was rare.</p>
+</section>
+<section id="age-view">
+<h3>3.2. What happens to altcoins over time?</h3>
+<p>The gap between one winning window and repeatable outperformance raises a second question: what happens as a coin ages? Figure 3 lines every coin up at its first valid price, resets its value against BTC to 1×, and follows it for five years. The thick line shows the median coin, the shaded area shows the middle half, and the labels show how many coins remain in the sample.</p>
+<details class="filter-drawer inline-filter-drawer">
+<summary>Filters</summary>
+<div class="filter-content"><div class="controls">
+<label>Observed-year cohort<select id="age-vintage">
+<option value="all">All observed-year cohorts</option>
+</select>
+</label>
+</div></div>
+</details>
+<figure class="paper-figure figure-simple">
+<h4 class="figure-title"><span class="figure-number">Figure 3.</span> The median altcoin falls below 0.5× BTC within its first year.</h4>
+<div class="chart-figure-host" id="age-chart-host">
+<svg aria-label="The median altcoin falls below half of its Bitcoin-relative starting value within its first year" id="age-chart" role="img">
+</svg>
+<button aria-label="Download Figure 3 as PNG" class="figure-download" data-chart="age-chart" title="Download PNG" type="button">↓ PNG</button>
+</div>
+<figcaption><span id="age-caption"></span><span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
+</figure>
+<p>The median altcoin falls below 0.5× BTC within its first year and continues losing ground afterward. Altcoins can rally sharply, but the typical gain does not mature into lasting outperformance.</p>
+</section>
+<section id="study-view">
+<h3>3.3. Does a larger market cap improve the odds?</h3>
+<p class="section-intro">Perhaps the problem is buying too early. If young projects are unusually fragile, waiting for them to become larger and more established should improve the odds. To test this, a coin enters only after sustaining a market capitalization threshold for 30 days. Its return is then compared with BTC from the next daily close.</p>
+<div class="controls" hidden="">
+<label>Market-cap threshold<select id="study-threshold">
+<option value="10000000">$10 million</option>
+<option selected="" value="100000000">$100 million</option>
+<option value="1000000000">$1 billion</option>
+<option value="10000000000">$10 billion</option>
+</select>
+</label>
+</div>
+<div class="figure-key" hidden="">
+<span>
+<i style="background:#34658a">
+</i>1 year</span>
+<span>
+<i style="background:#8c9d82">
+</i>4 years</span>
+</div>
+<figure class="paper-figure figure-dense">
+<h4 class="figure-title"><span class="figure-number">Figure 4.</span> A larger market cap did not reliably improve the odds.</h4>
+<div class="chart-figure-host" id="cap-heatmap-host">
+<svg aria-label="Waiting for a larger market capitalization rarely improves the share of coins beating Bitcoin, except at the ten-billion-dollar threshold" id="cap-heatmap" role="img">
+</svg>
+<button aria-label="Download Figure 4 as PNG" class="figure-download" data-chart="cap-heatmap" title="Download PNG" type="button">↓ PNG</button>
+</div>
+<figcaption><span id="study-caption"></span><span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
+</figure>
+<p aria-live="polite" class="sr-only" id="study-summary">Focus a cell for sample details.</p>
+<p class="small muted" hidden="" id="study-coverage-notes">
+</p>
+<p>Waiting did not reliably help. Among coins that reached $100 million, only 11 of 225 beat BTC over the following five years. Even at $10 billion, only three of 20 did. Higher thresholds remove many obvious failures, but they also leave smaller samples and still do not make durable outperformance typical.</p>
+</section>
+<section id="portfolio-view">
+<h3>3.4. Does diversification help?</h3>
+<p class="section-intro">If size cannot identify the eventual winners, the natural fallback is to own several candidates. Following <a href="https://woobull.com/crypto-currency-index-funds-the-simulations-have-surprising-results/">Willy Woo’s 2016 index experiment</a>, the analysis builds six portfolios from the largest eligible altcoins. They vary by the number of coins and how each position is weighted, but every portfolio uses only information available before the trade and rebalances every 30 days. A fresh version starts each month so the result does not depend on one fortunate entry date. The common period runs from <b>22 July 2019 to 14 October 2026</b>, and returns are shown before trading costs.<sup><a aria-label="Historical membership reconciliation" href="#ref-membership">[4]</a></sup></p>
+<p class="sr-only" id="portfolio-cost-note">Main result: before trading costs.</p>
+<div class="table-wrap" id="portfolio-rolling">
+</div>
+<p>No portfolio beat BTC from most completed launches at any holding period. Rebalancing was not the main problem: holding the initial top 10 raised the median five-year result from 0.78× to 0.86× BTC and the win rate from 25.0% to 35.7%, still below half. Removing ETH made the results worse. Diversification spread the selection risk, but it did not overcome the group’s shared tendency to lose ground against BTC.</p>
+</section>
+<section id="why-fall-behind" class="results-analysis">
+<h3>3.5. Why do altcoins fall behind?</h3>
+<p>The results so far show that neither size nor diversification reliably solved the problem. The next step is to locate where the underperformance appeared. This is an accounting decomposition, not a complete list of reasons projects fail.</p>
+<p>A token’s price is its total market value divided by its circulating supply. Its performance against BTC can therefore be split into two non-overlapping components: how its total market value changed relative to Bitcoin’s, and how its supply changed relative to Bitcoin’s. A hack, abandonment, poor execution or fading demand would ultimately appear in the first component. Additional issuance appears in the second.</p>
+<div class="split-visual" role="img" aria-label="Of the average five-year altcoin shortfall against Bitcoin, changes in relative market value account for 71 percent and relative supply growth accounts for 29 percent"><div class="rerating" style="width:71.1%"><b>71%</b><span>change in relative market value</span></div><div class="dilution" style="width:28.9%"><b>29%</b><span>relative supply growth</span></div></div>
+<p>Across the 272 coins with five-year market-cap data, the median coin finished at 0.05× BTC while its total market value finished at 0.12×. Changes in relative market value accounted for 71.1% of the average five-year shortfall, while relative supply growth accounted for 28.9%. Dilution could even erase genuine growth: of the 28 networks whose total market value grew faster than Bitcoin’s, 16 still lost on price because their supply expanded faster.</p>
+<p>This decomposition tells us where the loss appeared, not why the market changed its mind. A separate test asks whether one component, supply growth, was useful beforehand. Each month, coins are ranked by their supply growth over the previous year and followed for the next two. Higher dilution was followed by weaker returns in 47 of 52 months, but the difference was modest: the lowest-dilution fifth finished at a median 0.30× BTC, compared with 0.22× for the highest. Supply growth is a headwind, but low inflation alone cannot create demand.</p>
+</section>
+<section id="winner-patterns" class="results-analysis">
+<h3>3.6. What did the winners have in common?</h3>
+<p>If market re-rating explains most of the loss, the durable winners should be the projects that gave investors a reason to keep valuing their tokens. Fifteen of the same 279 coins beat BTC from most five-year start dates.<sup><a aria-label="Durable winners and category membership" href="#ref-winners">[5]</a></sup> Exchange tokens stood out: five of 12 qualified, compared with 10 of the other 267 coins. None of the five Bitcoin forks or ten would-be digital-cash coins qualified.</p>
+<figure class="paper-figure figure-simple"><h4 class="figure-title"><span class="figure-number">Figure 5.</span> Exchange tokens produced more reliable winners, with much higher business-specific risk.</h4><div class="chart-figure-host"><svg id="category-chart" role="img" aria-label="Reliable five-year winner rate by exploratory coin category"></svg><button class="figure-download" data-chart="category-chart" type="button">↓ PNG</button></div><figcaption>Exploratory categories defined before counting the outcomes. Samples are small, overlap conceptually, and quoted prices may not have been tradable at size.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption></figure>
+<p>The pattern is suggestive rather than predictive. An exchange token can connect demand for the token to a surviving business, but it also inherits the risk that the business fails, fades or changes its incentives. Ethereum and Solana also appear among the durable platform winners, yet their success does not tell us which current platform will become the next default.</p>
+<p>Many of crypto’s most dependable businesses have formed close to trading itself: exchanges, stablecoins, prediction markets and perpetual-futures venues. Most are not represented cleanly in this study, and some have no investable token. The broader lesson is therefore narrower than “buy exchange tokens.” Durable outperformance appears to require a durable source of demand, and few projects manage to build one.</p>
+</section>
+<section id="market-breadth" class="results-analysis">
+<h3>3.7. Has broad altcoin outperformance become less common?</h3>
+<p>Durable winners are scarce, but the difficulty of finding them may change with the market. Figure 6 measures the share of covered altcoins that were ahead of BTC over the previous year. It shows whether outperformance was broad enough to lift much of the market or concentrated in a few exceptions.</p>
+<figure class="paper-figure figure-simple"><h4 class="figure-title"><span class="figure-number">Figure 6.</span> Broad altcoin outperformance has become less frequent since 2022.</h4><div class="chart-figure-host"><svg id="breadth-chart" role="img" aria-label="Share of covered altcoins ahead of Bitcoin over the trailing year from 2017 to 2026, shown for the full covered universe and a fixed cohort"></svg><button class="figure-download" data-chart="breadth-chart" type="button">↓ PNG</button></div><figcaption>Share of altcoins ahead of BTC over the trailing year, sampled every three days. The fixed-cohort line restricts the test to the 279 coins used across holding periods; the dashed 2017–18 segment has only 18 qualifying coins.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption></figure>
+<p>Outperformance was broad during the last major altcoin cycle. The share peaked at 73% in 2020, 86% in 2021 and 88% in early 2022. Since then, each year’s peak has remained at or below 32%. Restricting the analysis to the same 279 coins produces the same break, so the decline is not mainly caused by adding younger coins to the sample.</p>
+<p>This period cannot prove that another broad alt season will never happen. It does show that the recent market has rewarded a much narrower set of altcoins, making selection more important precisely when durable winners have become harder to find.</p>
+</section>
+</section>
+<section id="limits">
+<h2>4. Discussion</h2>
+<p>Taken together, the results point to a distinction between having a moment and compounding. Of the 279 coins in the fixed cohort, 274 beat BTC from at least one one-year start date, but only five did so from most starts. Waiting for a coin to become larger did not reliably improve the odds, and spreading capital across several large altcoins did not solve the problem. Additional supply made the losses worse, but most of the gap came from changes in relative market value. Since 2022, broad altcoin outperformance has also become less common. The problem is not that altcoins never win. It is that the typical win fades.</p>
+<p>Stocks show the same shape. Across a century of US listings, the median stock lost 6.9%, only 27.6% outperformed the value-weighted market, and the top 3.7% of firms accounted for all net shareholder wealth creation.<sup><a aria-label="Bessembinder study of one hundred years in the US stock markets" href="#ref-bessembinder">[6]</a></sup> The parallel is useful but incomplete. A broad stock index captures new winners as they emerge; BTC is a single asset whose leadership has to persist. Its advantage rests less on a business that can out-execute competitors than on monetary coordination: liquidity, security and the number of people willing to treat it as the benchmark asset. Bitcoin’s lead should therefore be tested, not assumed.</p>
+<p>How much that benchmark matters, however, depends on what the position is supposed to do. An altcoin position can serve three different purposes, and the results apply differently to each. <strong>A trade</strong> asks whether a catalyst can move the price before the thesis expires. <strong>A long-term holding</strong> asks whether the project can create persistent demand for its token. <strong>A research position</strong> asks whether using the product and participating in its ecosystem are worth the cost of admission. This paper primarily tests the second. The knowledge, access and relationships gained from the third may be valuable, but they are returns on participation rather than evidence of investment outperformance.</p>
+<p>For passive capital allocation, BTC is therefore the default and the burden of proof belongs to the alternative. A project must explain why people will continue to need its token, why that demand will persist and why tokenholders will capture the value created. That conclusion should remain provisional. It would weaken if liquid altcoin portfolios began beating BTC across many entry dates after realistic costs, or if durable token demand became common rather than exceptional. Until then, an altcoin has to earn the exception.</p>
+</section>
+<section class="research-references" id="research-notes">
+<details class="references-drawer" id="references-drawer">
+<summary><span class="reference-heading">5. References and research files</span><span class="expand-hint" aria-hidden="true">Expand</span></summary>
+<div class="references-content">
+<ol>
+<li id="ref-rules">
+<details class="research-details" id="study-rules">
+<summary>Study rules</summary>
+<p><b>Sample flow.</b> The interactive explorer contains 845 usable non-BTC histories drawn from 846 audited source histories. It intentionally includes excluded instruments and three supplemental series. The formal tests begin with an 844-asset aggregate input, including BTC, and retain 746 coins after the instrument screen.</p>
+<p>The main sample has 746 coins after removing stablecoins, tokens that represent other assets, and certain token changes that cannot be joined reliably. Coin Metrics supplies most prices. This is an incomplete sample, not a list of every coin ever traded.</p>
+<p>For each holding period, this study tests every daily start date with enough time to finish. The calculation needs valid prices for both the coin and BTC at the start and end. If an end-date price is missing, the result stays unknown. The analysis neither assumes the coin went to zero nor reuses an old quote.</p>
+<p>The median is the middle result. The shaded middle 50% runs from the 25th to the 75th percentile. These ranges show how spread out the results are. They are not forecasts.</p>
+<p>The coin and portfolio tests measure prices only. They leave out staking, airdrops and discretionary trading strategies. The main portfolio results also leave out trading costs. Optional cost tests appear in the full methods.</p>
+<p>
+<a href="?view=notes">Replication package: full methods, checks and source files</a>
+</p>
+</details>
+</li>
+<li id="ref-limitations">
+<b>Limitations and directional bias.</b>
+<p>Most known long-run gaps make altcoins look better, not worse. Ended histories remain unknown because some assets recovered or migrated, and ten-year results are omitted because only 16 covered coins have priced rolling windows.</p>
+<div class="table-wrap bias-table"><table><thead><tr><th>Limitation</th><th>Likely effect</th></tr></thead><tbody>
+<tr><td>Failed coins missing from the source</td><td>Flatters altcoins</td></tr>
+<tr><td>Ended histories remain unknown instead of becoming losses</td><td>Flatters altcoins</td></tr>
+<tr><td>No trading costs, spreads or market impact</td><td>Flatters altcoins</td></tr>
+<tr><td>Quoted prices may not have been tradable at size</td><td>Flatters altcoins</td></tr>
+<tr><td>No staking rewards</td><td>Flatters Bitcoin</td></tr>
+<tr><td>No airdrops</td><td>Flatters Bitcoin</td></tr>
+<tr><td>First source price may follow the first real trade</td><td>Direction unknown</td></tr>
+<tr><td>Most Pump.fun-era memecoins are absent</td><td>Likely flatters altcoins long term; may flatter Bitcoin short term</td></tr>
+</tbody></table></div>
+</li>
+<li id="ref-ai">
+<b>How AI helped build this study.</b>
+<p>I designed the research questions, screening and exclusion rules, data-quality quarantines and tests. AI tools wrote much of the code, compared data sources and drafted charts under those rules. Checks include an independent replay of basket holdings and tests of daily start and end prices. All inputs, rules and outputs are published so anyone can inspect the work. The paper has received informal reader feedback but has not been independently replicated or peer reviewed; corrections are welcome.</p>
+</li>
+<li id="ref-membership">
+<b>Historical membership reconciliation.</b>
+<p class="small" id="portfolio-reconciliation"></p>
+<p class="small">The audit compares all 89 signal dates with public CoinMarketCap snapshots. It uses numeric CMC IDs and explicit aliases where names changed; ticker-only collisions such as historical Acash Coin versus Acala are rejected. Differences can reflect missing assets, exclusions, the 30-day eligibility requirement, cap definitions or observation timing. I have reconciled the differences into a ledger, not reconstructed a fully covered market-wide index.</p>
+<p class="small">The model quarantines FXS, SUN and U for unresolved source discontinuities. LUNA’s genuine collapse remains. No holding is removed because it later loses value. All selected holdings in this run have daily prices; no marks were filled. Missing future data would leave NAV unresolved and defer a rebalance, while a missing purchase quote would leave that target allocation in cash.</p>
+<p class="small"><a download="" href="portfolio_membership.csv">Every membership and target weight</a> · <a download="" href="portfolio_reconciliation.csv">CMC comparison ledger</a> · <a download="" href="portfolio_identity_map.csv">Identity map</a> · <a download="" href="portfolio_exclusions.csv">Exclusion register</a> · <a download="" href="portfolio_source_snapshots.json.gz">Extracted CMC source records</a></p>
+</li>
+<li id="ref-winners">
+<b>Durable winners and category membership.</b>
+<p>The 15 coins that beat BTC from more than half of their priced five-year start dates were GT, BNB, SOL, MX, OKB, QNT, ETH, DOGE, TRX, XYO, LCX, FET, THETA, ANT and TRAC. The 12 exchange tokens in the fixed cohort were BNB, CRO, FTT, GT, HT, LCX, MX, OAX, OKB, QASH, WRX and WOO. FTT and six other exchange tokens did not qualify as reliable winners.</p>
+<p class="small"><a download="" href="winner_categories.csv">Category summary</a> · <a download="" href="rolling_coin_results.csv">Per-coin results</a></p>
+</li>
+<li id="ref-robustness">
+<b>Focused robustness checks.</b>
+<div class="table-wrap"><table><thead><tr><th>Question</th><th>Result</th></tr></thead><tbody>
+<tr><td>Does the decline with holding period survive when every horizon uses the same entry dates?</td><td>Yes. Across 206,471 coin-date starts with valid endpoints at every horizon, the share of coins beating BTC from most matched starts falls from 28.3% at one year to 5.4% at five years. The one-year rate is higher than Figure 2’s 1.8% because the matched sample excludes later one-year starts that cannot reach five years.</td></tr>
+<tr><td>What if missing five-year exits are treated less generously?</td><td>The median falls from 0.065× BTC when omitted to 0.064× when frozen at the last relative value and 0.058× when set to zero.</td></tr>
+<tr><td>Did monthly rebalancing cause the basket result?</td><td>Buy-and-hold raises the median five-year top-10 result from 0.78× to 0.86× BTC, but only 35.7% of launches win. Excluding ETH lowers the held-basket win rate to 10.7%.</td></tr>
+<tr><td>Did expanding coverage create the decline in breadth?</td><td>No material change. The fixed cohort’s annual peak also falls below 30% after 2022.</td></tr>
+</tbody></table></div>
+<p class="small"><a download="" href="common_start_horizons.csv">Common-start horizons</a> · <a download="" href="five_year_missing_sensitivity.csv">Missing-exit sensitivity</a> · <a download="" href="portfolio_robustness.csv">Basket robustness</a> · <a download="" href="altseason_breadth_fixed.csv">Fixed-cohort breadth</a></p>
+</li>
+<li id="ref-bessembinder">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6438198">Hendrik Bessembinder, “One Hundred Years in the U.S. Stock Markets”</a>, SSRN working paper, 18 March 2026, revised 27 September 2026.</li>
+<li>
+<a href="https://woobull.com/data-visualisation-118-coins-plotted-over-time-this-is-why-hodl-alt-coin-indexes-dont-work/">Willy Woo: 118 coins plotted over time</a>, 3 November 2016. Related: <a href="https://woobull.com/crypto-currency-index-funds-the-simulations-have-surprising-results/">the index-fund simulations</a>, 18 October 2016.</li>
+<li>
+<a href="?view=notes">Definitions, full methods and sources</a> · <a download="" href="methodology.md">Detailed methodology</a>
+</li>
+<li>Individual coins: <a download="" href="rolling_coin_results.csv">Per-coin results</a> · <a download="" href="paper_summary.csv">Percentages and quartiles</a> · <a href="?view=notes">Entry-date inspector</a>
+</li>
+<li>Observed age: <a download="" href="age_summary.csv">Median, quartiles and contribution counts</a>
+</li>
+<li>Baskets: <a download="" href="portfolio_monthly_launches.csv">Every monthly launch</a> · <a download="" href="portfolio_daily.csv">Daily paths</a> · <a download="" href="portfolio_summary.csv">Full-period metrics</a> · <a download="" href="portfolio_rolling.csv">Daily rolling fund-entry results</a>
+</li>
+<li>Source-ending review: <a download="" href="source-ending-review.csv">106 early-ending histories and review status</a>. This is not a confirmed failure list.</li>
+</ol>
+</div>
+</details>
+</section>
+<aside class="disclosure-box" id="disclosures"><b>Disclosures.</b> The author holds BTC and may hold positions in assets discussed. This is independent research for educational purposes, not investment advice or a recommendation to buy or sell any asset.</aside>
+<aside class="about-box"><h3>About the author</h3><p><a href="https://www.linkedin.com/in/tobemadu/" rel="me">Tobé Madu</a> is a data professional with a background in healthcare analytics who builds research and decision tools across healthcare and financial markets. His crypto experience spans multiple market cycles.</p></aside>
+</div>
+<section hidden="" id="notes-view">
+<h2>Methods &amp; sources</h2>
+<details class="research-details">
+<summary>Optional portfolio cost tests</summary>
+<p class="small">The main paper starts with returns before trading costs. These are assumed costs per dollar bought or sold, not measured historical fees. Changing this setting updates the portfolio figures on the main page.</p>
+<div class="controls">
+<label>Illustrative execution cost<select id="portfolio-cost">
+<option value="0">Gross · no costs</option>
+<option value="25">0.25% per dollar bought or sold</option>
+<option value="100">1.00% per dollar bought or sold</option>
+</select>
+</label>
+</div>
+</details>
+<p class="small">Choose a holding period to inspect individual start dates below.</p>
+<details class="entry-inspector">
+<summary>Inspect individual entry dates for the selected holding period</summary>
+<div class="controls">
+<label>Holding period<select id="rolling-horizon">
+<option value="1">1 year</option>
+<option value="2">2 years</option>
+<option value="3">3 years</option>
+<option value="4">4 years</option>
+<option value="5">5 years</option>
+</select>
+</label>
+</div>
+<div class="controls">
+<label>Inspect a coin<select id="rolling-coin">
+</select>
+</label>
+</div>
+<p aria-live="polite" class="small muted" id="coin-window-summary">
+</p>
+<figure>
+<div aria-label="Winning and losing entry dates" class="entry-strip" id="entry-strip">
+</div>
+<figcaption id="entry-caption">
+</figcaption>
+</figure>
+</details>
+<h3>What “full history” means</h3>
+<p>The explorer retains every positive price observation downloaded for the coin, including dates before Woo’s posts. The beginning of source coverage may be later than a token’s launch. Coverage ending is not evidence that the token became worthless. The searchable set contains <span id="asset-count">…</span> histories; the wider market is not exhaustively represented.</p>
+<p>The default “All time” view starts each coin at its first matched observation and stops at its last observation, no later than 14 October 2026. Entry dates differ across coins; these are not common-window returns. The fixed windows use 1, 2, 3, 4 or 5 calendar years ending on 14 October 2026. For a fixed window, a coin must cover the entire window and have exact matched coin/BTC prices on both endpoints. Coins lacking either endpoint are excluded from that view. Interior gaps remain gaps. This coverage rule favors surviving histories; the main chart is not an estimate of the odds facing every historical altcoin investor. The cap study below it keeps unknown matured endpoints and not yet complete windows separate. Large selections use weekly chart samples; endpoint calculations always use daily source observations. Bitcoin is the 1× reference line, not an altcoin in the selection.</p>
+<h3>Definitions</h3>
+<p class="equation">Relative wealth(t) = [P<sub>coin</sub>(t) / P<sub>coin</sub>(entry)] ÷ [P<sub>BTC</sub>(t) / P<sub>BTC</sub>(entry)]</p>
+<p>Normalized wealth begins at 1×, or the same wealth as BTC. The explorer’s common end date may precede a coin’s last covered price. It reports each series’ actual endpoint and warns when it stops before the requested end. Max drawdown uses every daily coin/BTC ratio within the window. Market cap uses estimated circulating supply, not fully diluted value. Cap data may begin later than prices.</p>
+<h3>The screen</h3>
+<p>The $10M, $100M, $1B and $10B screens use the same instrument exclusions and frozen price snapshot. Added thresholds are recalculations, not a data refresh. A first qualifying signal without a price on the next day is not moved forward to a convenient later entry. Thresholds use nominal USD and are not adjusted for inflation.</p>
+<p>A 30-calendar-day trailing average needs 30 valid daily cap observations. Entry is the next daily close. One year is 365 days and four years is 1,461 days. Some coins were already above the threshold when cap coverage began. Figure 3 includes those coins and records 21 of 293 priced four-year winners at $100M, or 7.2%. The stricter crossing-sensitivity subset excludes coins already above the threshold when cap coverage starts; it leaves 9 of 151 winners at $100M and 4 of 84 at $1B, plus 11 and one unknown endpoints respectively.</p>
+<p>The aggregate source file contains 844 assets, including BTC. The instrument screen retains 746 coins for the main tests. The explorer shows 845 usable altcoin histories: it removes BTC and unusable AION, then adds PONS, MAID and STONK from supplemental histories. It therefore includes instruments excluded from the main study. This is a per-token comparison, not a tradable index simulation. Staking, lending income, airdrops, fees, taxes and execution are not included.</p>
+<h3>Source conventions and identities</h3>
+<p>Most histories are Coin Metrics daily UTC closes. PONS and StonkFun’s STONK are separate CoinGecko 00:00 UTC histories; BTC comparisons use matched CoinGecko observations. Their different convention is always labeled, and they are not silently combined into a single-source series. “OMNI” in the searchable modern catalog is Omni Network, not Woo’s legacy Omni token. The legacy MAID series ends in January 2025.</p>
+<p>Woo’s full original 118-coin membership is unrecovered. Nine of the 18 named original endpoint pairs have been verified for the publication-date follow-up. The new broad screen and the full-history explorer should not be described as an exact reconstruction of all 118 coins.</p>
+<h3 id="source-quality">Price-history audit</h3>
+<p id="audit-summary">
+</p>
+<p>The screen examines large upward and downward discontinuities, long gaps and extreme normalized returns. Flags prompt review; they are not proof of error. Large genuine losses, including LUNA’s May 2022 collapse, remain. This is a scoped price-history audit, not verification of every venue, contract identity or executable quote.</p>
+<div class="table-wrap" id="audit-events">
+</div>
+<h4>Effect of the disclosed quality rules</h4>
+<div class="table-wrap" id="audit-sensitivity">
+</div>
+<p class="small">
+<a download="" href="data_audit.csv">Download flagged observations</a> · <a download="" href="rolling_summary_raw.csv">Raw-source rolling summaries</a> · <a download="" href="rolling_summary.csv">Quality-adjusted rolling summaries</a>
+</p>
+<h3>Small values</h3>
+<p>Zero is shown as 0%. Tiny nonzero values are written as ordinary decimals to their first significant digit, such as 0.000001%.</p>
+<h3>Explorer axes and labels</h3>
+<p>The 0–100% axis places each coin’s first valid matched price at 0% and its last valid matched price at 100%. Filters can show only part of that history. Endpoints differ, so this is a retrospective comparison of shapes, not a timing signal. The years-since-first-price axis preserves actual elapsed time. The endpoint label shows the ticker and the last plotted BTC-relative multiple. Its observation date remains available to assistive technology and in the chart export.</p>
+<h3>Hover observations</h3>
+<p>Hover emphasizes the nearest plotted line. Moving away restores the view. Search by name or ticker to highlight a plotted coin without changing the selection; clear the search or press Escape to release. There is no click-to-lock behavior. A compact label sits at the highlighted line’s endpoint. Large selections use weekly plotted samples.</p>
+<h3>Fixed membership across horizons</h3>
+<p>The optional fixed group contains coins with at least one priced five-year window. This holds the coin list constant across the one- to five-year comparisons. It still selects for long recorded histories.</p>
+<label class="cohort-toggle">
+<input checked="" id="rolling-common" type="checkbox"/>Keep the same <span id="common-count">…</span> coins across all horizons</label>
+<p class="small muted">This setting applies to the individual-coin headlines on the main page.</p>
+<h3>Rolling-window definitions</h3>
+<p>The rolling study uses the same 746 instrument-screened assets as the cap study, without filtering on eventual returns or selecting today’s survivors. Every source-covered daily entry with a matched BTC price is tested. The endpoint is the same calendar date 1, 2, 3, 4 or 5 years later; 29 February maps to 28 February where necessary. Windows ending after the snapshot are not yet complete. Mature windows without an exact matched endpoint remain unknown, including dates after a series stops. No last-price carry-forward or automatic zero is used.</p>
+<p>“Confirmed winner” means at least one observed window with relative wealth strictly above 1×. The denominator includes every coin with a mature entry, even if all its exits are unknown. A coin with no recorded win and any unknown exit remains unresolved. The lower/upper opportunity range treats unresolved coins as never/ever winners; it is an identification range, not a confidence interval. Per-coin winning frequency is wins divided by priced windows. The main median weights each coin equally and excludes coins without any priced windows. Its missing-exit bounds include all coins with mature entries and assign each unknown window to loss/win respectively. Overlapping daily windows are not independent trials. There is no claim that historical entry dates could be selected in advance.</p>
+<p>The fixed same-coin group comprises the assets with at least one priced five-year window. Membership is held constant across horizons. The rolling universe applies instrument exclusions but has no market-cap or liquidity entry screen; small early quotes may not have supported an investable position. The full provider catalog is not an exhaustive historical coin census.</p>
+<h3>Participation examples</h3>
+<p>The passive comparison uses equal $10,000 investments from 27 August 2022 to 14 October 2026. wstETH and mSOL quoted-price ratios capture accumulated rewards and market premiums/discounts. No additional APY is added. These are liquid-staking proxies, not native reward-balance reconstructions. Buy-and-hold capital exposure is benchmarked separately from any hypothesized participant edge.</p>
+<p>Only the Ethereum case adds a constructed non-trading participation layer: $9,500 in wstETH plus $400 ETH working capital after an assumed $100 upfront activity budget, then 625 ARB held to the snapshot. Eligibility assumes post-Nitro bridging, transactions across at least two months and more than four application/governance transactions before the snapshot, with other anti-Sybil requirements satisfied. Trades are not required by the modeled actions. Token units of working capital are assumed unchanged. No price-timing, trading, leveraged or MEV-searcher profit is included. Taxes, labor and actual transaction costs are not reconstructed.</p>
+<p>The separate Jito case cites its documented points and validator reward rules. mSOL does not confer JTO eligibility. The covered JitoSOL price history begins after the 2023 airdrop; therefore no synthetic JTO allocation is added to the mSOL table and no matched early JitoSOL total return is claimed. None of these examples is an ecosystem-wide median or an estimate of the causal reward to skill.</p>
+<h3>Cap-study holding windows</h3>
+<p>The cap chart defaults to $100M and displays 1, 2, 3, 4 and 5-year windows together. Fixed lengths are 365, 730, 1,096, 1,461 and 1,826 days respectively. Since qualification ends at the snapshot and mixes holding lengths. The 10-year result is omitted because no covered cap windows have matured. Missing or quarantined exits remain unknown. Rolling figures instead use calendar anniversaries.</p>
+<h3 id="portfolio-methods">Portfolio methods</h3>
+<p>Rank the screened covered universe by signal-day CapMrktEstUSD after 30 consecutive positive daily cap observations. Signals occur every 30 days from 21 July 2019; execution uses the next daily close. Cap weights or equal weights are reset and then allowed to drift. Target purchases lacking a quote remain in USD cash; missing held prices leave NAV unknown and defer a rebalance. This run has neither condition. A self-financing cost solver charges 0, 25 or 100 basis points per dollar bought or sold, including initial purchases; BTC bears the same initial rate. Final liquidation, income, taxes, spreads and market impact beyond the illustrative rate are excluded. No historical liquidity validation is claimed.</p>
+<p>USD drawdowns use daily NAV. Annual one-way turnover is half the traded notional divided by pre-trade NAV, summed across rebalances after inception and divided by elapsed years. Rolling fund-return windows use calendar anniversaries; February 29 maps to February 28. Dollar constituent contributions use actual units held before each price move. Cash earns no interest. Migration exclusions are retained, not replaced by invented conversion ratios; this restricts the universe and can affect results.</p>
+<p>Public CMC page records are retained for all 89 signal dates with source URLs, retrieval times and HTML hashes. They are a membership cross-check, not the source of portfolio prices or weights. The source adapter and separate policy file allow another dataset to be substituted after identity, supply and timestamp reconciliation.</p>
+<h3>Fresh monthly launches</h3>
+<p>Test all six baskets from the initial covered trade date, 22 July 2019, then from the first calendar day of each month through the cutoff, for 88 fresh launches. The membership audit instead covers 89 scheduled 30-day signals beginning 21 July 2019; these are different event sets. Each launch starts with fresh capital, uses the prior day’s ranking, and has its own 30-day rebalance clock. Returns use exact calendar anniversaries; unfinished periods are excluded and counted. These are overlapping historical scenarios, not independent trials. Monthly launch memberships have not received a separate CMC snapshot reconciliation.</p>
+<p>Five years remains the main long-hold comparator. Four years is shown alongside it to examine the proposed Bitcoin cycle without choosing the headline from whichever result looks stronger.</p>
+<h3>References</h3>
+<ol class="references">
+<li>Willy Woo. <a href="https://woobull.com/crypto-currency-index-funds-the-simulations-have-surprising-results/">Crypto-currency Index Funds, the simulations have surprising results</a>. 18 October 2016. The portfolio study this extension seeks to revisit.</li>
+<li id="ref-woo">Willy Woo. <a href="https://woobull.com/data-visualisation-118-coins-plotted-over-time-this-is-why-hodl-alt-coin-indexes-dont-work/">118 coins plotted over time</a>. 3 November 2016. <a href="https://woobull.com/data-visualisation-alt-coins-that-achieved-5m-market-cap-vs-bitcoin/">The $5M follow-up</a>, 4 November 2016. <a href="https://woobull.com/the-two-types-of-altcoins-an-investors-view/">The two types of Altcoins, an investor’s view</a>, 7 November 2019; the article calls them “Oscillators and Degenerators.”</li>
+<li>Coin Metrics. <a href="https://gitbook-docs.coinmetrics.io/network-data/network-data-overview/market/price">Price definitions</a>; <a href="https://docs.coinmetrics.io/network-data/network-data-overview/market/market-capitalization">capitalization definitions</a>. Main fields: PriceUSD and CapMrktEstUSD. Retrieved 15 October 2026.</li>
+<li>CoinGecko. <a href="https://docs.coingecko.com/reference/coins-id-market-chart">Historical chart endpoint</a>. <a href="https://www.coingecko.com/en/coins/pons">PONS</a>; <a href="https://www.coingecko.com/en/coins/stonk-3">STONK (StonkFun)</a>. The latter is Solana mint <code>6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx</code>.</li>
+<li>Uniswap Labs. <a href="https://blog.uniswap.org/uni">Introducing UNI</a>, 16 September 2020. Historical user eligibility and distribution.</li>
+<li>Jito Foundation. <a href="https://www.jito.network/blog/announcing-jto-the-jito-governance-token/">Announcing JTO</a>, 27 November 2023. Eligibility included JitoSOL users and other contributors.</li>
+<li>Ethereum.org. <a href="https://ethereum.org/staking/">Staking rewards and risks</a>; Solana. <a href="https://solana.com/staking">Staking and reward conventions</a>.</li>
+<li>Lido. <a href="https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth">What is wstETH?</a> Receipt balances and accrued rewards.</li>
+<li>Marinade. <a href="https://docs.marinade.finance/marinade-protocol/protocol-overview/marinade-liquid/what-is-msol">What is mSOL?</a> Reward-accruing staking receipts.</li>
+<li>Arbitrum Foundation. <a href="https://docs.arbitrum.foundation/airdrop-eligibility-distribution">Eligibility and allocation rules</a>.</li>
+<li>Jito Foundation. <a href="https://www.jito.network/blog/jto-airdrop-eligibility-and-allocation-specifications/">Eligibility and allocations</a>. JitoSOL holders, validators and other contributors; no mSOL entitlement.</li>
+</ol>
+<p class="downloads">
+<a download="" href="methodology.md">Detailed methodology</a> · <a download="" href="universe.csv">Universe and exclusions</a> · <a download="" href="threshold_results.csv">Screen results</a> · <a download="" href="cohort_summary.csv">All screen summaries</a> · <a download="" href="observed_crossing_sensitivity.csv">Crossing sensitivity</a>
+</p>
+<p class="downloads"><a download="" href="supply_decomposition.csv">Supply decomposition</a> · <a download="" href="dilution_signal_monthly.csv">Dilution signal</a> · <a download="" href="winner_categories.csv">Winner categories</a> · <a download="" href="steelman_yield.csv">Yield steelman</a> · <a download="" href="altseason_breadth.csv">Alt-season breadth</a></p>
+<details class="research-details">
+<summary>Extension: what holding alone leaves out</summary>
+<h3>What does holding alone miss?</h3>
+<p>Staking can increase the number of tokens held. Using an ecosystem can also earn distributions that never appear in its base token’s price chart. Neither benefit accrues equally to everyone.</p>
+<p>In Ethereum’s ecosystem, Uniswap allocated 400 UNI to eligible historical user addresses.<sup>
+<a href="https://blog.uniswap.org/uni">Uniswap’s distribution record</a>
+</sup> On Solana, Jito’s JTO eligibility included JitoSOL holders, DeFi users, validators and searchers.<sup>
+<a href="https://www.jito.network/blog/announcing-jto-the-jito-governance-token/">Jito’s eligibility announcement</a>
+</sup> Simply holding ETH or SOL did not establish that participation.</p>
+<h3>Participation without trading</h3>
+<p>Skill here means assessing protocol risks and eligibility, supplying useful stake or capital, and contributing through governance or infrastructure. This study excludes speculative swaps, trade timing, leverage and MEV-searcher profits. Token price exposure remains in the benchmark comparison; it is not credited as participant skill.</p>
+<p class="small muted" id="participation-dates">
+</p>
+<p>The passive baseline buys and holds a staking receipt. The Ethereum illustration then asks whether defined non-trading protocol activity and an eligible ARB allocation would add value after an assumed activity budget. The Solana receipt illustrates the staking baseline; a separate Jito example describes a documented reward mechanism without inventing a matched historical investment.</p>
+<div class="participation-examples" id="participation-examples">
+</div>
+<p class="paper-note">These examples do not estimate a skill premium. The ETH active illustration allocates $9,500 to wstETH, $400 to ETH working capital and an assumed $100 upfront activity budget. Bridge and governance/application transactions are assumed not to change the working-capital token units. Rewards are held to the snapshot and marked at source prices; there is no reward-sale timing scenario. Allocation eligibility, costs, labor, taxes and protocol losses need fuller measurement.</p>
+<p>To test whether skill is rewarded, a test would need a participant’s protocol choices and actions specified in advance, all capital commitments, dated rewards, failed attempts and costs. A test would compare the resulting wealth with passive staking in the same L1 over the same dates. Airdrops discovered afterward demonstrate that a mechanism paid someone; they do not show that the opportunity was foreseeable or repeatable.</p>
+<h3>What this sample cannot tell us</h3>
+<p>The first price in the source may come after a coin’s first actual trade. “All time” means available source history; early gains or losses may be absent. The catalog also leaves out much of the Solana-era memecoin universe. Its results should not stand in for that entire market, and the direction of that omission’s effect is unknown.</p>
+<p>Longer horizons contain fewer, older coins. The same-coin comparison keeps membership fixed, but it still describes assets with long recorded histories. Tokens missing from the provider altogether remain outside every version of this analysis.</p>
+</details>
+</section>
+<footer>
+<a href="?view=notes" id="methods-link">Methods &amp; sources</a>
+<span>Data through 14 October 2026 · Last updated 1 November 2026</span>
+<span>How to cite: Tobé Madu, “Do Altcoins Outperform Bitcoin?”, 2026, coin-history-research.teeceem5.chatgpt.site.</span>
+</footer>
+</main>
+<script src="app.js" type="module">
+</script>
+</body>
+</html>

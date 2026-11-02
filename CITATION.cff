@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+title: "Do Altcoins Outperform Bitcoin?"
+type: software
+authors:
+  - family-names: Madu
+    given-names: Tobé
+year: 2026
+date-released: 2026-10-14
+url: "https://coin-history-research.teeceem5.chatgpt.site/"
+repository-code: "https://github.com/tcmadt/coin-history-research"

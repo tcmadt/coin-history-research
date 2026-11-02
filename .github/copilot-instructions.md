@@ -1,0 +1,1 @@
+Read `AGENTS.md` before changing analysis code or public claims. Trace headline numbers through `docs/CLAIMS.md`, preserve the matched-date and missing-data rules, and run `make verify` before proposing a completed change. Never treat overlapping windows as independent observations or missing outcomes as zero.

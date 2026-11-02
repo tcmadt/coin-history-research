@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "label": "Coin Metrics screened-universe portfolios",
+  "signal_start": "2019-07-21",
+  "cutoff": "2026-10-14",
+  "rebalance_days": 30,
+  "execution_lag_days": 1,
+  "eligibility_cap_observations": 30,
+  "ranking": "Most recent signal-day estimated circulating cap; 30 consecutive positive daily cap observations required",
+  "universe": "Frozen catalog included=true, less unresolved source-quality instruments listed below. Historical completeness is not established.",
+  "quarantined": {"fxs":"Unresolved 411x up/477x down quote pair", "sun":"Unresolved historical unit discontinuities", "u":"Unresolved 944x discontinuity"},
+  "genuine_loss_retained": "luna",
+  "missing_signal_cap": "Instrument ineligible at that signal; no later information used to fill it",
+  "missing_execution_price": "Keep that target allocation in USD cash until the next scheduled rebalance; do not replace it with another coin",
+  "missing_holding_price": "NAV unknown on that date; retain units; defer a rebalance when held units cannot be valued",
+  "migration_policy": "Retain the per-token study's disclosed migration/parallel-representation exclusions. No synthetic conversions. This is a restricted universe, not all altcoins.",
+  "cost_bps": [0,25,100],
+  "cost_convention": "Charge stated bps per dollar bought or sold, including initial purchases; hold final portfolio without a terminal liquidation charge",
+  "income": "Price only; no staking, airdrops, lending, forks, tax or interest on cash",
+  "historical_audit": "Public CMC snapshots at each signal compare memberships; source differences are reported, not overwritten or claimed fully resolved"
+}

@@ -1,0 +1,1057 @@
+variant,label,start,years,status,multiple
+rebalanced,Rebalanced,2019-07-22,2,observed,1.6265566875847801
+rebalanced,Rebalanced,2019-07-22,5,observed,1.0791622628697737
+rebalanced,Rebalanced,2019-07-22,all,observed,0.726906485974076
+held,Buy and hold,2019-07-22,2,observed,1.7879611729736151
+held,Buy and hold,2019-07-22,5,observed,1.2678716141619688
+held,Buy and hold,2019-07-22,all,observed,0.9580389067525645
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-07-22,2,observed,0.8597680728441994
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-07-22,5,observed,0.45528238184828285
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-07-22,all,observed,0.36997979911999457
+held_ex_eth,"Buy and hold, excluding ETH",2019-07-22,2,observed,1.077433450287499
+held_ex_eth,"Buy and hold, excluding ETH",2019-07-22,5,observed,0.5740816248370236
+held_ex_eth,"Buy and hold, excluding ETH",2019-07-22,all,observed,0.6743296476064722
+rebalanced,Rebalanced,2019-08-01,2,observed,1.637086482748596
+rebalanced,Rebalanced,2019-08-01,5,observed,1.1059998187153233
+rebalanced,Rebalanced,2019-08-01,all,observed,0.7882990648862405
+held,Buy and hold,2019-08-01,2,observed,1.8096512845993342
+held,Buy and hold,2019-08-01,5,observed,1.2838938457583713
+held,Buy and hold,2019-08-01,all,observed,1.0303581274790414
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-08-01,2,observed,0.8951959562190985
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-08-01,5,observed,0.4767633357710467
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-08-01,all,observed,0.41031861833011285
+held_ex_eth,"Buy and hold, excluding ETH",2019-08-01,2,observed,1.048552008733814
+held_ex_eth,"Buy and hold, excluding ETH",2019-08-01,5,observed,0.635997262840939
+held_ex_eth,"Buy and hold, excluding ETH",2019-08-01,all,observed,0.8007838529110821
+rebalanced,Rebalanced,2019-09-01,2,observed,2.6070680496263625
+rebalanced,Rebalanced,2019-09-01,5,observed,1.2365950702246873
+rebalanced,Rebalanced,2019-09-01,all,observed,0.9569453898448449
+held,Buy and hold,2019-09-01,2,observed,2.7438026198775862
+held,Buy and hold,2019-09-01,5,observed,1.3859710704213053
+held,Buy and hold,2019-09-01,all,observed,1.1730120601871572
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-09-01,2,observed,1.5289892157557101
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-09-01,5,observed,0.5721693686784086
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-09-01,all,observed,0.5003342488635321
+held_ex_eth,"Buy and hold, excluding ETH",2019-09-01,2,observed,1.7024584241990117
+held_ex_eth,"Buy and hold, excluding ETH",2019-09-01,5,observed,0.7984336842665566
+held_ex_eth,"Buy and hold, excluding ETH",2019-09-01,all,observed,0.9707489198141562
+rebalanced,Rebalanced,2019-10-01,2,observed,2.148766833342797
+rebalanced,Rebalanced,2019-10-01,5,observed,1.124624565450582
+rebalanced,Rebalanced,2019-10-01,all,observed,0.8818463319974592
+held,Buy and hold,2019-10-01,2,observed,2.1745166261183657
+held,Buy and hold,2019-10-01,5,observed,1.226354485042455
+held,Buy and hold,2019-10-01,all,observed,1.075383579237919
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-10-01,2,observed,1.3992059973995163
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-10-01,5,observed,0.5888821007398327
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-10-01,all,observed,0.4999959065731444
+held_ex_eth,"Buy and hold, excluding ETH",2019-10-01,2,observed,1.3928369294137501
+held_ex_eth,"Buy and hold, excluding ETH",2019-10-01,5,observed,0.7277695496772596
+held_ex_eth,"Buy and hold, excluding ETH",2019-10-01,all,observed,0.8225164515190821
+rebalanced,Rebalanced,2019-11-01,2,observed,2.0277421874829145
+rebalanced,Rebalanced,2019-11-01,5,observed,0.9774083260584346
+rebalanced,Rebalanced,2019-11-01,all,observed,0.8336680458474821
+held,Buy and hold,2019-11-01,2,observed,2.0605646284736316
+held,Buy and hold,2019-11-01,5,observed,1.0824077850240017
+held,Buy and hold,2019-11-01,all,observed,1.05955392312436
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-11-01,2,observed,1.1027127532816785
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-11-01,5,observed,0.4416114994308935
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-11-01,all,observed,0.40005983397571165
+held_ex_eth,"Buy and hold, excluding ETH",2019-11-01,2,observed,1.1433667397215552
+held_ex_eth,"Buy and hold, excluding ETH",2019-11-01,5,observed,0.6206310279454411
+held_ex_eth,"Buy and hold, excluding ETH",2019-11-01,all,observed,0.7809294309476719
+rebalanced,Rebalanced,2019-12-01,2,observed,2.1661440069283495
+rebalanced,Rebalanced,2019-12-01,5,observed,1.151649999271793
+rebalanced,Rebalanced,2019-12-01,all,observed,0.8290633814186555
+held,Buy and hold,2019-12-01,2,observed,2.2717409295962234
+held,Buy and hold,2019-12-01,5,observed,1.2447482506647378
+held,Buy and hold,2019-12-01,all,observed,1.0322398231362588
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-12-01,2,observed,1.1135467242363544
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-12-01,5,observed,0.5914498973305613
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2019-12-01,all,observed,0.40377415164490704
+held_ex_eth,"Buy and hold, excluding ETH",2019-12-01,2,observed,1.1757132313804732
+held_ex_eth,"Buy and hold, excluding ETH",2019-12-01,5,observed,0.8191049523808667
+held_ex_eth,"Buy and hold, excluding ETH",2019-12-01,all,observed,0.7660775176950423
+rebalanced,Rebalanced,2020-01-01,2,observed,2.4040631802257986
+rebalanced,Rebalanced,2020-01-01,5,observed,1.1794623993282263
+rebalanced,Rebalanced,2020-01-01,all,observed,0.9079806750957069
+held,Buy and hold,2020-01-01,2,observed,2.489034679168867
+held,Buy and hold,2020-01-01,5,observed,1.340957714322661
+held,Buy and hold,2020-01-01,all,observed,1.1460279235320512
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-01-01,2,observed,1.3110734064215486
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-01-01,5,observed,0.6336809904184667
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-01-01,all,observed,0.453155026697831
+held_ex_eth,"Buy and hold, excluding ETH",2020-01-01,2,observed,1.3063011312046169
+held_ex_eth,"Buy and hold, excluding ETH",2020-01-01,5,observed,0.923565325803206
+held_ex_eth,"Buy and hold, excluding ETH",2020-01-01,all,observed,0.8094961162148594
+rebalanced,Rebalanced,2020-02-01,2,observed,1.8394049347450936
+rebalanced,Rebalanced,2020-02-01,5,observed,0.9558751092623586
+rebalanced,Rebalanced,2020-02-01,all,observed,0.7888140488922746
+held,Buy and hold,2020-02-01,2,observed,1.958814461397658
+held,Buy and hold,2020-02-01,5,observed,1.0658844963838825
+held,Buy and hold,2020-02-01,all,observed,1.0038168800936482
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-02-01,2,observed,0.9400215040716007
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-02-01,5,observed,0.5429304349351864
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-02-01,all,observed,0.39501459882976525
+held_ex_eth,"Buy and hold, excluding ETH",2020-02-01,2,observed,0.9784494535200083
+held_ex_eth,"Buy and hold, excluding ETH",2020-02-01,5,observed,0.7666974354191319
+held_ex_eth,"Buy and hold, excluding ETH",2020-02-01,all,observed,0.7022370786849087
+rebalanced,Rebalanced,2020-03-01,2,observed,1.599401909826653
+rebalanced,Rebalanced,2020-03-01,5,observed,0.7676593121754902
+rebalanced,Rebalanced,2020-03-01,all,observed,0.7244606531348033
+held,Buy and hold,2020-03-01,2,observed,1.6373198642754965
+held,Buy and hold,2020-03-01,5,observed,0.8575695005763716
+held,Buy and hold,2020-03-01,all,observed,0.9252543249541008
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-03-01,2,observed,0.9381582535767387
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-03-01,5,observed,0.4912573315552331
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-03-01,all,observed,0.39667660516778347
+held_ex_eth,"Buy and hold, excluding ETH",2020-03-01,2,observed,0.9127613806168898
+held_ex_eth,"Buy and hold, excluding ETH",2020-03-01,5,observed,0.7365806207353448
+held_ex_eth,"Buy and hold, excluding ETH",2020-03-01,all,observed,0.760515518101753
+rebalanced,Rebalanced,2020-04-01,2,observed,2.0163253337498928
+rebalanced,Rebalanced,2020-04-01,5,observed,0.8122710054897239
+rebalanced,Rebalanced,2020-04-01,all,observed,0.8349082267529608
+held,Buy and hold,2020-04-01,2,observed,2.042561884462883
+held,Buy and hold,2020-04-01,5,observed,0.9051892502302067
+held,Buy and hold,2020-04-01,all,observed,1.0477068905459324
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-04-01,2,observed,1.094733015453923
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-04-01,5,observed,0.527012541529797
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-04-01,all,observed,0.445086864317857
+held_ex_eth,"Buy and hold, excluding ETH",2020-04-01,2,observed,1.0250572013740586
+held_ex_eth,"Buy and hold, excluding ETH",2020-04-01,5,observed,0.7763821594305268
+held_ex_eth,"Buy and hold, excluding ETH",2020-04-01,all,observed,0.7791759765899684
+rebalanced,Rebalanced,2020-05-01,2,observed,1.8508220954894339
+rebalanced,Rebalanced,2020-05-01,5,observed,0.6988207180870294
+rebalanced,Rebalanced,2020-05-01,all,observed,0.80192745659223
+held,Buy and hold,2020-05-01,2,observed,1.8967981969700503
+held,Buy and hold,2020-05-01,5,observed,0.7562206860233941
+held,Buy and hold,2020-05-01,all,observed,0.9834636183600174
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-05-01,2,observed,1.0265882638348458
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-05-01,5,observed,0.5017611568059985
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-05-01,all,observed,0.4589786965742492
+held_ex_eth,"Buy and hold, excluding ETH",2020-05-01,2,observed,0.9829243525107764
+held_ex_eth,"Buy and hold, excluding ETH",2020-05-01,5,observed,0.711146068499902
+held_ex_eth,"Buy and hold, excluding ETH",2020-05-01,all,observed,0.7706394460654344
+rebalanced,Rebalanced,2020-06-01,2,observed,1.5384192566856723
+rebalanced,Rebalanced,2020-06-01,5,observed,0.7824497545563639
+rebalanced,Rebalanced,2020-06-01,all,observed,0.8445281976546233
+held,Buy and hold,2020-06-01,2,observed,1.7174100341388356
+held,Buy and hold,2020-06-01,5,observed,0.8677142968402479
+held,Buy and hold,2020-06-01,all,observed,1.0413795339913205
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-06-01,2,observed,0.8434940704496894
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-06-01,5,observed,0.549109771016314
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-06-01,all,observed,0.529072739734165
+held_ex_eth,"Buy and hold, excluding ETH",2020-06-01,2,observed,1.0118621623703392
+held_ex_eth,"Buy and hold, excluding ETH",2020-06-01,5,observed,0.736624034399986
+held_ex_eth,"Buy and hold, excluding ETH",2020-06-01,all,observed,0.8532318779998235
+rebalanced,Rebalanced,2020-07-01,2,observed,1.5587388317748745
+rebalanced,Rebalanced,2020-07-01,5,observed,0.7427486674530153
+rebalanced,Rebalanced,2020-07-01,all,observed,0.8451578805171872
+held,Buy and hold,2020-07-01,2,observed,1.660037640977368
+held,Buy and hold,2020-07-01,5,observed,0.8005037509863343
+held,Buy and hold,2020-07-01,all,observed,0.9550254489644538
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-07-01,2,observed,1.0003776415812697
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-07-01,5,observed,0.5208138312560622
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-07-01,all,observed,0.5286595879187727
+held_ex_eth,"Buy and hold, excluding ETH",2020-07-01,2,observed,1.1704880468921648
+held_ex_eth,"Buy and hold, excluding ETH",2020-07-01,5,observed,0.7098774456793528
+held_ex_eth,"Buy and hold, excluding ETH",2020-07-01,all,observed,0.8435305985717001
+rebalanced,Rebalanced,2020-08-01,2,observed,1.3595437927507046
+rebalanced,Rebalanced,2020-08-01,5,observed,0.6888430381089389
+rebalanced,Rebalanced,2020-08-01,all,observed,0.6378706711448755
+held,Buy and hold,2020-08-01,2,observed,1.5768790832229906
+held,Buy and hold,2020-08-01,5,observed,0.8120262403420402
+held,Buy and hold,2020-08-01,all,observed,0.7638844026649926
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-08-01,2,observed,0.8118894403992869
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-08-01,5,observed,0.485547813721327
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-08-01,all,observed,0.43391968823276306
+held_ex_eth,"Buy and hold, excluding ETH",2020-08-01,2,observed,1.0213703271255692
+held_ex_eth,"Buy and hold, excluding ETH",2020-08-01,5,observed,0.6782697719828287
+held_ex_eth,"Buy and hold, excluding ETH",2020-08-01,all,observed,0.6129701275281103
+rebalanced,Rebalanced,2020-09-01,2,observed,1.3679186311685063
+rebalanced,Rebalanced,2020-09-01,5,observed,0.7462645315472963
+rebalanced,Rebalanced,2020-09-01,all,observed,0.5870732561234916
+held,Buy and hold,2020-09-01,2,observed,1.5329082600511095
+held,Buy and hold,2020-09-01,5,observed,0.8544778392390462
+held,Buy and hold,2020-09-01,all,observed,0.6682777918601387
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-09-01,2,observed,0.8888362524464772
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-09-01,5,observed,0.5577799833073301
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-09-01,all,observed,0.45046552242095533
+held_ex_eth,"Buy and hold, excluding ETH",2020-09-01,2,observed,1.0586431499851883
+held_ex_eth,"Buy and hold, excluding ETH",2020-09-01,5,observed,0.7291208342618489
+held_ex_eth,"Buy and hold, excluding ETH",2020-09-01,all,observed,0.6273478034737653
+rebalanced,Rebalanced,2020-10-01,2,observed,1.518364101672961
+rebalanced,Rebalanced,2020-10-01,5,observed,0.856888587076743
+rebalanced,Rebalanced,2020-10-01,all,observed,0.6888695255668583
+held,Buy and hold,2020-10-01,2,observed,1.703602592147446
+held,Buy and hold,2020-10-01,5,observed,0.9601383085061334
+held,Buy and hold,2020-10-01,all,observed,0.7760633488679473
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-10-01,2,observed,1.0830536083417026
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-10-01,5,observed,0.6520988926829563
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-10-01,all,observed,0.513418375805926
+held_ex_eth,"Buy and hold, excluding ETH",2020-10-01,2,observed,1.328274823261668
+held_ex_eth,"Buy and hold, excluding ETH",2020-10-01,5,observed,0.7893049079552081
+held_ex_eth,"Buy and hold, excluding ETH",2020-10-01,all,observed,0.6589252283751382
+rebalanced,Rebalanced,2020-11-01,2,observed,2.0071068958537532
+rebalanced,Rebalanced,2020-11-01,5,observed,0.9651266560873769
+rebalanced,Rebalanced,2020-11-01,all,observed,0.8122267483991774
+held,Buy and hold,2020-11-01,2,observed,2.191018223338429
+held,Buy and hold,2020-11-01,5,observed,1.1234160936311504
+held,Buy and hold,2020-11-01,all,observed,0.9387708019149734
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-11-01,2,observed,1.4008369660466147
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-11-01,5,observed,0.7328434397561495
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-11-01,all,observed,0.6131496258050876
+held_ex_eth,"Buy and hold, excluding ETH",2020-11-01,2,observed,1.653562550643671
+held_ex_eth,"Buy and hold, excluding ETH",2020-11-01,5,observed,1.032243646672113
+held_ex_eth,"Buy and hold, excluding ETH",2020-11-01,all,observed,0.8966782303706077
+rebalanced,Rebalanced,2020-12-01,2,observed,1.7499987659330367
+rebalanced,Rebalanced,2020-12-01,5,observed,0.8209369400559942
+rebalanced,Rebalanced,2020-12-01,all,observed,0.7293855252541066
+held,Buy and hold,2020-12-01,2,observed,1.9441623734063107
+held,Buy and hold,2020-12-01,5,observed,0.9361475496115632
+held,Buy and hold,2020-12-01,all,observed,0.8123927185880497
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-12-01,2,observed,1.1993547372182354
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-12-01,5,observed,0.632722958921723
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2020-12-01,all,observed,0.5429708747203629
+held_ex_eth,"Buy and hold, excluding ETH",2020-12-01,2,observed,1.502638845296823
+held_ex_eth,"Buy and hold, excluding ETH",2020-12-01,5,observed,0.8729734356809538
+held_ex_eth,"Buy and hold, excluding ETH",2020-12-01,all,observed,0.7367059613141881
+rebalanced,Rebalanced,2021-01-01,2,observed,2.385638891187115
+rebalanced,Rebalanced,2021-01-01,5,observed,1.239693293432067
+rebalanced,Rebalanced,2021-01-01,all,observed,1.1009545643580372
+held,Buy and hold,2021-01-01,2,observed,2.6913429006634217
+held,Buy and hold,2021-01-01,5,observed,1.4057276292363634
+held,Buy and hold,2021-01-01,all,observed,1.2112127737317417
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-01-01,2,observed,1.9045163031117933
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-01-01,5,observed,1.1438092983106218
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-01-01,all,observed,1.028394330955032
+held_ex_eth,"Buy and hold, excluding ETH",2021-01-01,2,observed,2.3434197926236005
+held_ex_eth,"Buy and hold, excluding ETH",2021-01-01,5,observed,1.4534463091983347
+held_ex_eth,"Buy and hold, excluding ETH",2021-01-01,all,observed,1.2510649975037051
+rebalanced,Rebalanced,2021-02-01,2,observed,1.4077048216129027
+rebalanced,Rebalanced,2021-02-01,5,observed,0.7045222649657976
+rebalanced,Rebalanced,2021-02-01,all,observed,0.6740924026019325
+held,Buy and hold,2021-02-01,2,observed,1.616040434471471
+held,Buy and hold,2021-02-01,5,observed,0.8451106483603664
+held,Buy and hold,2021-02-01,all,observed,0.7853556462858423
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-02-01,2,observed,1.195420371387076
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-02-01,5,observed,0.6979802129213996
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-02-01,all,observed,0.6365864627551875
+held_ex_eth,"Buy and hold, excluding ETH",2021-02-01,2,observed,1.6042804710705196
+held_ex_eth,"Buy and hold, excluding ETH",2021-02-01,5,observed,1.0566670825079127
+held_ex_eth,"Buy and hold, excluding ETH",2021-02-01,all,observed,0.8853856357911289
+rebalanced,Rebalanced,2021-03-01,2,observed,1.495168207903808
+rebalanced,Rebalanced,2021-03-01,5,observed,0.7517514460574107
+rebalanced,Rebalanced,2021-03-01,all,observed,0.7159095047706048
+held,Buy and hold,2021-03-01,2,observed,1.6364308594808241
+held,Buy and hold,2021-03-01,5,observed,0.8277224780611102
+held,Buy and hold,2021-03-01,all,observed,0.7795900088913408
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-03-01,2,observed,0.9685660772029605
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-03-01,5,observed,0.5928266562295436
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-03-01,all,observed,0.538200468687531
+held_ex_eth,"Buy and hold, excluding ETH",2021-03-01,2,observed,1.1506285527200972
+held_ex_eth,"Buy and hold, excluding ETH",2021-03-01,5,observed,0.7473906213752232
+held_ex_eth,"Buy and hold, excluding ETH",2021-03-01,all,observed,0.6385468743043409
+rebalanced,Rebalanced,2021-04-01,2,observed,1.3182740991240351
+rebalanced,Rebalanced,2021-04-01,5,observed,0.7599918739462586
+rebalanced,Rebalanced,2021-04-01,all,observed,0.717975386863772
+held,Buy and hold,2021-04-01,2,observed,1.4513083665457565
+held,Buy and hold,2021-04-01,5,observed,0.8090846601885601
+held,Buy and hold,2021-04-01,all,observed,0.7588684437434721
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-04-01,2,observed,0.8816686911101692
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-04-01,5,observed,0.6164905120835099
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-04-01,all,observed,0.5796549769413174
+held_ex_eth,"Buy and hold, excluding ETH",2021-04-01,2,observed,0.9503820217990555
+held_ex_eth,"Buy and hold, excluding ETH",2021-04-01,5,observed,0.6759017295390407
+held_ex_eth,"Buy and hold, excluding ETH",2021-04-01,all,observed,0.6144153601201138
+rebalanced,Rebalanced,2021-05-01,2,observed,0.8705640774447718
+rebalanced,Rebalanced,2021-05-01,5,observed,0.455411167119704
+rebalanced,Rebalanced,2021-05-01,all,observed,0.47016297517198596
+held,Buy and hold,2021-05-01,2,observed,0.9307756224301789
+held,Buy and hold,2021-05-01,5,observed,0.47894976843597753
+held,Buy and hold,2021-05-01,all,observed,0.48548700455556426
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-05-01,2,observed,0.5660641444761946
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-05-01,5,observed,0.3579807600954281
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-05-01,all,observed,0.3745544369125197
+held_ex_eth,"Buy and hold, excluding ETH",2021-05-01,2,observed,0.6184090564672545
+held_ex_eth,"Buy and hold, excluding ETH",2021-05-01,5,observed,0.3887919686439788
+held_ex_eth,"Buy and hold, excluding ETH",2021-05-01,all,observed,0.39622123389574765
+rebalanced,Rebalanced,2021-06-01,2,observed,0.6942587333504231
+rebalanced,Rebalanced,2021-06-01,5,observed,0.357435523654337
+rebalanced,Rebalanced,2021-06-01,all,observed,0.35311218936430433
+held,Buy and hold,2021-06-01,2,observed,0.7659621450423795
+held,Buy and hold,2021-06-01,5,observed,0.3820215132287964
+held,Buy and hold,2021-06-01,all,observed,0.378710286145903
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-06-01,2,observed,0.4750546429970864
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-06-01,5,observed,0.32143130245881874
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-06-01,all,observed,0.29793601020334126
+held_ex_eth,"Buy and hold, excluding ETH",2021-06-01,2,observed,0.5297648284013255
+held_ex_eth,"Buy and hold, excluding ETH",2021-06-01,5,observed,0.3687515452826833
+held_ex_eth,"Buy and hold, excluding ETH",2021-06-01,all,observed,0.3344349477361122
+rebalanced,Rebalanced,2021-07-01,2,observed,0.7181238246980305
+rebalanced,Rebalanced,2021-07-01,5,observed,0.4196264566259663
+rebalanced,Rebalanced,2021-07-01,all,observed,0.4241491099973166
+held,Buy and hold,2021-07-01,2,observed,0.8053064203318645
+held,Buy and hold,2021-07-01,5,observed,0.45557394038206644
+held,Buy and hold,2021-07-01,all,observed,0.4737945266187838
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-07-01,2,observed,0.4805349375329087
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-07-01,5,observed,0.41023440451473586
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-07-01,all,observed,0.3841284340294142
+held_ex_eth,"Buy and hold, excluding ETH",2021-07-01,2,observed,0.5600289224345789
+held_ex_eth,"Buy and hold, excluding ETH",2021-07-01,5,observed,0.4835323276947403
+held_ex_eth,"Buy and hold, excluding ETH",2021-07-01,all,observed,0.47104412151254665
+rebalanced,Rebalanced,2021-08-01,2,observed,0.8294139300018868
+rebalanced,Rebalanced,2021-08-01,5,observed,0.46374691998902495
+rebalanced,Rebalanced,2021-08-01,all,observed,0.4626501814705167
+held,Buy and hold,2021-08-01,2,observed,0.8788865196303721
+held,Buy and hold,2021-08-01,5,observed,0.49725537670816683
+held,Buy and hold,2021-08-01,all,observed,0.4990367914615624
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-08-01,2,observed,0.6546958563940292
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-08-01,5,observed,0.45825463102516356
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-08-01,all,observed,0.45304547854954946
+held_ex_eth,"Buy and hold, excluding ETH",2021-08-01,2,observed,0.7376363149340303
+held_ex_eth,"Buy and hold, excluding ETH",2021-08-01,5,observed,0.5359752823415594
+held_ex_eth,"Buy and hold, excluding ETH",2021-08-01,all,observed,0.5346307302163379
+rebalanced,Rebalanced,2021-09-01,2,observed,0.6220302414827886
+rebalanced,Rebalanced,2021-09-01,5,observed,0.36955161498686057
+rebalanced,Rebalanced,2021-09-01,all,observed,0.3559231022205831
+held,Buy and hold,2021-09-01,2,observed,0.6408834794364426
+held,Buy and hold,2021-09-01,5,observed,0.3898368502299179
+held,Buy and hold,2021-09-01,all,observed,0.3776760452710558
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-09-01,2,observed,0.43085528361812914
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-09-01,5,observed,0.3251796200223334
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-09-01,all,observed,0.3175168909842478
+held_ex_eth,"Buy and hold, excluding ETH",2021-09-01,2,observed,0.4472924742720838
+held_ex_eth,"Buy and hold, excluding ETH",2021-09-01,5,observed,0.372759000948075
+held_ex_eth,"Buy and hold, excluding ETH",2021-09-01,all,observed,0.3703833642293063
+rebalanced,Rebalanced,2021-10-01,2,observed,0.6778389635662615
+rebalanced,Rebalanced,2021-10-01,5,observed,0.4228580383105785
+rebalanced,Rebalanced,2021-10-01,all,observed,0.3977943546173417
+held,Buy and hold,2021-10-01,2,observed,0.6953196946291419
+held,Buy and hold,2021-10-01,5,observed,0.4433544721568408
+held,Buy and hold,2021-10-01,all,observed,0.4165665000696851
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-10-01,2,observed,0.46188922680741745
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-10-01,5,observed,0.3680855224731709
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-10-01,all,observed,0.34886754929718794
+held_ex_eth,"Buy and hold, excluding ETH",2021-10-01,2,observed,0.4627836621492044
+held_ex_eth,"Buy and hold, excluding ETH",2021-10-01,5,observed,0.4155325657755204
+held_ex_eth,"Buy and hold, excluding ETH",2021-10-01,all,observed,0.39496187931534604
+rebalanced,Rebalanced,2021-11-01,2,observed,0.625395286212993
+rebalanced,Rebalanced,2021-11-01,5,unfinished,
+rebalanced,Rebalanced,2021-11-01,all,observed,0.431263565863604
+held,Buy and hold,2021-11-01,2,observed,0.6074024231291761
+held,Buy and hold,2021-11-01,5,unfinished,
+held,Buy and hold,2021-11-01,all,observed,0.4225124796518075
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-11-01,2,observed,0.4708297553353134
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-11-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-11-01,all,observed,0.4016876840431499
+held_ex_eth,"Buy and hold, excluding ETH",2021-11-01,2,observed,0.4563141193320506
+held_ex_eth,"Buy and hold, excluding ETH",2021-11-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2021-11-01,all,observed,0.42275132418447253
+rebalanced,Rebalanced,2021-12-01,2,observed,0.5940192841478568
+rebalanced,Rebalanced,2021-12-01,5,unfinished,
+rebalanced,Rebalanced,2021-12-01,all,observed,0.3961018074329512
+held,Buy and hold,2021-12-01,2,observed,0.5750206220769226
+held,Buy and hold,2021-12-01,5,unfinished,
+held,Buy and hold,2021-12-01,all,observed,0.3864351357885207
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-12-01,2,observed,0.4709116856400369
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-12-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2021-12-01,all,observed,0.39008157273621313
+held_ex_eth,"Buy and hold, excluding ETH",2021-12-01,2,observed,0.43444598355936576
+held_ex_eth,"Buy and hold, excluding ETH",2021-12-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2021-12-01,all,observed,0.39431715911075516
+rebalanced,Rebalanced,2022-01-01,2,observed,0.6327802613759739
+rebalanced,Rebalanced,2022-01-01,5,unfinished,
+rebalanced,Rebalanced,2022-01-01,all,observed,0.39373218770051216
+held,Buy and hold,2022-01-01,2,observed,0.6071321952421376
+held,Buy and hold,2022-01-01,5,unfinished,
+held,Buy and hold,2022-01-01,all,observed,0.384380633216652
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-01-01,2,observed,0.5467339050301313
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-01-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-01-01,all,observed,0.3841641329449362
+held_ex_eth,"Buy and hold, excluding ETH",2022-01-01,2,observed,0.5098325557826169
+held_ex_eth,"Buy and hold, excluding ETH",2022-01-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-01-01,all,observed,0.38303145629758545
+rebalanced,Rebalanced,2022-02-01,2,observed,0.6917574119122785
+rebalanced,Rebalanced,2022-02-01,5,unfinished,
+rebalanced,Rebalanced,2022-02-01,all,observed,0.4452145656268989
+held,Buy and hold,2022-02-01,2,observed,0.6519566661133753
+held,Buy and hold,2022-02-01,5,unfinished,
+held,Buy and hold,2022-02-01,all,observed,0.42986645284971997
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-02-01,2,observed,0.5853503642002579
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-02-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-02-01,all,observed,0.4585101102813398
+held_ex_eth,"Buy and hold, excluding ETH",2022-02-01,2,observed,0.5198626808862027
+held_ex_eth,"Buy and hold, excluding ETH",2022-02-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-02-01,all,observed,0.4373849138743601
+rebalanced,Rebalanced,2022-03-01,2,observed,0.7160447850030683
+rebalanced,Rebalanced,2022-03-01,5,unfinished,
+rebalanced,Rebalanced,2022-03-01,all,observed,0.4689727234764174
+held,Buy and hold,2022-03-01,2,observed,0.6953663970273476
+held,Buy and hold,2022-03-01,5,unfinished,
+held,Buy and hold,2022-03-01,all,observed,0.45795204400673273
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-03-01,2,observed,0.5499292402226649
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-03-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-03-01,all,observed,0.45687012317267484
+held_ex_eth,"Buy and hold, excluding ETH",2022-03-01,2,observed,0.5223036522140797
+held_ex_eth,"Buy and hold, excluding ETH",2022-03-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-03-01,all,observed,0.4616113138186378
+rebalanced,Rebalanced,2022-04-01,2,observed,0.6511053078033481
+rebalanced,Rebalanced,2022-04-01,5,unfinished,
+rebalanced,Rebalanced,2022-04-01,all,observed,0.42841105054880213
+held,Buy and hold,2022-04-01,2,observed,0.6307968307184098
+held,Buy and hold,2022-04-01,5,unfinished,
+held,Buy and hold,2022-04-01,all,observed,0.4155160452176701
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-04-01,2,observed,0.5857037274437953
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-04-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-04-01,all,observed,0.4325350947464719
+held_ex_eth,"Buy and hold, excluding ETH",2022-04-01,2,observed,0.5607310731247331
+held_ex_eth,"Buy and hold, excluding ETH",2022-04-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-04-01,all,observed,0.42461269187776773
+rebalanced,Rebalanced,2022-05-01,2,observed,0.676073916580579
+rebalanced,Rebalanced,2022-05-01,5,unfinished,
+rebalanced,Rebalanced,2022-05-01,all,observed,0.4484199382650237
+held,Buy and hold,2022-05-01,2,observed,0.662958708287366
+held,Buy and hold,2022-05-01,5,unfinished,
+held,Buy and hold,2022-05-01,all,observed,0.4372398887674192
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-05-01,2,observed,0.6155315509040503
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-05-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-05-01,all,observed,0.47546487486829403
+held_ex_eth,"Buy and hold, excluding ETH",2022-05-01,2,observed,0.6050068399044135
+held_ex_eth,"Buy and hold, excluding ETH",2022-05-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-05-01,all,observed,0.471241921400526
+rebalanced,Rebalanced,2022-06-01,2,observed,0.8907590570594178
+rebalanced,Rebalanced,2022-06-01,5,unfinished,
+rebalanced,Rebalanced,2022-06-01,all,observed,0.5688353392775111
+held,Buy and hold,2022-06-01,2,observed,0.8519037188322022
+held,Buy and hold,2022-06-01,5,unfinished,
+held,Buy and hold,2022-06-01,all,observed,0.5373138270511539
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-06-01,2,observed,0.8247503990012331
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-06-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-06-01,all,observed,0.675116664213516
+held_ex_eth,"Buy and hold, excluding ETH",2022-06-01,2,observed,0.7764839012233319
+held_ex_eth,"Buy and hold, excluding ETH",2022-06-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-06-01,all,observed,0.589575717478241
+rebalanced,Rebalanced,2022-07-01,2,observed,0.8427892547279031
+rebalanced,Rebalanced,2022-07-01,5,unfinished,
+rebalanced,Rebalanced,2022-07-01,all,observed,0.54992226584171
+held,Buy and hold,2022-07-01,2,observed,0.8338821737598736
+held,Buy and hold,2022-07-01,5,unfinished,
+held,Buy and hold,2022-07-01,all,observed,0.5637673959290275
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-07-01,2,observed,0.6732864365105233
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-07-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-07-01,all,observed,0.5580420897371203
+held_ex_eth,"Buy and hold, excluding ETH",2022-07-01,2,observed,0.6456763865771358
+held_ex_eth,"Buy and hold, excluding ETH",2022-07-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-07-01,all,observed,0.5828738425047417
+rebalanced,Rebalanced,2022-08-01,2,observed,0.6714134885821994
+rebalanced,Rebalanced,2022-08-01,5,unfinished,
+rebalanced,Rebalanced,2022-08-01,all,observed,0.46807553373920224
+held,Buy and hold,2022-08-01,2,observed,0.6790267681703771
+held,Buy and hold,2022-08-01,5,unfinished,
+held,Buy and hold,2022-08-01,all,observed,0.48700570990835196
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-08-01,2,observed,0.6274652597175051
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-08-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-08-01,all,observed,0.5139616922042656
+held_ex_eth,"Buy and hold, excluding ETH",2022-08-01,2,observed,0.6313041362582957
+held_ex_eth,"Buy and hold, excluding ETH",2022-08-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-08-01,all,observed,0.5638224932472625
+rebalanced,Rebalanced,2022-09-01,2,observed,0.5552281409369936
+rebalanced,Rebalanced,2022-09-01,5,unfinished,
+rebalanced,Rebalanced,2022-09-01,all,observed,0.43796727362825366
+held,Buy and hold,2022-09-01,2,observed,0.5633838799236371
+held,Buy and hold,2022-09-01,5,unfinished,
+held,Buy and hold,2022-09-01,all,observed,0.44766670920655616
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-09-01,2,observed,0.5784104758708912
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-09-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-09-01,all,observed,0.5042992044273423
+held_ex_eth,"Buy and hold, excluding ETH",2022-09-01,2,observed,0.590433581042546
+held_ex_eth,"Buy and hold, excluding ETH",2022-09-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-09-01,all,observed,0.5399048332761279
+rebalanced,Rebalanced,2022-10-01,2,observed,0.5791090812993803
+rebalanced,Rebalanced,2022-10-01,5,unfinished,
+rebalanced,Rebalanced,2022-10-01,all,observed,0.46275357407498846
+held,Buy and hold,2022-10-01,2,observed,0.5857633506720932
+held,Buy and hold,2022-10-01,5,unfinished,
+held,Buy and hold,2022-10-01,all,observed,0.47164122059104835
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-10-01,2,observed,0.5561688009492716
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-10-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-10-01,all,observed,0.4711566643392263
+held_ex_eth,"Buy and hold, excluding ETH",2022-10-01,2,observed,0.5684624436872227
+held_ex_eth,"Buy and hold, excluding ETH",2022-10-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-10-01,all,observed,0.5057682289175598
+rebalanced,Rebalanced,2022-11-01,2,observed,0.47618948322335397
+rebalanced,Rebalanced,2022-11-01,5,unfinished,
+rebalanced,Rebalanced,2022-11-01,all,observed,0.3995132696018522
+held,Buy and hold,2022-11-01,2,observed,0.4835364066702134
+held,Buy and hold,2022-11-01,5,unfinished,
+held,Buy and hold,2022-11-01,all,observed,0.42659577515125713
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-11-01,2,observed,0.4603574312626437
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-11-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-11-01,all,observed,0.3996965921839199
+held_ex_eth,"Buy and hold, excluding ETH",2022-11-01,2,observed,0.49610793208918513
+held_ex_eth,"Buy and hold, excluding ETH",2022-11-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-11-01,all,observed,0.4732209323504818
+rebalanced,Rebalanced,2022-12-01,2,observed,0.5816626651888659
+rebalanced,Rebalanced,2022-12-01,5,unfinished,
+rebalanced,Rebalanced,2022-12-01,all,observed,0.4120532614553691
+held,Buy and hold,2022-12-01,2,observed,0.5783169816497497
+held,Buy and hold,2022-12-01,5,unfinished,
+held,Buy and hold,2022-12-01,all,observed,0.4359651219930205
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-12-01,2,observed,0.6295325861554228
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-12-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2022-12-01,all,observed,0.41470747159237364
+held_ex_eth,"Buy and hold, excluding ETH",2022-12-01,2,observed,0.6684679789029379
+held_ex_eth,"Buy and hold, excluding ETH",2022-12-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2022-12-01,all,observed,0.5194731686547887
+rebalanced,Rebalanced,2023-01-01,2,observed,0.5973766071843476
+rebalanced,Rebalanced,2023-01-01,5,unfinished,
+rebalanced,Rebalanced,2023-01-01,all,observed,0.45470661628303527
+held,Buy and hold,2023-01-01,2,observed,0.5539248860706084
+held,Buy and hold,2023-01-01,5,unfinished,
+held,Buy and hold,2023-01-01,all,observed,0.4675879545224828
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-01-01,2,observed,0.6984076521460647
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-01-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-01-01,all,observed,0.49883162192684305
+held_ex_eth,"Buy and hold, excluding ETH",2023-01-01,2,observed,0.6359752552275875
+held_ex_eth,"Buy and hold, excluding ETH",2023-01-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-01-01,all,observed,0.5384343451178834
+rebalanced,Rebalanced,2023-02-01,2,observed,0.5787888710513704
+rebalanced,Rebalanced,2023-02-01,5,unfinished,
+rebalanced,Rebalanced,2023-02-01,all,observed,0.4747158928442154
+held,Buy and hold,2023-02-01,2,observed,0.5753080015335754
+held,Buy and hold,2023-02-01,5,unfinished,
+held,Buy and hold,2023-02-01,all,observed,0.4901350420935352
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-02-01,2,observed,0.7083420598645818
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-02-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-02-01,all,observed,0.5162174267624859
+held_ex_eth,"Buy and hold, excluding ETH",2023-02-01,2,observed,0.7449869810151784
+held_ex_eth,"Buy and hold, excluding ETH",2023-02-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-02-01,all,observed,0.5609021112438319
+rebalanced,Rebalanced,2023-03-01,2,observed,0.5106076659254511
+rebalanced,Rebalanced,2023-03-01,5,unfinished,
+rebalanced,Rebalanced,2023-03-01,all,observed,0.47493873704973993
+held,Buy and hold,2023-03-01,2,observed,0.5046765827261238
+held,Buy and hold,2023-03-01,5,unfinished,
+held,Buy and hold,2023-03-01,all,observed,0.4962970843452696
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-03-01,2,observed,0.6745382978385411
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-03-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-03-01,all,observed,0.5302538683486057
+held_ex_eth,"Buy and hold, excluding ETH",2023-03-01,2,observed,0.716810413136401
+held_ex_eth,"Buy and hold, excluding ETH",2023-03-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-03-01,all,observed,0.6404539101333105
+rebalanced,Rebalanced,2023-04-01,2,observed,0.5308478463759657
+rebalanced,Rebalanced,2023-04-01,5,unfinished,
+rebalanced,Rebalanced,2023-04-01,all,observed,0.53774713326903
+held,Buy and hold,2023-04-01,2,observed,0.5427320320374107
+held,Buy and hold,2023-04-01,5,unfinished,
+held,Buy and hold,2023-04-01,all,observed,0.5653950093519042
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-04-01,2,observed,0.7613983046609261
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-04-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-04-01,all,observed,0.6396904751622806
+held_ex_eth,"Buy and hold, excluding ETH",2023-04-01,2,observed,0.8313548520443819
+held_ex_eth,"Buy and hold, excluding ETH",2023-04-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-04-01,all,observed,0.706616776035864
+rebalanced,Rebalanced,2023-05-01,2,observed,0.47027257334141426
+rebalanced,Rebalanced,2023-05-01,5,unfinished,
+rebalanced,Rebalanced,2023-05-01,all,observed,0.5324533984277965
+held,Buy and hold,2023-05-01,2,observed,0.47688081043461705
+held,Buy and hold,2023-05-01,5,unfinished,
+held,Buy and hold,2023-05-01,all,observed,0.5571777515950451
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-05-01,2,observed,0.7047440101351478
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-05-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-05-01,all,observed,0.6435554552118424
+held_ex_eth,"Buy and hold, excluding ETH",2023-05-01,2,observed,0.7649404541523831
+held_ex_eth,"Buy and hold, excluding ETH",2023-05-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-05-01,all,observed,0.7050895527442547
+rebalanced,Rebalanced,2023-06-01,2,observed,0.46791765877558333
+rebalanced,Rebalanced,2023-06-01,5,unfinished,
+rebalanced,Rebalanced,2023-06-01,all,observed,0.5051058193714704
+held,Buy and hold,2023-06-01,2,observed,0.48818743648076945
+held,Buy and hold,2023-06-01,5,unfinished,
+held,Buy and hold,2023-06-01,all,observed,0.5341234911794871
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-06-01,2,observed,0.632608311732888
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-06-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-06-01,all,observed,0.6192297910372111
+held_ex_eth,"Buy and hold, excluding ETH",2023-06-01,2,observed,0.718709692754946
+held_ex_eth,"Buy and hold, excluding ETH",2023-06-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-06-01,all,observed,0.6996714011672478
+rebalanced,Rebalanced,2023-07-01,2,observed,0.5157322647629269
+rebalanced,Rebalanced,2023-07-01,5,unfinished,
+rebalanced,Rebalanced,2023-07-01,all,observed,0.5866757437423922
+held,Buy and hold,2023-07-01,2,observed,0.5372696933010491
+held,Buy and hold,2023-07-01,5,unfinished,
+held,Buy and hold,2023-07-01,all,observed,0.618147737502586
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-07-01,2,observed,0.7657711254848849
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-07-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-07-01,all,observed,0.7890971750530473
+held_ex_eth,"Buy and hold, excluding ETH",2023-07-01,2,observed,0.869390062490593
+held_ex_eth,"Buy and hold, excluding ETH",2023-07-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-07-01,all,observed,0.8879857196010797
+rebalanced,Rebalanced,2023-08-01,2,observed,0.603185577412788
+rebalanced,Rebalanced,2023-08-01,5,unfinished,
+rebalanced,Rebalanced,2023-08-01,all,observed,0.5557261290453868
+held,Buy and hold,2023-08-01,2,observed,0.626303364933858
+held,Buy and hold,2023-08-01,5,unfinished,
+held,Buy and hold,2023-08-01,all,observed,0.5809420420789043
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-08-01,2,observed,0.765561806157588
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-08-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-08-01,all,observed,0.6801175194480138
+held_ex_eth,"Buy and hold, excluding ETH",2023-08-01,2,observed,0.8481349152914764
+held_ex_eth,"Buy and hold, excluding ETH",2023-08-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-08-01,all,observed,0.759230291338274
+rebalanced,Rebalanced,2023-09-01,2,observed,0.7334048384817122
+rebalanced,Rebalanced,2023-09-01,5,unfinished,
+rebalanced,Rebalanced,2023-09-01,all,observed,0.5738566432998687
+held,Buy and hold,2023-09-01,2,observed,0.7668641347496238
+held,Buy and hold,2023-09-01,5,unfinished,
+held,Buy and hold,2023-09-01,all,observed,0.5991715228240202
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-09-01,2,observed,0.884527000863396
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-09-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-09-01,all,observed,0.717460401807746
+held_ex_eth,"Buy and hold, excluding ETH",2023-09-01,2,observed,0.9979688664500067
+held_ex_eth,"Buy and hold, excluding ETH",2023-09-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-09-01,all,observed,0.8112365300850835
+rebalanced,Rebalanced,2023-10-01,2,observed,0.732499856666322
+rebalanced,Rebalanced,2023-10-01,5,unfinished,
+rebalanced,Rebalanced,2023-10-01,all,observed,0.5862084364537742
+held,Buy and hold,2023-10-01,2,observed,0.7612507136155798
+held,Buy and hold,2023-10-01,5,unfinished,
+held,Buy and hold,2023-10-01,all,observed,0.6103716394792376
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-10-01,2,observed,0.9303399743484863
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-10-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-10-01,all,observed,0.735503541515076
+held_ex_eth,"Buy and hold, excluding ETH",2023-10-01,2,observed,1.045910353281427
+held_ex_eth,"Buy and hold, excluding ETH",2023-10-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-10-01,all,observed,0.8277651715339062
+rebalanced,Rebalanced,2023-11-01,2,observed,0.8036038033462157
+rebalanced,Rebalanced,2023-11-01,5,unfinished,
+rebalanced,Rebalanced,2023-11-01,all,observed,0.669790912862989
+held,Buy and hold,2023-11-01,2,observed,0.850303391730842
+held,Buy and hold,2023-11-01,5,unfinished,
+held,Buy and hold,2023-11-01,all,observed,0.70717615643074
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-11-01,2,observed,1.0107102758650597
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-11-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-11-01,all,observed,0.8370803946175601
+held_ex_eth,"Buy and hold, excluding ETH",2023-11-01,2,observed,1.115804742167031
+held_ex_eth,"Buy and hold, excluding ETH",2023-11-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-11-01,all,observed,0.9155392304631418
+rebalanced,Rebalanced,2023-12-01,2,observed,0.7327711282326046
+rebalanced,Rebalanced,2023-12-01,5,unfinished,
+rebalanced,Rebalanced,2023-12-01,all,observed,0.6496019082735724
+held,Buy and hold,2023-12-01,2,observed,0.7804977073513439
+held,Buy and hold,2023-12-01,5,unfinished,
+held,Buy and hold,2023-12-01,all,observed,0.6878785722846346
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-12-01,2,observed,0.9478207283335724
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-12-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2023-12-01,all,observed,0.8189831453379258
+held_ex_eth,"Buy and hold, excluding ETH",2023-12-01,2,observed,1.032117026239794
+held_ex_eth,"Buy and hold, excluding ETH",2023-12-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2023-12-01,all,observed,0.8763020823648808
+rebalanced,Rebalanced,2024-01-01,2,observed,0.6972356550289627
+rebalanced,Rebalanced,2024-01-01,5,unfinished,
+rebalanced,Rebalanced,2024-01-01,all,observed,0.6182664034575137
+held,Buy and hold,2024-01-01,2,observed,0.7322444173799834
+held,Buy and hold,2024-01-01,5,unfinished,
+held,Buy and hold,2024-01-01,all,observed,0.6429982356963532
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-01-01,2,observed,0.780835637369019
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-01-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-01-01,all,observed,0.6927578317882949
+held_ex_eth,"Buy and hold, excluding ETH",2024-01-01,2,observed,0.8455228324340779
+held_ex_eth,"Buy and hold, excluding ETH",2024-01-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-01-01,all,observed,0.7438374597111693
+rebalanced,Rebalanced,2024-02-01,2,observed,0.6721933427239773
+rebalanced,Rebalanced,2024-02-01,5,unfinished,
+rebalanced,Rebalanced,2024-02-01,all,observed,0.640144356269637
+held,Buy and hold,2024-02-01,2,observed,0.7034921682519112
+held,Buy and hold,2024-02-01,5,unfinished,
+held,Buy and hold,2024-02-01,all,observed,0.6643917781029332
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-02-01,2,observed,0.8222190950258249
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-02-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-02-01,all,observed,0.7436980495649156
+held_ex_eth,"Buy and hold, excluding ETH",2024-02-01,2,observed,0.9079107196795927
+held_ex_eth,"Buy and hold, excluding ETH",2024-02-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-02-01,all,observed,0.8099541871021453
+rebalanced,Rebalanced,2024-03-01,2,observed,0.6852179420507204
+rebalanced,Rebalanced,2024-03-01,5,unfinished,
+rebalanced,Rebalanced,2024-03-01,all,observed,0.652542714928275
+held,Buy and hold,2024-03-01,2,observed,0.7151407624621525
+held,Buy and hold,2024-03-01,5,unfinished,
+held,Buy and hold,2024-03-01,all,observed,0.6773093801860585
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-03-01,2,observed,0.9308344444162762
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-03-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-03-01,all,observed,0.8320339884189194
+held_ex_eth,"Buy and hold, excluding ETH",2024-03-01,2,observed,0.9950621371482103
+held_ex_eth,"Buy and hold, excluding ETH",2024-03-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-03-01,all,observed,0.8910167663300755
+rebalanced,Rebalanced,2024-04-01,2,observed,0.6983386750475203
+rebalanced,Rebalanced,2024-04-01,5,unfinished,
+rebalanced,Rebalanced,2024-04-01,all,observed,0.6562250521513548
+held,Buy and hold,2024-04-01,2,observed,0.6876053501939279
+held,Buy and hold,2024-04-01,5,unfinished,
+held,Buy and hold,2024-04-01,all,observed,0.6374943509442711
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-04-01,2,observed,0.7820868242525096
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-04-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-04-01,all,observed,0.7230041254452625
+held_ex_eth,"Buy and hold, excluding ETH",2024-04-01,2,observed,0.7448224329803784
+held_ex_eth,"Buy and hold, excluding ETH",2024-04-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-04-01,all,observed,0.6771399640290687
+rebalanced,Rebalanced,2024-05-01,2,observed,0.6473083627903901
+rebalanced,Rebalanced,2024-05-01,5,unfinished,
+rebalanced,Rebalanced,2024-05-01,all,observed,0.6644654390013995
+held,Buy and hold,2024-05-01,2,observed,0.6567232679896647
+held,Buy and hold,2024-05-01,5,unfinished,
+held,Buy and hold,2024-05-01,all,observed,0.6691516000332994
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-05-01,2,observed,0.7401753916149969
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-05-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-05-01,all,observed,0.7612579355929594
+held_ex_eth,"Buy and hold, excluding ETH",2024-05-01,2,observed,0.7516255857099843
+held_ex_eth,"Buy and hold, excluding ETH",2024-05-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-05-01,all,observed,0.7719830532205632
+rebalanced,Rebalanced,2024-06-01,2,observed,0.646102301865485
+rebalanced,Rebalanced,2024-06-01,5,unfinished,
+rebalanced,Rebalanced,2024-06-01,all,observed,0.637163660011974
+held,Buy and hold,2024-06-01,2,observed,0.6286328428097887
+held,Buy and hold,2024-06-01,5,unfinished,
+held,Buy and hold,2024-06-01,all,observed,0.6226761005548939
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-06-01,2,observed,0.8667373895335698
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-06-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-06-01,all,observed,0.8043070942220868
+held_ex_eth,"Buy and hold, excluding ETH",2024-06-01,2,observed,0.8986606528594452
+held_ex_eth,"Buy and hold, excluding ETH",2024-06-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-06-01,all,observed,0.8270007527519447
+rebalanced,Rebalanced,2024-07-01,2,observed,0.6500283906107492
+rebalanced,Rebalanced,2024-07-01,5,unfinished,
+rebalanced,Rebalanced,2024-07-01,all,observed,0.6557018853684251
+held,Buy and hold,2024-07-01,2,observed,0.6539274889634213
+held,Buy and hold,2024-07-01,5,unfinished,
+held,Buy and hold,2024-07-01,all,observed,0.6623019494621302
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-07-01,2,observed,0.8751142774501547
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-07-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-07-01,all,observed,0.8204435604411787
+held_ex_eth,"Buy and hold, excluding ETH",2024-07-01,2,observed,0.8956654609285565
+held_ex_eth,"Buy and hold, excluding ETH",2024-07-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-07-01,all,observed,0.8426853578361408
+rebalanced,Rebalanced,2024-08-01,2,observed,0.702570618688119
+rebalanced,Rebalanced,2024-08-01,5,unfinished,
+rebalanced,Rebalanced,2024-08-01,all,observed,0.6989288536169965
+held,Buy and hold,2024-08-01,2,observed,0.7135336217564184
+held,Buy and hold,2024-08-01,5,unfinished,
+held,Buy and hold,2024-08-01,all,observed,0.7044427277650755
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-08-01,2,observed,0.8368018277490251
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-08-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-08-01,all,observed,0.8206289279157196
+held_ex_eth,"Buy and hold, excluding ETH",2024-08-01,2,observed,0.8650550566034709
+held_ex_eth,"Buy and hold, excluding ETH",2024-08-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-08-01,all,observed,0.8361616970567
+rebalanced,Rebalanced,2024-09-01,2,observed,0.7974022444595361
+rebalanced,Rebalanced,2024-09-01,5,unfinished,
+rebalanced,Rebalanced,2024-09-01,all,observed,0.7664182833940884
+held,Buy and hold,2024-09-01,2,observed,0.8001228919012071
+held,Buy and hold,2024-09-01,5,unfinished,
+held,Buy and hold,2024-09-01,all,observed,0.774399063564934
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-09-01,2,observed,0.8799275102686693
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-09-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-09-01,all,observed,0.8583117353861823
+held_ex_eth,"Buy and hold, excluding ETH",2024-09-01,2,observed,0.874326303704457
+held_ex_eth,"Buy and hold, excluding ETH",2024-09-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-09-01,all,observed,0.8646271207961028
+rebalanced,Rebalanced,2024-10-01,2,observed,0.825845305404937
+rebalanced,Rebalanced,2024-10-01,5,unfinished,
+rebalanced,Rebalanced,2024-10-01,all,observed,0.7762587236195201
+held,Buy and hold,2024-10-01,2,observed,0.8306391837821816
+held,Buy and hold,2024-10-01,5,unfinished,
+held,Buy and hold,2024-10-01,all,observed,0.7824342041014036
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-10-01,2,observed,0.8788211572582818
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-10-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-10-01,all,observed,0.8327032863029632
+held_ex_eth,"Buy and hold, excluding ETH",2024-10-01,2,observed,0.8768787915423063
+held_ex_eth,"Buy and hold, excluding ETH",2024-10-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-10-01,all,observed,0.8358009488011017
+rebalanced,Rebalanced,2024-11-01,2,unfinished,
+rebalanced,Rebalanced,2024-11-01,5,unfinished,
+rebalanced,Rebalanced,2024-11-01,all,observed,0.8486641799915128
+held,Buy and hold,2024-11-01,2,unfinished,
+held,Buy and hold,2024-11-01,5,unfinished,
+held,Buy and hold,2024-11-01,all,observed,0.8584269774586046
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-11-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-11-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-11-01,all,observed,0.8841335192419012
+held_ex_eth,"Buy and hold, excluding ETH",2024-11-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-11-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-11-01,all,observed,0.9015600914689631
+rebalanced,Rebalanced,2024-12-01,2,unfinished,
+rebalanced,Rebalanced,2024-12-01,5,unfinished,
+rebalanced,Rebalanced,2024-12-01,all,observed,0.7153830986667203
+held,Buy and hold,2024-12-01,2,unfinished,
+held,Buy and hold,2024-12-01,5,unfinished,
+held,Buy and hold,2024-12-01,all,observed,0.7304886620626445
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-12-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-12-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2024-12-01,all,observed,0.6658122696167954
+held_ex_eth,"Buy and hold, excluding ETH",2024-12-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-12-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2024-12-01,all,observed,0.6718917850111545
+rebalanced,Rebalanced,2025-01-01,2,unfinished,
+rebalanced,Rebalanced,2025-01-01,5,unfinished,
+rebalanced,Rebalanced,2025-01-01,all,observed,0.7804009430825808
+held,Buy and hold,2025-01-01,2,unfinished,
+held,Buy and hold,2025-01-01,5,unfinished,
+held,Buy and hold,2025-01-01,all,observed,0.7802339373134756
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-01-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-01-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-01-01,all,observed,0.7295680712188655
+held_ex_eth,"Buy and hold, excluding ETH",2025-01-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-01-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-01-01,all,observed,0.7185143430620361
+rebalanced,Rebalanced,2025-02-01,2,unfinished,
+rebalanced,Rebalanced,2025-02-01,5,unfinished,
+rebalanced,Rebalanced,2025-02-01,all,observed,0.8165486719566027
+held,Buy and hold,2025-02-01,2,unfinished,
+held,Buy and hold,2025-02-01,5,unfinished,
+held,Buy and hold,2025-02-01,all,observed,0.8275381033924278
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-02-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-02-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-02-01,all,observed,0.7248686577048152
+held_ex_eth,"Buy and hold, excluding ETH",2025-02-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-02-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-02-01,all,observed,0.7229124826774507
+rebalanced,Rebalanced,2025-03-01,2,unfinished,
+rebalanced,Rebalanced,2025-03-01,5,unfinished,
+rebalanced,Rebalanced,2025-03-01,all,observed,0.9380422208440635
+held,Buy and hold,2025-03-01,2,unfinished,
+held,Buy and hold,2025-03-01,5,unfinished,
+held,Buy and hold,2025-03-01,all,observed,0.953525053561945
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-03-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-03-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-03-01,all,observed,0.8054718395608065
+held_ex_eth,"Buy and hold, excluding ETH",2025-03-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-03-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-03-01,all,observed,0.8181885302455292
+rebalanced,Rebalanced,2025-04-01,2,unfinished,
+rebalanced,Rebalanced,2025-04-01,5,unfinished,
+rebalanced,Rebalanced,2025-04-01,all,observed,1.029621247450049
+held,Buy and hold,2025-04-01,2,unfinished,
+held,Buy and hold,2025-04-01,5,unfinished,
+held,Buy and hold,2025-04-01,all,observed,1.0287832668062367
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-04-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-04-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-04-01,all,observed,0.8526216533338975
+held_ex_eth,"Buy and hold, excluding ETH",2025-04-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-04-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-04-01,all,observed,0.850906383499157
+rebalanced,Rebalanced,2025-05-01,2,unfinished,
+rebalanced,Rebalanced,2025-05-01,5,unfinished,
+rebalanced,Rebalanced,2025-05-01,all,observed,1.1510435185126304
+held,Buy and hold,2025-05-01,2,unfinished,
+held,Buy and hold,2025-05-01,5,unfinished,
+held,Buy and hold,2025-05-01,all,observed,1.1361560990933675
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-05-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-05-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-05-01,all,observed,0.9275088486717992
+held_ex_eth,"Buy and hold, excluding ETH",2025-05-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-05-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-05-01,all,observed,0.9040704644082621
+rebalanced,Rebalanced,2025-06-01,2,unfinished,
+rebalanced,Rebalanced,2025-06-01,5,unfinished,
+rebalanced,Rebalanced,2025-06-01,all,observed,1.0833863803694692
+held,Buy and hold,2025-06-01,2,unfinished,
+held,Buy and hold,2025-06-01,5,unfinished,
+held,Buy and hold,2025-06-01,all,observed,1.1110757989468927
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-06-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-06-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-06-01,all,observed,0.981156134337804
+held_ex_eth,"Buy and hold, excluding ETH",2025-06-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-06-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-06-01,all,observed,1.011736079443345
+rebalanced,Rebalanced,2025-07-01,2,unfinished,
+rebalanced,Rebalanced,2025-07-01,5,unfinished,
+rebalanced,Rebalanced,2025-07-01,all,observed,1.1402392470259064
+held,Buy and hold,2025-07-01,2,unfinished,
+held,Buy and hold,2025-07-01,5,unfinished,
+held,Buy and hold,2025-07-01,all,observed,1.1606364243045915
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-07-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-07-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-07-01,all,observed,1.0332302103558793
+held_ex_eth,"Buy and hold, excluding ETH",2025-07-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-07-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-07-01,all,observed,1.0611833043455885
+rebalanced,Rebalanced,2025-08-01,2,unfinished,
+rebalanced,Rebalanced,2025-08-01,5,unfinished,
+rebalanced,Rebalanced,2025-08-01,all,observed,0.9215141268993594
+held,Buy and hold,2025-08-01,2,unfinished,
+held,Buy and hold,2025-08-01,5,unfinished,
+held,Buy and hold,2025-08-01,all,observed,0.9423729451697278
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-08-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-08-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-08-01,all,observed,0.8959379933446451
+held_ex_eth,"Buy and hold, excluding ETH",2025-08-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-08-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-08-01,all,observed,0.9261474481372312
+rebalanced,Rebalanced,2025-09-01,2,unfinished,
+rebalanced,Rebalanced,2025-09-01,5,unfinished,
+rebalanced,Rebalanced,2025-09-01,all,observed,0.7840982509271043
+held,Buy and hold,2025-09-01,2,unfinished,
+held,Buy and hold,2025-09-01,5,unfinished,
+held,Buy and hold,2025-09-01,all,observed,0.7927479689182351
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-09-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-09-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-09-01,all,observed,0.81281662548404
+held_ex_eth,"Buy and hold, excluding ETH",2025-09-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-09-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-09-01,all,observed,0.8312438345062874
+rebalanced,Rebalanced,2025-10-01,2,unfinished,
+rebalanced,Rebalanced,2025-10-01,5,unfinished,
+rebalanced,Rebalanced,2025-10-01,all,observed,0.8016282984447753
+held,Buy and hold,2025-10-01,2,unfinished,
+held,Buy and hold,2025-10-01,5,unfinished,
+held,Buy and hold,2025-10-01,all,observed,0.8118243963048811
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-10-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-10-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-10-01,all,observed,0.7907273238437096
+held_ex_eth,"Buy and hold, excluding ETH",2025-10-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-10-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-10-01,all,observed,0.811179041342153
+rebalanced,Rebalanced,2025-11-01,2,unfinished,
+rebalanced,Rebalanced,2025-11-01,5,unfinished,
+rebalanced,Rebalanced,2025-11-01,all,observed,0.843679395652444
+held,Buy and hold,2025-11-01,2,unfinished,
+held,Buy and hold,2025-11-01,5,unfinished,
+held,Buy and hold,2025-11-01,all,observed,0.8468353709480086
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-11-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-11-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-11-01,all,observed,0.8352040447935066
+held_ex_eth,"Buy and hold, excluding ETH",2025-11-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-11-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-11-01,all,observed,0.8499263436784518
+rebalanced,Rebalanced,2025-12-01,2,unfinished,
+rebalanced,Rebalanced,2025-12-01,5,unfinished,
+rebalanced,Rebalanced,2025-12-01,all,observed,0.8910376031300061
+held,Buy and hold,2025-12-01,2,unfinished,
+held,Buy and hold,2025-12-01,5,unfinished,
+held,Buy and hold,2025-12-01,all,observed,0.8728870809457488
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-12-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-12-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2025-12-01,all,observed,0.8610074678555946
+held_ex_eth,"Buy and hold, excluding ETH",2025-12-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-12-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2025-12-01,all,observed,0.8757605164429483
+rebalanced,Rebalanced,2026-01-01,2,unfinished,
+rebalanced,Rebalanced,2026-01-01,5,unfinished,
+rebalanced,Rebalanced,2026-01-01,all,observed,0.8865279433577389
+held,Buy and hold,2026-01-01,2,unfinished,
+held,Buy and hold,2026-01-01,5,unfinished,
+held,Buy and hold,2026-01-01,all,observed,0.8736702895835587
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-01-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-01-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-01-01,all,observed,0.889940542311665
+held_ex_eth,"Buy and hold, excluding ETH",2026-01-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-01-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-01-01,all,observed,0.9031479955569103
+rebalanced,Rebalanced,2026-02-01,2,unfinished,
+rebalanced,Rebalanced,2026-02-01,5,unfinished,
+rebalanced,Rebalanced,2026-02-01,all,observed,0.9548602687340593
+held,Buy and hold,2026-02-01,2,unfinished,
+held,Buy and hold,2026-02-01,5,unfinished,
+held,Buy and hold,2026-02-01,all,observed,0.9408394695410198
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-02-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-02-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-02-01,all,observed,0.9153164806869402
+held_ex_eth,"Buy and hold, excluding ETH",2026-02-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-02-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-02-01,all,observed,0.9199275008219262
+rebalanced,Rebalanced,2026-03-01,2,unfinished,
+rebalanced,Rebalanced,2026-03-01,5,unfinished,
+rebalanced,Rebalanced,2026-03-01,all,observed,0.9597083409504041
+held,Buy and hold,2026-03-01,2,unfinished,
+held,Buy and hold,2026-03-01,5,unfinished,
+held,Buy and hold,2026-03-01,all,observed,0.948157072280848
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-03-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-03-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-03-01,all,observed,0.9139802532328127
+held_ex_eth,"Buy and hold, excluding ETH",2026-03-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-03-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-03-01,all,observed,0.8949422545280519
+rebalanced,Rebalanced,2026-04-01,2,unfinished,
+rebalanced,Rebalanced,2026-04-01,5,unfinished,
+rebalanced,Rebalanced,2026-04-01,all,observed,0.9401737357938862
+held,Buy and hold,2026-04-01,2,unfinished,
+held,Buy and hold,2026-04-01,5,unfinished,
+held,Buy and hold,2026-04-01,all,observed,0.9376145216457429
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-04-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-04-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-04-01,all,observed,0.9356365758965364
+held_ex_eth,"Buy and hold, excluding ETH",2026-04-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-04-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-04-01,all,observed,0.9372558116952894
+rebalanced,Rebalanced,2026-05-01,2,unfinished,
+rebalanced,Rebalanced,2026-05-01,5,unfinished,
+rebalanced,Rebalanced,2026-05-01,all,observed,1.0274787657435038
+held,Buy and hold,2026-05-01,2,unfinished,
+held,Buy and hold,2026-05-01,5,unfinished,
+held,Buy and hold,2026-05-01,all,observed,1.0236323737448965
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-05-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-05-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-05-01,all,observed,1.041155495513215
+held_ex_eth,"Buy and hold, excluding ETH",2026-05-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-05-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-05-01,all,observed,1.0437559524550541
+rebalanced,Rebalanced,2026-06-01,2,unfinished,
+rebalanced,Rebalanced,2026-06-01,5,unfinished,
+rebalanced,Rebalanced,2026-06-01,all,observed,0.9848394746154435
+held,Buy and hold,2026-06-01,2,unfinished,
+held,Buy and hold,2026-06-01,5,unfinished,
+held,Buy and hold,2026-06-01,all,observed,0.996911384370148
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-06-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-06-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-06-01,all,observed,0.9297547216743491
+held_ex_eth,"Buy and hold, excluding ETH",2026-06-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-06-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-06-01,all,observed,0.9435371943490284
+rebalanced,Rebalanced,2026-07-01,2,unfinished,
+rebalanced,Rebalanced,2026-07-01,5,unfinished,
+rebalanced,Rebalanced,2026-07-01,all,observed,1.0092762974964447
+held,Buy and hold,2026-07-01,2,unfinished,
+held,Buy and hold,2026-07-01,5,unfinished,
+held,Buy and hold,2026-07-01,all,observed,1.0061367152981744
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-07-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-07-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-07-01,all,observed,0.9387352986542474
+held_ex_eth,"Buy and hold, excluding ETH",2026-07-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-07-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-07-01,all,observed,0.928054072842494
+rebalanced,Rebalanced,2026-08-01,2,unfinished,
+rebalanced,Rebalanced,2026-08-01,5,unfinished,
+rebalanced,Rebalanced,2026-08-01,all,observed,0.9994697745494857
+held,Buy and hold,2026-08-01,2,unfinished,
+held,Buy and hold,2026-08-01,5,unfinished,
+held,Buy and hold,2026-08-01,all,observed,0.9962613881644414
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-08-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-08-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-08-01,all,observed,0.990545963857555
+held_ex_eth,"Buy and hold, excluding ETH",2026-08-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-08-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-08-01,all,observed,0.9896191621415054
+rebalanced,Rebalanced,2026-09-01,2,unfinished,
+rebalanced,Rebalanced,2026-09-01,5,unfinished,
+rebalanced,Rebalanced,2026-09-01,all,observed,0.9642432124225165
+held,Buy and hold,2026-09-01,2,unfinished,
+held,Buy and hold,2026-09-01,5,unfinished,
+held,Buy and hold,2026-09-01,all,observed,0.9631371252833305
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-09-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-09-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-09-01,all,observed,0.97410501694715
+held_ex_eth,"Buy and hold, excluding ETH",2026-09-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-09-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-09-01,all,observed,0.9738956013751341
+rebalanced,Rebalanced,2026-10-01,2,unfinished,
+rebalanced,Rebalanced,2026-10-01,5,unfinished,
+rebalanced,Rebalanced,2026-10-01,all,observed,0.9409039022732654
+held,Buy and hold,2026-10-01,2,unfinished,
+held,Buy and hold,2026-10-01,5,unfinished,
+held,Buy and hold,2026-10-01,all,observed,0.9409039022732654
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-10-01,2,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-10-01,5,unfinished,
+rebalanced_ex_eth,"Rebalanced, excluding ETH",2026-10-01,all,observed,0.9509947410778005
+held_ex_eth,"Buy and hold, excluding ETH",2026-10-01,2,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-10-01,5,unfinished,
+held_ex_eth,"Buy and hold, excluding ETH",2026-10-01,all,observed,0.9509947410778005

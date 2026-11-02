@@ -1,0 +1,845 @@
+asset,name,included,reason
+0g,0G,True,included
+1inch,1inch,True,included
+2z,DoubleZero,True,included
+a,Vaulta,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+a2z,Arena-Z,True,included
+a8,Ancient8,True,included
+aave,Aave,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+ab,AB,True,included
+aca,Acala Token,True,included
+ace_fusionist,Fusionist,True,included
+ach,Alchemy Pay,True,included
+acs,Access Protocol,True,included
+act,Act I The AI Prophecy,True,included
+acx,Across Protocol,True,included
+ada,Cardano,True,included
+adi,ADI Token,True,included
+adx,AdEx,True,included
+ae,Aeternity,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+aergo,Aergo,True,included
+aero,Aerodrome Finance,True,included
+aevo,Aevo,True,included
+ageur,Angle Protocol,False,pegged asset or underlying-asset receipt
+agld,Adventure Gold,True,included
+ai_gensyn,Gensyn,True,included
+aion,Aion,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+aioz,AIOZ Network,True,included
+aixbt,aixbt by Virtuals,True,included
+akro,Kaon (Old),True,included
+akt,Akash Network,True,included
+alch,Alchemist AI,True,included
+alcx,Alchemix,True,included
+aleo,Aleo,True,included
+aleph,Aleph.im,True,included
+algo,Algorand,True,included
+alice,My Neighbor Alice,True,included
+allo,Allora,True,included
+alpaca,Alpaca Finance,True,included
+alpha,Stella,True,included
+alpine,Alpine F1 Team Fan Token,True,included
+alt,Altlayer,True,included
+amp,Amp,True,included
+ampl,Ampleforth,True,included
+anc,Anchor Protocol,True,included
+anime,Animecoin,True,included
+ankr,Ankr,True,included
+ant,Aragon,True,included
+ape,ApeCoin,True,included
+apepe,Ape and Pepe,True,included
+api3,API3,True,included
+apr,aPriori,True,included
+apt,Aptos,True,included
+ar,Arweave,True,included
+arb,Arbitrum,True,included
+arc,AI Rig Complex,True,included
+ardr,Ardor,True,included
+ark,Ark,True,included
+arkm,Arkham,True,included
+arpa,ARPA,True,included
+arty,Artyfact,True,included
+arv,Ariva,True,included
+arx,Arcium,True,included
+ast,AirSwap,True,included
+aster,Aster,True,included
+astr,Astar,True,included
+ata,Automata Network,True,included
+ath,Aethir,True,included
+atlas,Star Atlas,True,included
+atom,Cosmos,True,included
+auction,Bounce Token,True,included
+audio,Audius,True,included
+aurora,Aurora,True,included
+ava,AVA,True,included
+avail,Avail,True,included
+avax,Avalanche,True,included
+avnt,Avantis,True,included
+avt,Aventus,True,included
+awe,AWE Network,True,included
+axs,Axie Infinity,True,included
+aztec,Aztec,True,included
+b,BUILDon,True,included
+b2,BSquared Network,True,included
+b3,B3 (Base),True,included
+babydoge,Baby Doge Coin,True,included
+badger,Badger DAO,True,included
+bal,Balancer,True,included
+ban,Comedian,True,included
+bananas31,Banana For Scale,True,included
+band,Band,True,included
+bard,Lombard,True,included
+based,Based,True,included
+bat,Basic Attention Token,True,included
+bcd,Bitcoin Diamond,True,included
+bch,Bitcoin Cash,True,included
+beamx,BEAM (ex Merit Circle),False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+beat,Audiera,True,included
+bel,Bella Protocol,True,included
+bera,Berachain,True,included
+bfusd,BFUSD,False,pegged asset or underlying-asset receipt
+bianrensheng,币安人生 (BinanceLife),True,included
+bico,Biconomy,True,included
+bigtime,Big Time,True,included
+bill,Billions Network,True,included
+bio,Bio Protocol,True,included
+birb,Moonbirds,True,included
+bit,BitDAO,True,included
+blast,Blast,True,included
+blend,Fluent Labs,True,included
+bluai,Bluwhale,True,included
+blue,Bluefin,True,included
+blur,Blur,True,included
+blz,Bluzelle,True,included
+bmt,Bubblemaps,True,included
+bmx,BitMart,True,included
+bnb,BNB,True,included
+bnkr,BankrCoin,True,included
+bnsol,Binance Staked SOL,False,pegged asset or underlying-asset receipt
+bnt,Bancor,True,included
+bob_buildonbitcoin,BOB (Build on Bitcoin),True,included
+boba,Boba Network,True,included
+boden,Jeo Boden,True,included
+bome,BOOK OF MEME,True,included
+bond,BarnBridge,True,included
+bonk,Bonk,True,included
+boson,Boson Protocol,True,included
+brett,Brett (Based),True,included
+brev,Brevis,True,included
+bsv,Bitcoin SV,True,included
+btc,Bitcoin,False,benchmark
+btg,Bitcoin Gold,True,included
+btm,BytomDAO,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+btrst,Braintrust,True,included
+bts,BitShares,True,included
+bttc,BitTorrent (new),True,included
+busd,Binance USD,False,pegged asset or underlying-asset receipt
+c,Chainbase,True,included
+c98,Coin98,True,included
+cake,PancakeSwap,True,included
+camp,Camp Network,True,included
+cap,Cap,True,included
+carv,CARV,True,included
+cat,Simon's Cat,True,included
+cati,Catizen,True,included
+cbbtc,Coinbase Wrapped BTC,False,pegged asset or underlying-asset receipt
+cc,Canton Coin,True,included
+cel,Celsius,True,included
+celo,Celo,True,included
+celr,Celer Network,True,included
+cetus,Cetus Protocol,True,included
+cfx,Conflux,True,included
+cgpt,ChainGPT,True,included
+cheems,Cheems Token,True,included
+chess,Tranchess,True,included
+chillguy,Just a chill guy,True,included
+chip,USD.AI,True,included
+chr,Chromia,True,included
+chz,Chiliz,True,included
+city,Manchester City Fan Token,True,included
+ckb,Nervos Network,True,included
+clanker,tokenbot,True,included
+cloud,Cloud,True,included
+clv,CLV,True,included
+comp,Compound,True,included
+conv,Convergence,True,included
+cookie,Cookie,True,included
+coq,Coq Inu,True,included
+core,Core,True,included
+coti,COTI,True,included
+cow,CoW Protocol,True,included
+cpool,Clearpool,True,included
+cqt,Covalent,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+cream,Cream Finance,True,included
+cro,Cronos,True,included
+crpt,Crypterium,True,included
+crv,Curve DAO Token,True,included
+crvusd,crvUSD,False,pegged asset or underlying-asset receipt
+cspr,Casper,True,included
+cta,Cross The Ages,True,included
+ctc,Creditcoin,True,included
+ctk,Shentu,True,included
+ctr,Citrea,True,included
+ctsi,Cartesi,True,included
+ctx,Cryptex Finance,True,included
+cudos,CUDOS,True,included
+cusd,Celo Dollar,False,pegged asset or underlying-asset receipt
+cvc,Civic,True,included
+cvp,PowerPool,True,included
+cvx,Convex Finance,True,included
+cxt,Covalent X Token,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+cyber,Cyber,True,included
+dai,Dai,False,pegged asset or underlying-asset receipt
+dar,Mines of Dalarnia,True,included
+dash,Dash,True,included
+data,Streamr,True,included
+data_datanetwork,Data Network (previously Story),True,included
+dbr,deBridge,True,included
+dcr,Decred,True,included
+dechat,Dechat,True,included
+deep,DeepBook,True,included
+degen,Degen,True,included
+dego,Dego Finance,True,included
+dent,Dent,True,included
+dexe,DeXe,True,included
+dgb,DigiByte,True,included
+dia,DIA,True,included
+dmc,DeLorean,True,included
+dnt,district0x,True,included
+dodo,DODO,True,included
+dog,Dog (Runes),True,included
+doge,Dogecoin,True,included
+dogs,Dogs,True,included
+dolo,Dolomite,True,included
+dood,Doodles,True,included
+dot,Polkadot,True,included
+drgn,Dragonchain,True,included
+drift,Drift,True,included
+duck,DuckChain Token,True,included
+dusk,Dusk,True,included
+dydx,dYdX,True,included
+dym,Dymension,True,included
+dyp,Dypius (Old),True,included
+dyp_new,Dypius,True,included
+edge_edgex,edgeX,True,included
+eeth,ether.fi Staked ETH,False,pegged asset or underlying-asset receipt
+egld,MultiversX,True,included
+eigen,EigenLayer,True,included
+ela,Elastos,True,included
+elf,aelf,True,included
+elizaos,ElizaOS,True,included
+elon,Dogelon Mars,True,included
+elsa,Elsa,True,included
+ena,Ethena,True,included
+enj,Enjin Coin,True,included
+ens,Ethereum Name Service,True,included
+enso,Enso,True,included
+eos,EOS,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+ept,Balance,True,included
+era,Caldera,True,included
+ern,Ethernity Chain,True,included
+es,Eclipse,True,included
+esp,Espresso,True,included
+etc,Ethereum Classic,True,included
+eth,Ethereum,True,included
+ethfi,ether.fi,True,included
+ethw,EthereumPoW,True,included
+ethx,Stader ETHx,False,pegged asset or underlying-asset receipt
+eul,Euler,True,included
+eurc,EURC,False,pegged asset or underlying-asset receipt
+eurt,Tether EURt,False,pegged asset or underlying-asset receipt
+ewt,Energy Web Token,True,included
+f,SynFutures,True,included
+farm,Harvest Finance,True,included
+fartcoin,Fartcoin,True,included
+fbtc,Function FBTC,False,pegged asset or underlying-asset receipt
+fdusd,First Digital USD,False,pegged asset or underlying-asset receipt
+fet,Artificial Superintelligence Alliance,True,included
+ff,Falcon Finance,True,included
+fhe,Mind Network,True,included
+fida,Solana Name Service (Bonfida),True,included
+fight,FIGHT,True,included
+fil,Filecoin,True,included
+fio,FIO Protocol,True,included
+firo,Firo,True,included
+fis,StaFi,True,included
+fitfi,Step App,True,included
+flock,FLock.io,True,included
+floki,FLOKI,True,included
+flow,Flow,True,included
+flow_evm,Flow EVM,True,included
+flr,Flare,True,included
+fluid,Fluid,True,included
+flux,Flux,True,included
+fogo,Fogo,True,included
+folks,FOLKS,True,included
+fort,Forta,True,included
+forth,Ampleforth Governance Token,True,included
+frax,Legacy Frax Dollar (previously Frax),False,pegged asset or underlying-asset receipt
+front,Frontier,True,included
+frxeth,Frax Ether,False,pegged asset or underlying-asset receipt
+frxusd,Frax USD,False,pegged asset or underlying-asset receipt
+ftm,Fantom,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+ftn,Fasttoken,True,included
+ftt,FTX Token,True,included
+fun,FUNToken,True,included
+fun_sportfun,Sport.fun,True,included
+fx,Function X,True,included
+fxs,Frax Share,True,included
+g,Gravity,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+gal,Galxe,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+gala,Gala,True,included
+game2,GameBuild,True,included
+gari,Gari Network,True,included
+gas,Gas,True,included
+genius,Genius,True,included
+gfi,Goldfinch,True,included
+gho,GHO,False,pegged asset or underlying-asset receipt
+ghst,Aavegotchi,True,included
+giga,Gigachad,True,included
+giggle,Giggle Fund,True,included
+glm,Golem,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+glmr,Moonbeam,True,included
+gmt,GMT,True,included
+gmx,GMX,True,included
+gno,Gnosis,True,included
+go,GoChain,True,included
+goat,Goatseus Maximus,True,included
+gods,Gods Unchained,True,included
+gomining,Gomining Token,True,included
+gps,GoPlus Security,True,included
+gram,Gram (prev. Toncoin),True,included
+grass,Grass,True,included
+griffain,GRIFFAIN,True,included
+grin,Grin,True,included
+grt,The Graph,True,included
+gt,GateToken,True,included
+gtai,GT Protocol,True,included
+gtc,Gitcoin,True,included
+gun,Gunz,True,included
+gusd,Gemini Dollar,False,pegged asset or underlying-asset receipt
+gwei,ETHGas,True,included
+h,Humanity,True,included
+haedal,Haedal Protocol,True,included
+hbar,Hedera,True,included
+hbtc,Huobi BTC,False,pegged asset or underlying-asset receipt
+hft,Hashflow,True,included
+hifi,Hifi Finance,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+high,Highstreet,True,included
+hippo,sudeng,True,included
+hive,Hive,True,included
+hmstr,Hamster Kombat,True,included
+hnt,Helium,True,included
+holo,Holoworld,True,included
+home,HOME,True,included
+honey,Hivemapper,True,included
+hot_holo,Holo,True,included
+house,Housecoin,True,included
+hpos10i,HarryPotterObamaSonic10Inu (ERC-20),True,included
+hsk,HashKey Platform Token,True,included
+ht,Huobi Token,True,included
+htx,HTX,True,included
+huma,Huma Finance,True,included
+hype,Hyperliquid,True,included
+hyper,Hyperlane,True,included
+ice,Popsicle Finance,True,included
+icnt,Impossible Cloud Network Token,True,included
+icp,Internet Computer,True,included
+icx,ICON,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+idex,IDEX,True,included
+ilv,Illuvium,True,included
+imu,Immunefi,True,included
+imx,Immutable,True,included
+init,Initia,True,included
+inj,Injective,True,included
+inv,Inverse Finance,True,included
+inx_infinex,Infinex,True,included
+io,io.net,True,included
+iost,IOST,True,included
+iotx,IoTeX,True,included
+ip,Story,True,included
+iq,IQ,True,included
+ir,Infrared Finance,True,included
+iris,IRISnet,True,included
+irys,Irys,True,included
+j,Jambo,True,included
+jasmy,JasmyCoin,True,included
+jitosol,Jito Staked SOL,False,pegged asset or underlying-asset receipt
+joe,JOE,True,included
+jst,JUST,True,included
+jto,Jito,True,included
+jup,Jupiter,True,included
+juv,Juventus Fan Token,True,included
+kai,KardiaChain,True,included
+kaia,Kaia,True,included
+kaito,KAITO,True,included
+kas,Kaspa,True,included
+kat_katana,Katana,True,included
+kava,Kava,True,included
+kcs,KuCoin Token,True,included
+kda,Kadena,True,included
+keep,Keep Network,True,included
+kernel,KernelDAO,True,included
+key,SelfKey,True,included
+kin,Kin,True,included
+kite,Kite,True,included
+klay,Klaytn,True,included
+klv,Klever,True,included
+kmd,Komodo,True,included
+kmno,Kamino,True,included
+knc,Kyber Network Crystal,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+kp3r,Keep3rV1,True,included
+krl,Kryll,True,included
+ksm,Kusama,True,included
+kta,Keeta,True,included
+lat,PlatON,True,included
+lazio,S.S. Lazio Fan Token,True,included
+lbtc,Lombard Staked BTC,False,pegged asset or underlying-asset receipt
+lcx,LCX,True,included
+ldo,Lido DAO,True,included
+lend,Aave (lend),False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+leo,UNUS SED LEO,True,included
+linea,Linea,True,included
+link,Chainlink,True,included
+lista,Lista DAO,True,included
+lit,Litentry,True,included
+lit_lighter,Lighter,True,included
+lmwr,LimeWire,True,included
+loka,League of Kingdoms Arena,True,included
+loom,Loom Network,True,included
+lpt,Livepeer,True,included
+lqty,Liquity,True,included
+lrc,Loopring,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+lrds,BLOCKLORDS,True,included
+lseth,Liquid Staked ETH,False,pegged asset or underlying-asset receipt
+lsk,Lisk,True,included
+ltc,Litecoin,True,included
+lto,LTO Network,True,included
+luna,Terra Classic,True,included
+lusd,Liquity USD,False,pegged asset or underlying-asset receipt
+mana,Decentraland,True,included
+manta,Manta Network,True,included
+mask,Mask Network,True,included
+matic,Polygon,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+mavia,Heroes of Mavia,True,included
+mbl,MovieBloc,True,included
+mbox,MOBOX,True,included
+mc,Merit Circle,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+mdt,Measurable Data Token,True,included
+me,Magic Eden,True,included
+med,MediBloc,True,included
+mega,MegaETH,True,included
+melania,Official Melania Meme,True,included
+meme,Memecoin,True,included
+memefi,MemeFi,True,included
+merl,Merlin Chain,True,included
+met_meteora,Meteora,True,included
+meth,Mantle Staked Ether,False,pegged asset or underlying-asset receipt
+metis,Metis,True,included
+mew,cat in a dogs world,True,included
+mezo,MEZO,True,included
+mft,Hifi Finance (Old),False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+michi,michi,True,included
+mina,Mina,True,included
+miota,IOTA,True,included
+mir,Mirror Protocol,True,included
+mira,Mira,True,included
+mith,Mithril,True,included
+mkr,Maker,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+mln,Enzyme,True,included
+mmt,Momentum,True,included
+mnde,Marinade,True,included
+mngo,Mango,True,included
+mnt,Mantle,True,included
+mobile,Helium Mobile,True,included
+moca,Moca Coin,True,included
+mog,Mog Coin,True,included
+mon_monad,Monad,True,included
+moodeng,Moo Deng (moodengsol.com),True,included
+morpho,Morpho,True,included
+move,Movement,True,included
+movr,Moonriver,True,included
+mpl,Maple,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+mplx,Metaplex,True,included
+msol,Marinade Staked SOL,False,pegged asset or underlying-asset receipt
+mta,mStable Governance Token: Meta (MTA),True,included
+mtl_metal,Metal DAO,True,included
+mubarak,Mubarak,True,included
+multi,Multichain,True,included
+mvl,MVL,True,included
+mx,MX Token,True,included
+myx,MYX Finance,True,included
+naka,Nakamoto Games,True,included
+nano,Nano (New),True,included
+nas,Nebulas,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+navx,NAVI Protocol,True,included
+near,NEAR Protocol,True,included
+neirocto,First Neiro On Ethereum,True,included
+neo,Neo,True,included
+neon,Neon EVM,True,included
+nes,Nesa,True,included
+newt,Newton Protocol,True,included
+nexo,Nexo,True,included
+nft,APENFT,True,included
+nftx,NFTX,True,included
+nil,Nillion,True,included
+nkn,NKN,True,included
+nmr,Numeraire,True,included
+nom_nomina,Nomina,True,included
+not,Notcoin,True,included
+npc,Non-Playable Coin,True,included
+ntrn,Neutron,True,included
+nu,NuCypher,True,included
+nuls,NULS,True,included
+nxm,Nexus Mutual,True,included
+nxpc,Nexpace,True,included
+o,o1.exchange,True,included
+o3,O3 Swap,True,included
+oax,OAX,True,included
+obol,Obol,True,included
+obt,Orbiter Finance,True,included
+ocean,Ocean Protocol,True,included
+ogn,Origin Protocol,True,included
+ohm,Olympus,True,included
+okb,OKB,True,included
+om,MANTRA (Old),True,included
+omg,OMG Network,True,included
+omni,Omni Network,True,included
+ondo,Ondo,True,included
+one_harmony,Harmony,True,included
+onston,ONSTON,True,included
+ont,Ontology,True,included
+ooki,Ooki Protocol,True,included
+op,Optimism,True,included
+open_openledger,Open Ledger,True,included
+opg,OpenGradient,True,included
+opn,Opinion,True,included
+opn_openticketingecosystem,OPEN Ticketing Ecosystem,True,included
+orbs,Orbs,True,included
+orca,Orca,True,included
+order,Orderly Network,True,included
+ordi,ORDI,True,included
+orn,Orion,True,included
+osmo,Osmosis,True,included
+oxt,Orchid,True,included
+oxy,Oxygen,True,included
+paal,PAAL AI,True,included
+parti,Particle Network,True,included
+pax,Paxos Standard,False,pegged asset or underlying-asset receipt
+paxg,PAX Gold,False,pegged asset or underlying-asset receipt
+pay,TenX,True,included
+pendle,Pendle,True,included
+pengu,Pudgy Penguins,True,included
+people,ConstitutionDAO,True,included
+pepe,Pepe,True,included
+perp,Perpetual Protocol,True,included
+pha,Phala Network,True,included
+pieverse,Pieverse,True,included
+pippin,pippin,True,included
+pla,PlayDapp (Old),True,included
+planck,Planck,True,included
+plume,Plume,True,included
+pnut,Peanut the Squirrel,True,included
+pol,POL (ex-MATIC),False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+polc,Polkacity,True,included
+polis,Star Atlas DAO,True,included
+pols,Polkastarter,True,included
+poly,Polymath,True,included
+polyx,Polymesh,True,included
+pond,Marlin,True,included
+ponke,Ponke,True,included
+popcat,Popcat (SOL),True,included
+portal,Portal,True,included
+powr,Powerledger,True,included
+prcl,Parcl,True,included
+prime,Echelon Prime,True,included
+pro,Propy,True,included
+prom,Prom,True,included
+prompt,Wayfinder,True,included
+pros,Prosper,True,included
+pros_pharos,Pharos,True,included
+prove,Succinct,True,included
+prq,PARSIQ,True,included
+psg,Paris Saint-Germain Fan Token,True,included
+puffer,Puffer,True,included
+pump,Pump Fun,True,included
+pundix,Pundi X,True,included
+pyr,Vulcan Forged (PYR),True,included
+pyth,Pyth Network,True,included
+pyusd,PayPal USD,False,pegged asset or underlying-asset receipt
+qash,QASH,True,included
+qi,BENQI,True,included
+qkc,QuarkChain,True,included
+qlc,Kepple,True,included
+qnt,Quant,True,included
+qrdo,Qredo,True,included
+qsp,Quantstamp,True,included
+qtum,Qtum,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+qubic,Qubic,True,included
+quick,QuickSwap (Old),False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+quick_new,Quickswap,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+rad,Radworks,True,included
+rain,Rain,True,included
+rare,SuperRare,True,included
+rari,RARI,True,included
+rave,RaveDAO,True,included
+ray,Raydium,True,included
+rbn,Ribbon Finance,True,included
+rdnt,Radiant Capital,True,included
+recall,Recall,True,included
+red,RedStone,True,included
+reef,Reef,True,included
+rei,REI Network,True,included
+ren,Ren,True,included
+renbtc,renBTC,False,pegged asset or underlying-asset receipt
+render,Render,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+rep,Augur,True,included
+req,Request,True,included
+resolv,Resolv,True,included
+revv,REVV,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+rez,Renzo,True,included
+rfox,RFOX,True,included
+rgt,Rari Governance Token,True,included
+river,River,True,included
+rlb,Rollbit Coin,True,included
+rlc,iExec RLC,True,included
+rlp,Resolv Liquidity Provider Token,False,pegged asset or underlying-asset receipt
+rls,Rayls,True,included
+rlusd,Ripple USD,False,pegged asset or underlying-asset receipt
+rly,Rally,True,included
+rnbw,Rainbow,True,included
+rndr,Render Token,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+robo,Fabric Protocol,True,included
+ron,Ronin,True,included
+rook,Rook,True,included
+rose,Oasis,True,included
+rpl,Rocket Pool,True,included
+rseth,Kelp DAO Restaked ETH,False,pegged asset or underlying-asset receipt
+rsr,Reserve Rights,True,included
+rss3,RSS3,True,included
+rune,THORChain,True,included
+rvn,Ravencoin,True,included
+s,Sonic (prev. FTM),False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+safe,Safe,True,included
+saga,Saga,True,included
+sahara,Sahara AI,True,included
+samo,Samoyedcoin,True,included
+sand,The Sandbox,True,included
+santos,Santos FC Fan Token,True,included
+sapien,Sapien,True,included
+saros,Saros,True,included
+sats,SATS (Ordinals),True,included
+sbr,Saber,True,included
+sc,Siacoin,True,included
+sca,Scallop,True,included
+scor,Scor,True,included
+scrt,Secret,True,included
+sd,Stader,True,included
+sei,Sei,True,included
+sfp,SafePal,True,included
+sfund,Seedify.fund,True,included
+sgb,Songbird,True,included
+shell,MyShell,True,included
+shib,Shiba Inu,True,included
+sign,Sign,True,included
+skl,SKALE,True,included
+skr,Seeker,True,included
+sky_sky,Sky,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+slerf,SLERF,True,included
+slnd,Save,True,included
+slp,Smooth Love Potion,True,included
+snek,Snek,True,included
+snt,Status,True,included
+snx,Synthetix,True,included
+sol,Solana,True,included
+solv,Solv Protocol,True,included
+solvbtc,Solv Protocol SolvBTC,False,pegged asset or underlying-asset receipt
+somi,Somnia,True,included
+sonic,Sonic SVM,True,included
+soon,SOON,True,included
+soph,Sophon,True,included
+sos,OpenDAO,True,included
+soso,SoSoValue,True,included
+spa,Sperax,True,included
+spell,Spell Token,True,included
+spx,SPX6900,True,included
+sqd,SQD,True,included
+srm,Serum,True,included
+ssv,ssv.network,True,included
+stable,Stable,True,included
+steem,Steem,True,included
+steth,Lido Staked ETH,False,pegged asset or underlying-asset receipt
+stg,Stargate Finance,True,included
+stmx,StormX,True,included
+sto,StakeStone,True,included
+storj,Storj,True,included
+stpt,STP,True,included
+strax,Stratis,True,included
+strk,Starknet,True,included
+strx,Staked TRX,False,pegged asset or underlying-asset receipt
+stsol,Lido Staked SOL,False,pegged asset or underlying-asset receipt
+stx,Stacks,True,included
+sui,Sui,True,included
+suku,SUKU,True,included
+sun,Sun Token,True,included
+sundog,SUNDOG,True,included
+super,SuperVerse,True,included
+susde,Ethena Staked USDe,False,pegged asset or underlying-asset receipt
+sushi,SushiSwap,True,included
+swarms,Swarms,True,included
+sweat,SWEAT,True,included
+swell,Swell Network,True,included
+sweth,Swell Ethereum,False,pegged asset or underlying-asset receipt
+swftc,SwftCoin,True,included
+swrv,Swerve,True,included
+sxp,Solar,True,included
+sxt,Space and Time,True,included
+sylo,Sylo,True,included
+syn,Synapse,True,included
+synd,Syndicate,True,included
+syrup,Maple Finance,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+sys,Syscoin,True,included
+t,Threshold,True,included
+taiko,Taiko,True,included
+tao_bittensor,Bittensor,True,included
+tfuel,Theta Fuel,True,included
+theta,Theta Network,True,included
+thq,Theoriq,True,included
+tia,Celestia,True,included
+time,Chrono.tech,True,included
+tlm,Alien Worlds,True,included
+tnsr,Tensor,True,included
+toke,Tokemak,True,included
+token,TokenFi,True,included
+tomo,TomoChain,True,included
+torn,Tornado Cash,True,included
+toshi,Toshi,True,included
+towns,Towns,True,included
+trac,OriginTrail,True,included
+trade,Polytrade,True,included
+trb,Tellor,True,included
+tremp,Doland Tremp,True,included
+tria,TRIA,True,included
+tribe,Tribe,True,included
+tru,TrueFi,True,included
+trump,OFFICIAL TRUMP,True,included
+trust,Intuition,True,included
+trx,TRON,True,included
+tryb,BiLira,False,pegged asset or underlying-asset receipt
+turbo,Turbo,True,included
+tusd,TrueUSD,False,pegged asset or underlying-asset receipt
+tut,Tutorial,True,included
+tvk,Virtua,True,included
+twt,Trust Wallet Token,True,included
+u,Union,True,included
+u_unitedstables,United Stables,False,pegged asset or underlying-asset receipt
+ub,Unibase,True,included
+uds,Undeads Games,True,included
+ultima,Ultima,True,included
+uma,UMA,True,included
+unfi,Unifi Protocol DAO,True,included
+uni,Uniswap,True,included
+us,Talus Network,True,included
+usat,USAT,False,pegged asset or underlying-asset receipt
+usd0,Usual,False,pegged asset or underlying-asset receipt
+usd1,USD1,False,pegged asset or underlying-asset receipt
+usdc,USDC (USD Coin),False,pegged asset or underlying-asset receipt
+usdd,USDD,False,pegged asset or underlying-asset receipt
+usde,Ethena USDe,False,pegged asset or underlying-asset receipt
+usdf,Falcon USD,False,pegged asset or underlying-asset receipt
+usdg,Global Dollar,False,pegged asset or underlying-asset receipt
+usdp,Pax Dollar,False,pegged asset or underlying-asset receipt
+usdr,StablR USD,True,included
+usds,USDS,False,pegged asset or underlying-asset receipt
+usdt,Tether,False,pegged asset or underlying-asset receipt
+usdy,Ondo US Dollar Yield,False,pegged asset or underlying-asset receipt
+useless,Useless Coin,True,included
+usual,Usual (Pre-Market),True,included
+utk,xMoney (Old),True,included
+uxlink,UXLINK,True,included
+vana,Vana,True,included
+vanry,Vanar Chain,True,included
+velo,Velo,True,included
+velo_velodromefinance,Velodrome Finance,True,included
+verona,Verona,True,included
+vet,VeChain,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+vgx,VGX Token,True,included
+vic,Viction,True,included
+vine,Vine,True,included
+vinu,Vita Inu,True,included
+virtual,Virtuals Protocol,True,included
+vite,VITE,True,included
+vooi,VOOI,True,included
+voxel,Voxies,True,included
+vra,Verasity,True,included
+vsn,Vision,True,included
+vsys,v.systems,True,included
+vtho,VeThor Token,True,included
+vvv,Venice Token,True,included
+w,Wormhole,True,included
+wal,Walrus,True,included
+ward,Warden,True,included
+waves,Waves,True,included
+waxp,WAX,True,included
+wbeth,Wrapped Beacon ETH,False,pegged asset or underlying-asset receipt
+wbtc,Wrapped Bitcoin,False,pegged asset or underlying-asset receipt
+wct,WalletConnect Token,True,included
+weeth,Wrapped eETH,False,pegged asset or underlying-asset receipt
+well,Moonwell,True,included
+wemix,WEMIX,True,included
+wen,Wen,True,included
+weth,Wrapped Ether,False,pegged asset or underlying-asset receipt
+wif,dogwifhat,True,included
+win_wink,WINkLink,True,included
+wld,Worldcoin,True,included
+wlfi,World Liberty Financial,True,included
+wmtx,World Mobile Token,True,included
+wnxm,Wrapped NXM,True,included
+woo,WOO,True,included
+wrx,WazirX,True,included
+wsol,Wrapped Solana,False,pegged asset or underlying-asset receipt
+wsteth,Wrapped liquid staked Ether 2.0,False,pegged asset or underlying-asset receipt
+wtc,Waltonchain,True,included
+xai,Xai,True,included
+xan,Anoma,True,included
+xaut,Tether Gold,False,pegged asset or underlying-asset receipt
+xcad,XCAD Network,True,included
+xch,Chia,True,included
+xcn,Onyxcoin,True,included
+xdc,XDC Network,True,included
+xec,eCash,True,included
+xem,NEM,True,included
+xion,XION,True,included
+xlm,Stellar,True,included
+xmr,Monero,True,included
+xpl,Plasma,True,included
+xpr,XPR Network,True,included
+xrd,Radix,True,included
+xrp,XRP,True,included
+xter,Xterio,True,included
+xtz,Tezos,True,included
+xvg,Verge,True,included
+xvs,Venus,True,included
+xym,Symbol,True,included
+xyo,XYO,True,included
+yb,Yield Basis,True,included
+yfi,yearn.finance,True,included
+yfii,DFI.Money,True,included
+ygg,Yield Guild Games,True,included
+zama,Zama,True,included
+zano,Zano,True,included
+zbcn,Zebec Network,True,included
+zbt,ZEROBASE,True,included
+zec,Zcash,True,included
+zen,Horizen,True,included
+zerebro,Zerebro,True,included
+zeta,ZetaChain,True,included
+zeus,Zeus Network,True,included
+zig,ZIGChain,True,included
+zil,Zilliqa,False,migration or parallel representation; excluded from aggregate to avoid double counting/false losses
+zk,ZKsync,True,included
+zkc,Boundless,True,included
+zkj,Polyhedra Network,True,included
+zks,ZKSpace,True,included
+zora,Zora,True,included
+zro,LayerZero,True,included
+zrx,0x,True,included

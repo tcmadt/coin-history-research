@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project": "coin-history-research",
+  "title": "Do Altcoins Outperform Bitcoin?",
+  "author": "Tobé Madu",
+  "snapshot_date": "2026-10-14",
+  "repository": "https://github.com/tcmadt/coin-history-research",
+  "publication": "https://coin-history-research.teeceem5.chatgpt.site/",
+  "entrypoints": {
+    "paper": "dist/index.html",
+    "methodology": "dist/methodology.md",
+    "agent_guide": "AGENTS.md",
+    "claims": "docs/CLAIMS.md",
+    "data_dictionary": "docs/DATA_DICTIONARY.md",
+    "reproducibility": "docs/REPRODUCIBILITY.md"
+  },
+  "data": {
+    "formal_input_histories_including_btc": 844,
+    "screened_altcoins": 746,
+    "fixed_five_year_cohort": 279,
+    "five_year_market_cap_cohort": 272,
+    "cutoff": "2026-10-14"
+  },
+  "verification": {
+    "command": "make verify",
+    "headline_claims": "scripts/verify_publication_claims.py"
+  },
+  "upstream_inputs_included": false,
+  "frozen_derived_snapshot_included": true
+}
