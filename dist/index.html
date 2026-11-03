@@ -4,9 +4,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Most altcoins beat Bitcoin briefly, but few do so reliably. An interactive ten-year follow-up to Willy Woo using 746 screened coins and six monthly rebalanced baskets." name="description"/>
+<meta content="Most coins in this study beat Bitcoin from at least one buy date, and few did so from most buy dates. An interactive ten-year follow-up to Willy Woo using 746 screened coins and six monthly rebalanced baskets." name="description"/>
 <meta content="Do Altcoins Outperform Bitcoin?" property="og:title"/>
-<meta content="Most altcoins get a moment against Bitcoin. Almost none keep it." property="og:description"/>
+<meta content="Most coins in this study beat Bitcoin from at least one buy date. Few did so from most buy dates." property="og:description"/>
 <meta content="website" property="og:type"/>
 <meta content="https://tcmadt.github.io/coin-history-research/" property="og:url"/>
 <meta content="https://tcmadt.github.io/coin-history-research/figures/og-figure1.png" property="og:image"/>
@@ -15,7 +15,7 @@
 <meta content="Each line represents one altcoin against BTC over calendar dates" property="og:image:alt"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Do Altcoins Outperform Bitcoin?" name="twitter:title"/>
-<meta content="Most altcoins get a moment against Bitcoin. Almost none keep it." name="twitter:description"/>
+<meta content="Most coins in this study beat Bitcoin from at least one buy date. Few did so from most buy dates." name="twitter:description"/>
 <meta content="https://tcmadt.github.io/coin-history-research/figures/og-figure1.png" name="twitter:image"/>
 <title>Do Altcoins Outperform Bitcoin?</title>
 <link href="style.css" rel="stylesheet"/>
@@ -27,7 +27,7 @@
 <h1>Do Altcoins Outperform Bitcoin?</h1>
 <p class="author-line">Tobé Madu<span class="disclosure-link"> · <a href="#disclosures">Disclosures</a></span> · <button class="paper-pdf" id="paper-pdf" type="button">Save / share PDF</button></p>
 <p class="abstract">
-<b>Abstract.</b> Nearly every altcoin in this study beat Bitcoin (BTC) at some point, but very few did it consistently. Among the 279 coins with at least one complete five-year price window, 98.2% (274 of 279) beat BTC from at least one one-year start date, while only 1.8% (5) beat it from most one-year starts, meaning only five coins usually beat BTC no matter which day you bought and held for a year (Figure 2). The gap widened with time: the typical coin finished one year with 49% as much wealth as BTC and five years with just 6%. Waiting for a coin to get bigger or buying a group of the largest coins did not reliably improve the odds. Only 4.9% beat BTC five years after reaching a $100 million market cap, and all six modeled portfolios built from the largest eligible altcoins trailed BTC from July 2019 through October 2026. In a separate analysis of why coins lost ground, issuing more tokens explained 29% of the average five-year gap. The other 71% came from the market valuing these networks less relative to Bitcoin.</p>
+<b>Abstract.</b> A buy date is a day you buy a coin and hold it for a fixed period, such as one year. Among the 279 coins with at least one complete five-year price window, 98.2% (274 of 279) beat BTC from at least one one-year buy date, while only 1.8% (5) beat it from most one-year buy dates, meaning only five coins usually beat BTC no matter which day you bought and held for a year (Figure 2). The gap widened with time: the typical coin finished one year with 49% as much wealth as BTC and five years with just 6%. Waiting for a coin to get bigger or buying a group of the largest coins did not reliably improve the odds. Only 4.9% beat BTC five years after reaching a $100 million market cap, and all six modeled portfolios built from the largest eligible altcoins trailed BTC from July 2019 through October 2026. In a separate analysis of why coins lost ground, issuing more tokens explained 29% of the average five-year gap. The other 71% came from the market valuing these networks less relative to Bitcoin.</p>
 <details class="paper-toc" open="">
 <summary>Table of contents</summary>
 <ol>
@@ -176,26 +176,26 @@
 <section id="paper-methods">
 <h2>2. Data and methods</h2>
 <p>The study begins with 844 asset histories, including BTC. Removing stablecoins, wrapped or bridged assets, unresolved token changes and other excluded instruments leaves 746 altcoins. Of these, 279 have at least one complete five-year price window. The same group is used for every holding-period comparison, so changes across horizons do not come from changing the coins. Of the 279, 272 also have matching five-year market-cap data. The formal tests use Coin Metrics; the explorer adds two separately labeled histories from CoinGecko.</p>
-<p>Every comparison puts the same starting amount into an altcoin and BTC on the same day, then measures both on the same ending day. For each holding period from one to five years, the study repeats that comparison from every daily start date with enough history. These periods overlap, so they are different views of history rather than independent bets. Because later entry dates cannot be observed over longer horizons, a separate robustness test holds entry dates constant across all five horizons; it produces the same decline and is <a href="#ref-robustness">reported in References</a>. If either the entry or exit price is missing, the result remains unknown. The study never carries forward an old price or assumes the coin fell to zero. Separate tests line coins up by age, wait until they cross sustained market-cap thresholds, or build portfolios using only information available before each rebalance.</p>
+<p>Every comparison puts the same starting amount into an altcoin and BTC on the same day, then measures both on the same ending day. For each holding period from one to five years, the study repeats that comparison from every daily buy date with enough history. These periods overlap, so they are different views of history rather than independent bets. Because later entry dates cannot be observed over longer horizons, a separate robustness test holds entry dates constant across all five horizons; it produces the same decline and is <a href="#ref-robustness">reported in References</a>. If either the entry or exit price is missing, the result remains unknown. The study never carries forward an old price or assumes the coin fell to zero. Separate tests line coins up by age, wait until they cross sustained market-cap thresholds, or build portfolios using only information available before each rebalance.</p>
 <p>The study measures price returns rather than total returns. It does not add staking rewards or airdrops, and it does not subtract trading costs, spreads or market impact. Those omissions cut both ways, although the measurable gaps mostly make altcoins look better. Even crediting every altcoin with a generous 20% annual yield lifts the median five-year result to only 0.16× BTC. Detailed rules, limitations, the AI disclosure and the replication package appear in References.<sup><a aria-label="Study rules" href="#ref-rules">[1]</a></sup><sup><a aria-label="Limitations and directional bias" href="#ref-limitations">[2]</a></sup><sup><a aria-label="AI disclosure" href="#ref-ai">[3]</a></sup></p>
 </section>
 <section id="results">
 <h2>3. Results</h2>
 <section id="individual-view">
 <h3>3.1. How often do coins beat BTC?</h3>
-<p class="section-intro">The simplest and most generous test is whether an altcoin ever beats BTC over one year. The analysis follows the same 279 coins and tests every eligible daily start date. Figure 2 compares two very different standards: winning at least once and winning from more than half of priced start dates.</p>
+<p class="section-intro">The simplest and most generous test is whether an altcoin ever beats BTC over one year. The analysis follows the same 279 coins and tests every eligible daily buy date. Figure 2 compares winning at least once with winning from more than half of priced buy dates.</p>
 <div aria-live="polite" class="finding-grid" hidden="" id="rolling-headline">
 </div>
 <figure class="paper-figure figure-simple">
-<h4 class="figure-title"><span class="figure-number">Figure 2.</span> Almost every coin gets a moment; almost none keep it.</h4>
+<h4 class="figure-title"><span class="figure-number">Figure 2.</span> Altcoin outperformance against Bitcoin is common; persistence is rare.</h4>
 <div class="chart-figure-host" id="rolling-comparison-host">
-<svg aria-label="Among 279 coins with at least one complete five-year price window, 98.2 percent beat Bitcoin from at least one one-year start, while 1.8 percent beat it from most one-year starts" id="rolling-comparison" role="img">
+<svg aria-label="Among 279 coins with at least one complete five-year price window, 98.2 percent beat Bitcoin from at least one one-year buy date, while 1.8 percent beat it from most one-year buy dates" id="rolling-comparison" role="img">
 </svg>
 <button aria-label="Download Figure 2 as PNG" class="figure-download" data-chart="rolling-comparison" title="Download PNG" type="button">↓ PNG</button>
 </div>
-<figcaption>Same 279 coins throughout. The figure compares beating BTC from at least one one-year start with beating it from more than half of priced one-year starts.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
+<figcaption>Same 279 coins throughout. The figure compares beating BTC from at least one one-year buy date with beating it from more than half of priced one-year buy dates.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
 </figure>
-<p>Nearly every coin passed the first test: 274 of 279 (98.2%) beat BTC from at least one start. Only five (1.8%) did so from most starts. The opportunity to outperform was common. The ability to repeat it was rare.</p>
+<p>Nearly every coin passed the first test: 274 of 279 (98.2%) beat BTC from at least one buy date, but only five (1.8%) did so from most buy dates.</p>
 </section>
 <section id="age-view">
 <h3>3.2. What happens to altcoins over time?</h3>
@@ -272,7 +272,7 @@
 </section>
 <section id="winner-patterns" class="results-analysis">
 <h3>3.6. What did the winners have in common?</h3>
-<p>If market re-rating explains most of the loss, the durable winners should be the projects that gave investors a reason to keep valuing their tokens. Fifteen of the same 279 coins beat BTC from most five-year start dates.<sup><a aria-label="Durable winners and category membership" href="#ref-winners">[5]</a></sup> Exchange tokens stood out: five of 12 qualified, compared with 10 of the other 267 coins. None of the five Bitcoin forks or ten would-be digital-cash coins qualified.</p>
+<p>If market re-rating explains most of the loss, the durable winners should be the projects that gave investors a reason to keep valuing their tokens. Fifteen of the same 279 coins beat BTC from most five-year buy dates.<sup><a aria-label="Durable winners and category membership" href="#ref-winners">[5]</a></sup> Exchange tokens stood out: five of 12 qualified, compared with 10 of the other 267 coins. None of the five Bitcoin forks or ten would-be digital-cash coins qualified.</p>
 <figure class="paper-figure figure-simple"><h4 class="figure-title"><span class="figure-number">Figure 5.</span> Exchange tokens produced more reliable winners, with much higher business-specific risk.</h4><div class="chart-figure-host"><svg id="category-chart" role="img" aria-label="Reliable five-year winner rate by exploratory coin category"></svg><button class="figure-download" data-chart="category-chart" type="button">↓ PNG</button></div><figcaption>Exploratory categories defined before counting the outcomes. Samples are small, overlap conceptually, and quoted prices may not have been tradable at size.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption></figure>
 <p>The pattern is suggestive rather than predictive. An exchange token can connect demand for the token to a surviving business, but it also inherits the risk that the business fails, fades or changes its incentives. Ethereum and Solana also appear among the durable platform winners, yet their success does not tell us which current platform will become the next default.</p>
 <p>Many of crypto’s most dependable businesses have formed close to trading itself: exchanges, stablecoins, prediction markets and perpetual-futures venues. Most are not represented cleanly in this study, and some have no investable token. The broader lesson is therefore narrower than “buy exchange tokens.” Durable outperformance appears to require a durable source of demand, and few projects manage to build one.</p>
@@ -287,7 +287,7 @@
 </section>
 <section id="limits">
 <h2>4. Discussion</h2>
-<p>Taken together, the results point to a distinction between having a moment and compounding. Of the 279 coins in the fixed cohort, 274 beat BTC from at least one one-year start date, but only five did so from most starts. Waiting for a coin to become larger did not reliably improve the odds, and spreading capital across several large altcoins did not solve the problem. Additional supply made the losses worse, but most of the gap came from changes in relative market value. Since 2022, broad altcoin outperformance has also become less common. The problem is not that altcoins never win. It is that the typical win fades.</p>
+<p>Taken together, of the 279 coins in the fixed cohort, 274 beat BTC from at least one one-year buy date, and only five did so from most buy dates. Waiting for a coin to become larger did not reliably improve the odds, and spreading capital across several large altcoins did not solve the problem. Additional supply made the losses worse, but most of the gap came from changes in relative market value. Since 2022, broad altcoin outperformance has also become less common. Most of those one-year wins did not last.</p>
 <p>Stocks show the same shape. Across a century of US listings, the median stock lost 6.9%, only 27.6% outperformed the value-weighted market, and the top 3.7% of firms accounted for all net shareholder wealth creation.<sup><a aria-label="Bessembinder study of one hundred years in the US stock markets" href="#ref-bessembinder">[6]</a></sup> The parallel is useful but incomplete. A broad stock index captures new winners as they emerge; BTC is a single asset whose leadership has to persist. Its advantage rests less on a business that can out-execute competitors than on monetary coordination: liquidity, security and the number of people willing to treat it as the benchmark asset. Bitcoin’s lead should therefore be tested, not assumed.</p>
 <p>How much that benchmark matters, however, depends on what the position is supposed to do. An altcoin position can serve three different purposes, and the results apply differently to each. <strong>A trade</strong> asks whether a catalyst can move the price before the thesis expires. <strong>A long-term holding</strong> asks whether the project can create persistent demand for its token. <strong>A research position</strong> asks whether using the product and participating in its ecosystem are worth the cost of admission. This paper primarily tests the second. The knowledge, access and relationships gained from the third may be valuable, but they are returns on participation rather than evidence of investment outperformance.</p>
 <p>For passive capital allocation, BTC is therefore the default and the burden of proof belongs to the alternative. A project must explain why people will continue to need its token, why that demand will persist and why tokenholders will capture the value created. That conclusion should remain provisional. It would weaken if liquid altcoin portfolios began beating BTC across many entry dates after realistic costs, or if durable token demand became common rather than exceptional. Until then, an altcoin has to earn the exception.</p>
@@ -302,7 +302,7 @@
 <summary>Study rules</summary>
 <p><b>Sample flow.</b> The interactive explorer contains 845 usable non-BTC histories drawn from 846 audited source histories. It intentionally includes excluded instruments and three supplemental series. The formal tests begin with an 844-asset aggregate input, including BTC, and retain 746 coins after the instrument screen.</p>
 <p>The main sample has 746 coins after removing stablecoins, tokens that represent other assets, and certain token changes that cannot be joined reliably. Coin Metrics supplies most prices. This is an incomplete sample, not a list of every coin ever traded.</p>
-<p>For each holding period, this study tests every daily start date with enough time to finish. The calculation needs valid prices for both the coin and BTC at the start and end. If an end-date price is missing, the result stays unknown. The analysis neither assumes the coin went to zero nor reuses an old quote.</p>
+<p>For each holding period, this study tests every daily buy date with enough time to finish. The calculation needs valid prices for both the coin and BTC on the buy date and at the end. If an end-date price is missing, the result stays unknown. The analysis neither assumes the coin went to zero nor reuses an old quote.</p>
 <p>The median is the middle result. The shaded middle 50% runs from the 25th to the 75th percentile. These ranges show how spread out the results are. They are not forecasts.</p>
 <p>The coin and portfolio tests measure prices only. They leave out staking, airdrops and discretionary trading strategies. The main portfolio results also leave out trading costs. Optional cost tests appear in the full methods.</p>
 <p>
@@ -326,7 +326,7 @@
 </li>
 <li id="ref-ai">
 <b>How AI helped build this study.</b>
-<p>I designed the research questions, screening and exclusion rules, data-quality quarantines and tests. AI tools wrote much of the code, compared data sources and drafted charts under those rules. Checks include an independent replay of basket holdings and tests of daily start and end prices. All inputs, rules and outputs are published so anyone can inspect the work. The paper has received informal reader feedback but has not been independently replicated or peer reviewed; corrections are welcome.</p>
+<p>I designed the research questions, screening and exclusion rules, data-quality quarantines and tests. AI tools wrote much of the code, compared data sources and drafted charts under those rules. Checks include an independent replay of basket holdings and tests of prices on the buy date and the end date. All inputs, rules and outputs are published so anyone can inspect the work. The paper has received informal reader feedback but has not been independently replicated or peer reviewed; corrections are welcome.</p>
 </li>
 <li id="ref-membership">
 <b>Historical membership reconciliation.</b>
@@ -337,18 +337,18 @@
 </li>
 <li id="ref-winners">
 <b>Durable winners and category membership.</b>
-<p>The 15 coins that beat BTC from more than half of their priced five-year start dates were GT, BNB, SOL, MX, OKB, QNT, ETH, DOGE, TRX, XYO, LCX, FET, THETA, ANT and TRAC. The 12 exchange tokens in the fixed cohort were BNB, CRO, FTT, GT, HT, LCX, MX, OAX, OKB, QASH, WRX and WOO. FTT and six other exchange tokens did not qualify as reliable winners.</p>
+<p>The 15 coins that beat BTC from more than half of their priced five-year buy dates were GT, BNB, SOL, MX, OKB, QNT, ETH, DOGE, TRX, XYO, LCX, FET, THETA, ANT and TRAC. The 12 exchange tokens in the fixed cohort were BNB, CRO, FTT, GT, HT, LCX, MX, OAX, OKB, QASH, WRX and WOO. FTT and six other exchange tokens did not qualify as reliable winners.</p>
 <p class="small"><a download="" href="winner_categories.csv">Category summary</a> · <a download="" href="rolling_coin_results.csv">Per-coin results</a></p>
 </li>
 <li id="ref-robustness">
 <b>Focused robustness checks.</b>
 <div class="table-wrap"><table><thead><tr><th>Question</th><th>Result</th></tr></thead><tbody>
-<tr><td>Does the decline with holding period survive when every horizon uses the same entry dates?</td><td>Yes. Across 206,471 coin-date starts with valid endpoints at every horizon, the share of coins beating BTC from most matched starts falls from 28.3% at one year to 5.4% at five years. The one-year rate is higher than Figure 2’s 1.8% because the matched sample excludes later one-year starts that cannot reach five years.</td></tr>
+<tr><td>Does the decline with holding period survive when every horizon uses the same entry dates?</td><td>Yes. Across 206,471 coin buy dates with valid endpoints at every horizon, the share of coins beating BTC from most matched buy dates falls from 28.3% at one year to 5.4% at five years. The one-year rate is higher than Figure 2’s 1.8% because the matched sample excludes later one-year buy dates that cannot reach five years.</td></tr>
 <tr><td>What if missing five-year exits are treated less generously?</td><td>The median falls from 0.065× BTC when omitted to 0.064× when frozen at the last relative value and 0.058× when set to zero.</td></tr>
 <tr><td>Did monthly rebalancing cause the basket result?</td><td>Buy-and-hold raises the median five-year top-10 result from 0.78× to 0.86× BTC, but only 35.7% of launches win. Excluding ETH lowers the held-basket win rate to 10.7%.</td></tr>
 <tr><td>Did expanding coverage create the decline in breadth?</td><td>No material change. The fixed cohort’s annual peak also falls below 30% after 2022.</td></tr>
 </tbody></table></div>
-<p class="small"><a download="" href="common_start_horizons.csv">Common-start horizons</a> · <a download="" href="five_year_missing_sensitivity.csv">Missing-exit sensitivity</a> · <a download="" href="portfolio_robustness.csv">Basket robustness</a> · <a download="" href="altseason_breadth_fixed.csv">Fixed-cohort breadth</a></p>
+<p class="small"><a download="" href="common_start_horizons.csv">Common buy-date horizons</a> · <a download="" href="five_year_missing_sensitivity.csv">Missing-exit sensitivity</a> · <a download="" href="portfolio_robustness.csv">Basket robustness</a> · <a download="" href="altseason_breadth_fixed.csv">Fixed-cohort breadth</a></p>
 </li>
 <li id="ref-bessembinder">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6438198">Hendrik Bessembinder, “One Hundred Years in the U.S. Stock Markets”</a>, SSRN working paper, 18 March 2026, revised 27 September 2026.</li>
@@ -385,7 +385,7 @@
 </label>
 </div>
 </details>
-<p class="small">Choose a holding period to inspect individual start dates below.</p>
+<p class="small">Choose a holding period to inspect individual buy dates below.</p>
 <details class="entry-inspector">
 <summary>Inspect individual entry dates for the selected holding period</summary>
 <div class="controls">
