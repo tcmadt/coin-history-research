@@ -117,7 +117,7 @@ function enhanceTableDownloads(root=document){root.querySelectorAll('.table-wrap
 async function renderExtensions(){
  const data=await json('data/extensions.json');
  drawCategoryBars(data.categories);
- drawExtensionLine('breadth-chart',data.breadth.map(x=>({x:Date.parse(x.date),y:x.share_ahead_pct/100})),{minY:0,maxY:1,percent:true,color:'#34658a',name:'All covered coins',compare:data.fixed_breadth.map(x=>({x:Date.parse(x.date),y:x.share_ahead_pct/100})),compareColor:'#a06a65',compareName:'Fixed 279-coin cohort',mutedBefore:Date.parse('2019-01-01'),mutedLabel:'Limited coverage: 18 coins',markers:[{x:Date.parse('2020-09-12'),y:0.728,label:'73% (2020)',place:'below',anchor:'middle'},{x:Date.parse('2021-05-07'),y:0.8639,label:'86% (2021)',anchor:'end'},{x:Date.parse('2022-01-02'),y:0.8816,label:'88% (early 2022)',anchor:'start'}]})
+ drawExtensionLine('breadth-chart',data.breadth.map(x=>({x:Date.parse(x.date),y:x.share_ahead_pct/100})),{minY:0,maxY:1,percent:true,color:'#34658a',name:'All covered coins',compare:data.fixed_breadth.map(x=>({x:Date.parse(x.date),y:x.share_ahead_pct/100})),compareColor:'#a06a65',compareName:'Fixed 279-coin cohort',mutedBefore:Date.parse('2019-01-01'),mutedLabel:'Limited coverage: 18 coins',markers:[{x:Date.parse('2020-09-12'),y:0.728,label:'73% (2020)',anchor:'middle'},{x:Date.parse('2021-05-07'),y:0.8639,label:'86% (2021)',anchor:'end'},{x:Date.parse('2022-01-02'),y:0.8816,label:'88% (early 2022)',anchor:'start'}]})
 }
 function drawExtensionLine(id,points,opt){
  const svg=$(id),host=svg.parentElement,w=Math.max(360,host.clientWidth),h=320,L=58,R=20,T=opt.compare?(opt.mutedBefore?60:42):24,B=52;
