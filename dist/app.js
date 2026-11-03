@@ -118,7 +118,7 @@ async function renderExtensions(){
  const data=await json('data/extensions.json');
  drawCategoryBars(data.categories);
  const raw=data.breadth.map(x=>({x:Date.parse(x.date),y:x.share_ahead_pct/100})),span=30*86400000,points=raw.map(p=>{let s=0,n=0;for(const q of raw){if(q.x<p.x-span||q.x>p.x)continue;s+=q.y;n++}return{x:p.x,y:s/n}});
- drawExtensionLine('breadth-chart',points,{minY:0,maxY:1,percent:true,color:'#34658a',mutedBefore:Date.parse('2019-01-01'),mutedLabel:'Low coverage (18 coins)',markers:[{x:Date.parse('2020-09-15'),y:.6818,label:'68% (2020)',anchor:'end'},{x:Date.parse('2021-05-19'),y:.7762,label:'78% (2021)',anchor:'end'},{x:Date.parse('2022-01-17'),y:.7899,label:'79% (early 2022)',anchor:'start'}],notes:[{x:Date.parse('2024-06-15'),y:.40,label:'Below 35% since mid-2022'}]})
+ drawExtensionLine('breadth-chart',points,{minY:0,maxY:1,percent:true,color:'#34658a',mutedBefore:Date.parse('2019-01-01'),mutedLabel:'Low coverage (15–56 coins)',markers:[{x:Date.parse('2020-09-15'),y:.6818,label:'68% (2020)',anchor:'end'},{x:Date.parse('2021-05-19'),y:.7762,label:'78% (2021)',anchor:'end'},{x:Date.parse('2022-01-17'),y:.7899,label:'79% (early 2022)',anchor:'start'}],notes:[{x:Date.parse('2024-06-15'),y:.40,label:'Below 35% since mid-2022'}]})
 }
 function drawExtensionLine(id,points,opt){
  const svg=$(id),host=svg.parentElement,w=Math.max(360,host.clientWidth),h=320,L=58,R=24,T=opt.mutedBefore&&!opt.compare?36:(opt.compare?42:24),B=52;
