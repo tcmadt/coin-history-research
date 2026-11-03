@@ -78,4 +78,3 @@ body::after{content:none;display:none}
   .chart-host,.chart-figure-host,#cap-heatmap-host,.table-wrap,figure,svg{overflow:visible!important;max-width:100%}
   #chart,#cap-heatmap,#age-chart,#breadth-chart,#rolling-comparison,#category-chart,#portfolio-chart{width:100%!important;max-width:100%!important;min-width:0!important;height:auto!important}
 }
-.how-to-read{margin:-2px 0 10px;max-width:850px;color:#444;font:14px/1.45 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
