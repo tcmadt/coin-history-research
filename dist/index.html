@@ -27,7 +27,7 @@
 <h1>Do Altcoins Outperform Bitcoin?</h1>
 <p class="author-line">Tobé Madu<span class="disclosure-link"> · <a href="#disclosures">Disclosures</a></span> · <button class="paper-pdf" id="paper-pdf" type="button">Save / share PDF</button></p>
 <p class="abstract">
-<b>Abstract.</b> Nearly every altcoin in this study beat Bitcoin (BTC) at some point, but very few did it consistently. Among the 279 coins with at least one complete five-year price window, 98.2% beat BTC from at least one one-year start date, while only 1.8% beat it from most one-year starts. The gap widened with time: the typical coin finished one year with 49% as much wealth as BTC and five years with just 6%. Waiting for a coin to get bigger or buying a group of the largest coins did not reliably improve the odds. Only 4.9% beat BTC five years after reaching a $100 million market cap, and all six modeled portfolios built from the largest eligible altcoins trailed BTC from July 2019 through October 2026. In a separate analysis of why coins lost ground, issuing more tokens explained 29% of the average five-year gap. The other 71% came from the market valuing these networks less relative to Bitcoin.</p>
+<b>Abstract.</b> Nearly every altcoin in this study beat Bitcoin (BTC) at some point, but very few did it consistently. Among the 279 coins with at least one complete five-year price window, 98.2% (274 of 279) beat BTC from at least one one-year start date, while only 1.8% (5) beat it from most one-year starts, meaning only five coins usually beat BTC no matter which day you bought and held for a year (Figure 2). The gap widened with time: the typical coin finished one year with 49% as much wealth as BTC and five years with just 6%. Waiting for a coin to get bigger or buying a group of the largest coins did not reliably improve the odds. Only 4.9% beat BTC five years after reaching a $100 million market cap, and all six modeled portfolios built from the largest eligible altcoins trailed BTC from July 2019 through October 2026. In a separate analysis of why coins lost ground, issuing more tokens explained 29% of the average five-year gap. The other 71% came from the market valuing these networks less relative to Bitcoin.</p>
 <details class="paper-toc" open="">
 <summary>Table of contents</summary>
 <ol>
@@ -62,7 +62,7 @@
 <div id="paper-body">
 <section id="introduction">
 <h2>1. Introduction</h2>
-<p>In 2016, <a href="https://woobull.com/data-visualisation-118-coins-plotted-over-time-this-is-why-hodl-alt-coin-indexes-dont-work/">Willy Woo plotted 118 altcoins against Bitcoin</a> and summed up the result in four words: “shit runs downhill.” Altcoins could soar for a while and still be poor long-term holds against BTC.</p>
+<p>In 2016, <a href="https://woobull.com/data-visualisation-118-coins-plotted-over-time-this-is-why-hodl-alt-coin-indexes-dont-work/">Willy Woo plotted 118 altcoins against Bitcoin</a> and summed up the result in three words: “shit runs downhill.” Altcoins could soar for a while and still be poor long-term holds against BTC.</p>
 <p>Ten years later, the question is not simply whether he was right. It is where the pattern breaks. A network can be useful without its token outperforming Bitcoin. Every dollar invested in an altcoin could have remained in BTC, so the relevant question is whether taking the extra risk paid off, how often, and for how long.</p>
 <p>That comparison gets harder because “altcoins” is a loose category. Some are networks, some are businesses with tokens attached, and some are sustained mostly by stories. This paper tests them from several angles: coin by coin, after different market-cap milestones, across their observed lives, and through simple portfolios. The goal is to distinguish a temporary rally from a durable win, then ask what made the exceptions different.</p>
 <p>Figure 1 shows the raw histories before the summaries do: brief rallies are common, but most lines spend more time losing ground against BTC.</p>
@@ -151,6 +151,7 @@
 </p>
 <figure class="paper-figure figure-wide">
 <h4 class="figure-title"><span class="figure-number">Figure 1.</span> Most altcoins bleed against Bitcoin over time.</h4>
+<p class="how-to-read">Each line is one coin’s value measured in BTC: above the dashed 1× line it beat Bitcoin, and below it lost ground.</p>
 <div class="chart-host" id="chart-host">
 <svg aria-label="Each line represents one altcoin. Most lines fall over time, meaning the altcoin lost ground to Bitcoin." id="chart" role="img" tabindex="0">
 </svg>
@@ -188,6 +189,7 @@
 </div>
 <figure class="paper-figure figure-simple">
 <h4 class="figure-title"><span class="figure-number">Figure 2.</span> Almost every coin gets a moment; almost none keep it.</h4>
+<p class="how-to-read">The right-hand dot counts coins that beat Bitcoin at least once; the left-hand dot counts those that did so on most start dates.</p>
 <div class="chart-figure-host" id="rolling-comparison-host">
 <svg aria-label="Among 279 coins with at least one complete five-year price window, 98.2 percent beat Bitcoin from at least one one-year start, while 1.8 percent beat it from most one-year starts" id="rolling-comparison" role="img">
 </svg>
@@ -195,7 +197,7 @@
 </div>
 <figcaption>Same 279 coins throughout. The figure compares beating BTC from at least one one-year start with beating it from more than half of priced one-year starts.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
 </figure>
-<p>Nearly every coin passed the first test: 274 of 279 beat BTC from at least one start. Only five did so from most starts. The opportunity to outperform was common. The ability to repeat it was rare.</p>
+<p>Nearly every coin passed the first test: 274 of 279 (98.2%) beat BTC from at least one start. Only five (1.8%) did so from most starts. The opportunity to outperform was common. The ability to repeat it was rare.</p>
 </section>
 <section id="age-view">
 <h3>3.2. What happens to altcoins over time?</h3>
@@ -211,6 +213,7 @@
 </details>
 <figure class="paper-figure figure-simple">
 <h4 class="figure-title"><span class="figure-number">Figure 3.</span> The median altcoin falls below 0.5× BTC within its first year.</h4>
+<p class="how-to-read">The line follows the typical coin’s value against Bitcoin as it ages, and the band shows the middle half of coins.</p>
 <div class="chart-figure-host" id="age-chart-host">
 <svg aria-label="The median altcoin falls below half of its Bitcoin-relative starting value within its first year" id="age-chart" role="img">
 </svg>
@@ -242,6 +245,7 @@
 </div>
 <figure class="paper-figure figure-dense">
 <h4 class="figure-title"><span class="figure-number">Figure 4.</span> A larger market cap did not reliably improve the odds.</h4>
+<p class="how-to-read">Each cell is the share of coins that beat Bitcoin after reaching that size and being held for that long.</p>
 <div class="chart-figure-host" id="cap-heatmap-host">
 <svg aria-label="Waiting for a larger market capitalization rarely improves the share of coins beating Bitcoin, except at the ten-billion-dollar threshold" id="cap-heatmap" role="img">
 </svg>
@@ -258,6 +262,7 @@
 <h3>3.4. Does diversification help?</h3>
 <p class="section-intro">If size cannot identify the eventual winners, the natural fallback is to own several candidates. Following <a href="https://woobull.com/crypto-currency-index-funds-the-simulations-have-surprising-results/">Willy Woo’s 2016 index experiment</a>, the analysis builds six portfolios from the largest eligible altcoins. They vary by the number of coins and how each position is weighted, but every portfolio uses only information available before the trade and rebalances every 30 days. A fresh version starts each month so the result does not depend on one fortunate entry date. The common period runs from <b>22 July 2019 to 14 October 2026</b>, and returns are shown before trading costs.<sup><a aria-label="Historical membership reconciliation" href="#ref-membership">[4]</a></sup></p>
 <p class="sr-only" id="portfolio-cost-note">Main result: before trading costs.</p>
+<p class="how-to-read">Table 1: each cell is the share of monthly baskets that finished ahead of Bitcoin over that holding period.</p>
 <div class="table-wrap" id="portfolio-rolling">
 </div>
 <p>No portfolio beat BTC from most completed launches at any holding period. Rebalancing was not the main problem: holding the initial top 10 raised the median five-year result from 0.78× to 0.86× BTC and the win rate from 25.0% to 35.7%, still below half. Removing ETH made the results worse. Diversification spread the selection risk, but it did not overcome the group’s shared tendency to lose ground against BTC.</p>
@@ -268,19 +273,21 @@
 <p>A token’s price is its total market value divided by its circulating supply. Its performance against BTC can therefore be split into two non-overlapping components: how its total market value changed relative to Bitcoin’s, and how its supply changed relative to Bitcoin’s. A hack, abandonment, poor execution or fading demand would ultimately appear in the first component. Additional issuance appears in the second.</p>
 <div class="split-visual" role="img" aria-label="Of the average five-year altcoin shortfall against Bitcoin, changes in relative market value account for 71 percent and relative supply growth accounts for 29 percent"><div class="rerating" style="width:71.1%"><b>71%</b><span>change in relative market value</span></div><div class="dilution" style="width:28.9%"><b>29%</b><span>relative supply growth</span></div></div>
 <p>Across the 272 coins with five-year market-cap data, the median coin finished at 0.05× BTC while its total market value finished at 0.12×. Changes in relative market value accounted for 71.1% of the average five-year shortfall, while relative supply growth accounted for 28.9%. Dilution could even erase genuine growth: of the 28 networks whose total market value grew faster than Bitcoin’s, 16 still lost on price because their supply expanded faster.</p>
-<p>This decomposition tells us where the loss appeared, not why the market changed its mind. A separate test asks whether one component, supply growth, was useful beforehand. Each month, coins are ranked by their supply growth over the previous year and followed for the next two. Higher dilution was followed by weaker returns in 47 of 52 months, but the difference was modest: the lowest-dilution fifth finished at a median 0.30× BTC, compared with 0.22× for the highest. Supply growth is a headwind, but low inflation alone cannot create demand.</p>
+<p>This decomposition tells us where the loss appeared, not why the market changed its mind. A separate test asks whether one component, supply growth, was useful beforehand. Each month, coins are ranked by their supply growth over the previous year and followed for the next two. Higher dilution was associated with weaker returns in 47 of 52 months, but the difference was modest: the lowest-dilution fifth finished at a median 0.30× BTC, compared with 0.22× for the highest. Supply growth is a headwind, but low inflation alone cannot create demand.</p>
 </section>
 <section id="winner-patterns" class="results-analysis">
 <h3>3.6. What did the winners have in common?</h3>
 <p>If market re-rating explains most of the loss, the durable winners should be the projects that gave investors a reason to keep valuing their tokens. Fifteen of the same 279 coins beat BTC from most five-year start dates.<sup><a aria-label="Durable winners and category membership" href="#ref-winners">[5]</a></sup> Exchange tokens stood out: five of 12 qualified, compared with 10 of the other 267 coins. None of the five Bitcoin forks or ten would-be digital-cash coins qualified.</p>
-<figure class="paper-figure figure-simple"><h4 class="figure-title"><span class="figure-number">Figure 5.</span> Exchange tokens produced more reliable winners, with much higher business-specific risk.</h4><div class="chart-figure-host"><svg id="category-chart" role="img" aria-label="Reliable five-year winner rate by exploratory coin category"></svg><button class="figure-download" data-chart="category-chart" type="button">↓ PNG</button></div><figcaption>Exploratory categories defined before counting the outcomes. Samples are small, overlap conceptually, and quoted prices may not have been tradable at size.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption></figure>
+<figure class="paper-figure figure-simple"><h4 class="figure-title"><span class="figure-number">Figure 5.</span> Exchange tokens produced more reliable winners, with much higher business-specific risk.</h4>
+<p class="how-to-read">A longer bar means a larger share of that group beat Bitcoin on most five-year holdings.</p><div class="chart-figure-host"><svg id="category-chart" role="img" aria-label="Reliable five-year winner rate by exploratory coin category"></svg><button class="figure-download" data-chart="category-chart" type="button">↓ PNG</button></div><figcaption>Exploratory categories defined before counting the outcomes. Samples are small, overlap conceptually, and quoted prices may not have been tradable at size.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption></figure>
 <p>The pattern is suggestive rather than predictive. An exchange token can connect demand for the token to a surviving business, but it also inherits the risk that the business fails, fades or changes its incentives. Ethereum and Solana also appear among the durable platform winners, yet their success does not tell us which current platform will become the next default.</p>
 <p>Many of crypto’s most dependable businesses have formed close to trading itself: exchanges, stablecoins, prediction markets and perpetual-futures venues. Most are not represented cleanly in this study, and some have no investable token. The broader lesson is therefore narrower than “buy exchange tokens.” Durable outperformance appears to require a durable source of demand, and few projects manage to build one.</p>
 </section>
 <section id="market-breadth" class="results-analysis">
 <h3>3.7. Has broad altcoin outperformance become less common?</h3>
 <p>Durable winners are scarce, but the difficulty of finding them may change with the market. Figure 6 measures the share of covered altcoins that were ahead of BTC over the previous year. It shows whether outperformance was broad enough to lift much of the market or concentrated in a few exceptions.</p>
-<figure class="paper-figure figure-simple"><h4 class="figure-title"><span class="figure-number">Figure 6.</span> Broad altcoin outperformance has become less frequent since 2022.</h4><div class="chart-figure-host"><svg id="breadth-chart" role="img" aria-label="Share of covered altcoins ahead of Bitcoin over the trailing year from 2017 to 2026, shown for the full covered universe and a fixed cohort"></svg><button class="figure-download" data-chart="breadth-chart" type="button">↓ PNG</button></div><figcaption>Share of altcoins ahead of BTC over the trailing year, sampled every three days. The fixed-cohort line restricts the test to the 279 coins used across holding periods; the dashed 2017–18 segment has only 18 qualifying coins.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption></figure>
+<figure class="paper-figure figure-simple"><h4 class="figure-title"><span class="figure-number">Figure 6.</span> Broad altcoin outperformance has become less frequent since 2022.</h4>
+<p class="how-to-read">The line is the share of altcoins ahead of Bitcoin over the previous year; a high point means the rally was broad.</p><div class="chart-figure-host"><svg id="breadth-chart" role="img" aria-label="Share of covered altcoins ahead of Bitcoin over the trailing year from 2017 to 2026, shown for the full covered universe and a fixed cohort"></svg><button class="figure-download" data-chart="breadth-chart" type="button">↓ PNG</button></div><figcaption>Share of altcoins ahead of BTC over the trailing year, sampled every three days. The fixed-cohort line restricts the test to the 279 coins used across holding periods; the dashed 2017–18 segment has only 18 qualifying coins.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption></figure>
 <p>Outperformance was broad during the last major altcoin cycle. The share peaked at 73% in 2020, 86% in 2021 and 88% in early 2022. Since then, each year’s peak has remained at or below 32%. Restricting the analysis to the same 279 coins produces the same break, so the decline is not mainly caused by adding younger coins to the sample.</p>
 <p>This period cannot prove that another broad alt season will never happen. It does show that the recent market has rewarded a much narrower set of altcoins, making selection more important precisely when durable winners have become harder to find.</p>
 </section>
@@ -509,7 +516,7 @@
 <footer>
 <a href="?view=notes" id="methods-link">Methods &amp; sources</a>
 <span>Data through 14 October 2026 · Last updated 1 November 2026</span>
-<span>How to cite: Tobé Madu, “Do Altcoins Outperform Bitcoin?”, 2026, coin-history-research.teeceem5.chatgpt.site.</span>
+<span>How to cite: Tobé Madu, “Do Altcoins Outperform Bitcoin?”, 2026, https://tcmadt.github.io/coin-history-research/.</span>
 </footer>
 </main>
 <script src="app.js" type="module">
