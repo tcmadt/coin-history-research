@@ -12,7 +12,7 @@ async function json(url){const r=await fetch(url);if(!r.ok)throw Error(`Could no
 async function loadCoin(id){if(!state.cache.has(id))state.cache.set(id,json('data/'+encodeURIComponent(id)+'.json').then(rows=>rows.filter(r=>r[0]>=(state.quality[id]?.day??-Infinity)&&r[0]<=(state.qualityEnd[id]?.day??Infinity))));return state.cache.get(id)}
 function node(tag,attrs={},text){const e=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text!=null){if(tag==='text'&&/[₀-₉]/.test(String(text))){for(const part of String(text).split(/([₀-₉]+)/)){if(!part)continue;if(/[₀-₉]/.test(part)){const sub=document.createElementNS(NS,'tspan');sub.setAttribute('font-size','55%');sub.setAttribute('baseline-shift','-30%');sub.textContent=part.replace(/[₀-₉]/g,d=>String('₀₁₂₃₄₅₆₇₈₉'.indexOf(d)));e.append(sub)}else e.append(document.createTextNode(part))}}else e.textContent=text}return e}
 function resolveDates(){const end=day(CUTOFF);if($('preset').value==='all')return{all:true,start:Math.min(...state.catalog.map(x=>x.first)),end};const d=new Date(end*DAY);d.setUTCFullYear(d.getUTCFullYear()-parseInt($('preset').value));return{start:Math.floor(d/DAY),end}}
-function syncURL(){const u=new URL(location.href);u.searchParams.set('coins',state.all?'all':state.ids.join(','));u.searchParams.set('preset',$('preset').value);for(const k of ['start','end','measure','log','cycle'])u.searchParams.delete(k);u.searchParams.set('view',state.view);u.searchParams.set('threshold',$('study-threshold').value);u.searchParams.set('horizon',$('rolling-horizon').value);u.searchParams.set('cost',$('portfolio-cost').value);for(const [key,id]of[['axis','explorer-axis'],['cap','explorer-cap'],['vintage','explorer-vintage'],['minage','explorer-min-age'],['maxage','explorer-max-age'],['agegroup','age-vintage']])u.searchParams.set(key,$(id).value);u.searchParams.delete('holding');u.searchParams.delete('case');if(state.buyWindow)u.searchParams.set('buyend',state.buyWindow.records[+$('buy-window-range').value].cutoff.slice(0,7));history.replaceState(null,'',u)}
+function syncURL(){const u=new URL(location.href);u.searchParams.set('coins',state.all?'all':state.ids.join(','));u.searchParams.set('preset',$('preset').value);for(const k of ['start','end','measure','log','cycle'])u.searchParams.delete(k);u.searchParams.set('view',state.view);u.searchParams.set('threshold',$('study-threshold').value);u.searchParams.set('horizon',$('rolling-horizon').value);u.searchParams.set('cost',$('portfolio-cost').value);for(const [key,id]of[['axis','explorer-axis'],['cap','explorer-cap'],['vintage','explorer-vintage'],['minage','explorer-min-age'],['maxage','explorer-max-age'],['agegroup','age-vintage']])u.searchParams.set(key,$(id).value);u.searchParams.delete('holding');u.searchParams.delete('case');if(state.buyWindow){u.searchParams.set('buyend',buyWindowRecord().cutoff.slice(0,7));if($('buy-window-years').value==='1')u.searchParams.delete('buyyears');else u.searchParams.set('buyyears',$('buy-window-years').value)}history.replaceState(null,'',u)}
 function pickerOptions(){const q=$('coin-search').value.trim().toLowerCase();$('coin-options').innerHTML=state.eligible.filter(x=>(x.id+' '+x.name).toLowerCase().includes(q)).map(x=>`<label><input type="checkbox" data-id="${escape(x.id)}" ${state.ids.includes(x.id)?'checked':''}><span class="coin-dot" style="background:${colorFor(x.id)}"></span><span><b>${escape(symbol(x.id))}</b> ${escape(x.name)}</span></label>`).join('')||'<p class="small muted">No eligible coins match.</p>';$('coin-options').querySelectorAll('[data-id]').forEach(e=>e.onchange=()=>{state.ids=e.checked?[...new Set([...state.ids,e.dataset.id])]:state.ids.filter(x=>x!==e.dataset.id);state.all=state.ids.length===state.eligible.length;render()})}
 function selected(){const n=state.ids.length;$('coin-picker-label').textContent=state.all?'All '+n+' eligible coins':n===0?'Select coins':n===1?symbol(state.ids[0])+' · '+state.meta.get(state.ids[0]).name:n+' coins selected';$('selected').innerHTML=n>12?'':state.ids.map(id=>`<span><i class="coin-dot" style="background:${colorFor(id)}"></i>${escape(symbol(id))}</span>`).join('');pickerOptions()}
 async function loadSelection(ids){let next=0;await Promise.all(Array.from({length:Math.min(12,ids.length)},async()=>{while(next<ids.length)await loadCoin(ids[next++])}))}
@@ -31,10 +31,35 @@ function hideChartTip(){const tip=document.querySelector('.chart-detail-tip');if
 let rollSummary=null,rollFiles=new Map(),rollRecords=[],rollVersion=0;
 const MONTH_NAMES=['January','February','March','April','May','June','July','August','September','October','November','December'],monthName=(iso,short)=>{const m=MONTH_NAMES[+iso.slice(5,7)-1];return (short?m.slice(0,3):m)+' '+iso.slice(0,4)};
 let buyWindowLoad=null;
-async function loadBuyWindow(){if(state.buyWindow!==undefined)return state.buyWindow;buyWindowLoad||=json('data/fig2_buy_window.json').then(d=>{const range=$('buy-window-range');range.max=d.records.length-1;const want=new URL(location.href).searchParams.get('buyend'),i=d.records.findIndex(r=>r.cutoff.slice(0,7)===want);range.value=i>=0?i:d.records.length-1;state.buyWindow=d;$('buy-window').hidden=false;return d}).catch(()=>{state.buyWindow=null;return null});return buyWindowLoad}
-function buyWindowRecord(){return state.buyWindow?state.buyWindow.records[+$('buy-window-range').value]:null}
+const buyWindowRecords=()=>state.buyWindow.by_horizon?.[$('buy-window-years').value]||state.buyWindow.records;
+function setBuyWindowRange(wanted){
+ const records=buyWindowRecords(),range=$('buy-window-range'),last=records.length-1;
+ const index=records.findIndex(row=>row.cutoff.slice(0,7)===wanted);
+ range.max=last;
+ range.value=index>=0?index:last;
+ range.disabled=last===0;
+ $('buy-window-last').textContent=last?monthName(records[last].cutoff,true):'';
+ $('buy-window-later').hidden=last===0;
+}
+async function loadBuyWindow(){
+ if(state.buyWindow!==undefined)return state.buyWindow;
+ buyWindowLoad||=json('data/fig2_buy_window.json').then(data=>{
+  const params=new URL(location.href).searchParams,years=params.get('buyyears'),select=$('buy-window-years');
+  select.value=data.by_horizon?.[years]?years:'1';
+  select.disabled=!data.by_horizon;
+  state.buyWindow=data;
+  setBuyWindowRange(params.get('buyend'));
+  $('buy-window').hidden=false;
+  return data;
+ }).catch(()=>{state.buyWindow=null;return null});
+ return buyWindowLoad;
+}
+function buyWindowRecord(){return state.buyWindow?buyWindowRecords()[+$('buy-window-range').value]:null}
+const buyWindowHold=()=>['One','Two','Three','Four','Five'][Number($('buy-window-years').value)-1]+'-year';
 function renderBuyWindowControls(rec){
- const range=$('buy-window-range'),label=monthName(rec.cutoff),fraction=Number(range.value)/Number(range.max);
+ const range=$('buy-window-range'),label=monthName(rec.cutoff),fraction=Number(range.value)/(Number(range.max)||1);
+ $('buy-window-hold-label').textContent=buyWindowHold()+' holds';
+ $('buy-window-caption-hold').textContent=buyWindowHold();
  $('buy-window-value').textContent=label;
  range.setAttribute('aria-valuetext',label);
  $('buy-window-timeline').style.setProperty('--cut',`calc(${100*fraction}% + var(--first) * ${1-fraction})`);
@@ -47,10 +72,10 @@ async function drawRollingComparison(){
  if(!rollSummary)return;
  const svg=$('rolling-comparison'),host=$('rolling-comparison-host'),summary=rollSummary.summary.find(x=>x.cohort==='common'&&x.years===1);
  if(!rollFiles.has(1))rollFiles.set(1,json('data/rolling/1y.json'));
- const oneYear=await rollFiles.get(1),ids=new Set(summary.coin_ids),allPriced=oneYear.filter(r=>ids.has(r.id)&&r.observed);await loadBuyWindow();const rec=buyWindowRecord(),consistent=rec?rec.majority_wins:allPriced.filter(r=>r.win_rate>.5).length,pricedCount=rec?rec.priced:allPriced.length,eligible=rec?rec.eligible:summary.eligible,ever=rec?rec.ever_wins:summary.ever_wins,everShare=ever/eligible,consistentShare=consistent/pricedCount,through=rec?monthName(rec.cutoff):'October 2025';if(rec)renderBuyWindowControls(rec);
+ const oneYear=await rollFiles.get(1),ids=new Set(summary.coin_ids),allPriced=oneYear.filter(r=>ids.has(r.id)&&r.observed);await loadBuyWindow();const rec=buyWindowRecord(),consistent=rec?rec.majority_wins:allPriced.filter(r=>r.win_rate>.5).length,pricedCount=rec?rec.priced:allPriced.length,eligible=rec?rec.eligible:summary.eligible,ever=rec?rec.ever_wins:summary.ever_wins,everShare=ever/eligible,consistentShare=consistent/pricedCount,through=rec?monthName(rec.cutoff):'October 2025',hold=rec?buyWindowHold():'One-year';if(rec)renderBuyWindowControls(rec);
  const w=Math.max(350,host.clientWidth),h=230,L=Math.max(58,Math.min(82,w*.1)),R=Math.max(38,Math.min(62,w*.07)),y=94,axisY=154,X=v=>L+v*(w-L-R);
  svg.setAttribute('viewBox',`0 0 ${w} ${h}`);svg.replaceChildren();
- const summaryText=`Buy dates through ${through}: ${ever} of ${eligible} coins beat BTC from at least one one-year buy date, while ${consistent} of ${pricedCount} beat it from more than half of priced one-year buy dates.`;svg.setAttribute('aria-label',summaryText);svg.append(node('title',{},'Altcoin outperformance against Bitcoin is common; persistence is rare.'),node('desc',{},summaryText),node('text',{x:L,y:26,'font-size':12,fill:'#555',class:rec?'bw-export-date':''},`One-year buy dates through ${through}`));
+ const summaryText=`Buy dates through ${through}: ${ever} of ${eligible} coins beat BTC from at least one buy date over a ${hold.toLowerCase()} hold, while ${consistent} of ${pricedCount} beat it from more than half of priced buy dates.`;svg.setAttribute('aria-label',summaryText);svg.append(node('title',{},'Altcoin outperformance against Bitcoin is common; persistence is rare.'),node('desc',{},summaryText),node('text',{x:L,y:26,'font-size':12,fill:'#555',class:rec?'bw-export-date':''},`${hold} buy dates through ${through}`));
  svg.append(node('line',{x1:X(consistentShare),x2:X(everShare),y1:y,y2:y,stroke:'#c9d1d8','stroke-width':5,'stroke-linecap':'round'}));
  const points=[{value:consistentShare,color:'#a06a65',title:`${rate(consistentShare)} (n=${consistent})`,label:'Wins >50% of buy dates',anchor:'start'},{value:everShare,color:'#34658a',title:`${rate(everShare)} (n=${ever})`,label:'At least one win',anchor:'end'}];
  const labelSets=points.map(p=>{const x=X(p.value),detail=`${p.label}: ${p.title} among the ${eligible}-coin cohort`,dot=node('circle',{cx:x,cy:y,r:9,fill:p.color,tabindex:0,role:'img','aria-label':detail});dot.onpointerenter=e=>showChartTip(host,e,detail);dot.onpointermove=e=>showChartTip(host,e,detail);dot.onpointerleave=hideChartTip;dot.onfocus=()=>showChartTip(host,null,detail);dot.onblur=hideChartTip;const value=node('text',{x,y:y-24,'text-anchor':p.anchor,'font-size':15,'font-weight':700,fill:p.color},p.title),label=node('text',{x,y:y+31,'text-anchor':p.anchor,'font-size':12,fill:'#444'},p.label);svg.append(dot,value,label);return{x,value,label}});
@@ -88,6 +113,7 @@ async function renderParticipation(){const data=await json('data/participation.j
 async function renderAudit(){const a=await json('data/audit.json');$('audit-summary').textContent=`Screened ${a.scanned_assets} asset histories and ${a.scanned_observations.toLocaleString()} original quotes. Found ${a.flags} extreme discontinuity flags across ${a.flagged_assets} assets and ${a.large_gaps} gaps over 30 days. Rules: at least 100× up or 100× down between consecutive daily quotes, or across a gap over 30 days. Flags are symmetric; unresolved entries are not silently “corrected.”`;$('audit-events').innerHTML='<table><caption>Flag register and disposition</caption><thead><tr><th>Coin</th><th>Dates</th><th>Quote ratio</th><th>Disposition</th></tr></thead><tbody>'+a.events.map(r=>`<tr><td>${escape(symbol(r.asset))}</td><td>${r.from_date}<br>${r.to_date}</td><td>${multiple(r.ratio)}</td><td>${escape(r.action)}<div class="coin-note">${escape(r.note)}</div>${r.source?`<a href="${r.source}">Evidence</a>`:''}</td></tr>`).join('')+'</tbody></table>';$('audit-sensitivity').innerHTML='<table><thead><tr><th>Horizon</th><th>Raw: ever winners / eligible</th><th>Adjusted: ever winners / eligible</th><th>Median winning frequency: raw → adjusted</th></tr></thead><tbody>'+a.sensitivity.map(r=>`<tr><td>${r.years}y</td><td>${r.raw_ever} / ${r.raw_eligible}</td><td>${r.adjusted_ever} / ${r.adjusted_eligible}</td><td>${rate(r.raw_median)} → ${rate(r.adjusted_median)}</td></tr>`).join('')+'</tbody></table>'}
 
 $('rolling-common').onchange=()=>renderRolling().catch(rollingError);$('rolling-horizon').onchange=()=>{syncURL();renderRolling().catch(rollingError)};$('rolling-coin').onchange=renderEntryStrip;$('buy-window-range').oninput=()=>drawRollingComparison();$('buy-window-range').onchange=syncURL;
+$('buy-window-years').onchange=()=>{const cutoff=new URL(location.href).searchParams.get('buyend');setBuyWindowRange(cutoff);drawRollingComparison();syncURL()};
 
 function setView(view){state.view=view==='notes'?'notes':'history';const notes=state.view==='notes';$('paper-body').hidden=notes;$('notes-view').hidden=!notes;$('home-link').hidden=!notes;$('methods-link').hidden=notes;document.querySelector('.paper-nav').hidden=notes;syncURL();if(!notes)requestAnimationFrame(()=>{draw();drawAge();renderCycles();drawCapHeatmap();drawRollingComparison()})}
 function openHashDisclosure(){const target=location.hash&&document.querySelector(location.hash);if(target)target.closest('details')?.setAttribute('open','')}

@@ -18,7 +18,7 @@
 <meta content="Most coins in this study beat Bitcoin from at least one buy date. Few did so from most buy dates." name="twitter:description"/>
 <meta content="https://tcmadt.github.io/coin-history-research/figures/og-figure1.png" name="twitter:image"/>
 <title>Do Altcoins Outperform Bitcoin?</title>
-<link href="style.css" rel="stylesheet"/>
+<link href="style.css?v=fig2-hold" rel="stylesheet"/>
 </head>
 <body>
 <main>
@@ -194,21 +194,24 @@
 <button aria-label="Download Figure 2 as PNG" class="figure-download" data-chart="rolling-comparison" title="Download PNG" type="button">↓ PNG</button>
 </div>
 <div class="buy-window" hidden="" id="buy-window">
+<div class="buy-window-toolbar">
 <label class="buy-window-label" for="buy-window-range">Include buy dates through: <strong id="buy-window-value">October 2025</strong></label>
+<label>Holding period <select id="buy-window-years"><option value="1">1 year</option><option value="2">2 years</option><option value="3">3 years</option><option value="4">4 years</option><option value="5">5 years</option></select></label>
+</div>
 <div class="buy-window-timeline" id="buy-window-timeline">
 <div class="bw-track" aria-hidden="true"></div><span class="bw-break" aria-hidden="true">//</span><span class="bw-handle" aria-hidden="true"><svg viewBox="-8 -14 16 28"><path id="cutoff-silhouette" d="M-1.5-14H1.5V-3.25L8 0 1.5 3.25V14H-1.5V3.25L-8 0-1.5-3.25Z" fill="#000"/></svg></span>
 <input id="buy-window-range" type="range" min="0" max="48" step="1" value="48" aria-describedby="buy-window-caption">
 </div>
-<div class="buy-window-dates"><span>2013</span><details class="bw-start"><summary>Oct 2021</summary><span>Latest buy month with enough follow-up to measure a five-year return.</span></details><span>Oct 2025</span></div>
+<div class="buy-window-dates"><span>2013</span><details class="bw-start"><summary>Oct 2021</summary><span>Latest buy month with enough follow-up to measure a five-year return.</span></details><span id="buy-window-last">Oct 2025</span></div>
 <div class="buy-window-legend" aria-hidden="true">
 <span><i style="--swatch:#34658a"></i>Five-year-eligible</span>
-<span><i style="--swatch:#9fbdd6"></i>One-year holds</span>
+<span id="buy-window-later"><i style="--swatch:#9fbdd6"></i><span id="buy-window-hold-label">One-year holds</span></span>
 <span><i style="--swatch:repeating-linear-gradient(135deg,#eee 0 4px,#fff 4px 8px)"></i>Excluded</span>
 <span><svg class="bw-cut" viewBox="-8 -14 16 28"><use href="#cutoff-silhouette"/></svg>Drag cutoff</span>
 </div>
 <p id="buy-window-readout" class="sr-only" aria-live="polite"></p>
 </div>
-<figcaption id="buy-window-caption">One-year returns vs. BTC, using the same 279 coins at every cutoff.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
+<figcaption id="buy-window-caption"><span id="buy-window-caption-hold">One-year</span> returns vs. BTC, using the same 279 coins at every cutoff.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
 </figure>
 <p>Nearly every coin passed the first test: 274 of 279 (98.2%) beat BTC from at least one buy date, but only five (1.8%) did so from most buy dates.</p>
 <p>The one-year figure depends heavily on when the coins were bought. Counting only buy dates through October 2021, 28.0% of the same coins beat BTC from most one-year buy dates, close to the 28.3% matched-date result in References, which also requires prices at all five exits. Each later year of buy dates lowers the share, to 13.3%, 7.9%, 3.2% and finally 1.8%.</p>
@@ -528,7 +531,7 @@
 <span>How to cite: Tobé Madu, “Do Altcoins Outperform Bitcoin?”, 2026, https://tcmadt.github.io/coin-history-research/.</span>
 </footer>
 </main>
-<script src="app.js" type="module">
+<script src="app.js?v=fig2-hold" type="module">
 </script>
 </body>
 </html>
