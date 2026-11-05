@@ -88,7 +88,7 @@ body::after{content:none;display:none}
 .buy-window-timeline:focus-within .bw-handle{outline:2px solid #254a73;outline-offset:3px}
 .buy-window-dates{position:relative;font-size:11px}
 .buy-window-dates .bw-start{position:absolute;top:0;left:var(--first);transform:translateX(-50%);z-index:1;margin:0;padding:0;border:0}
-.bw-start summary{list-style:none;cursor:help;margin:0;padding:0;font:inherit;color:inherit;white-space:nowrap}
+.bw-start summary{list-style:none;cursor:help;margin:0;padding:0;font:inherit;color:inherit;white-space:nowrap;text-decoration:underline dotted;text-underline-offset:3px}
 .bw-start summary::-webkit-details-marker{display:none}
 .bw-start span{position:absolute;top:100%;left:0;width:190px;padding:6px 8px;background:#fff;border:1px solid #ccc;border-radius:2px;color:#202020}
 .buy-window-legend{margin-top:10px;font-size:12px}
