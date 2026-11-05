@@ -197,11 +197,16 @@
 <label class="buy-window-label" for="buy-window-range">Include buy dates through: <strong id="buy-window-value">October 2025</strong></label>
 <input aria-describedby="buy-window-readout" id="buy-window-range" max="48" min="0" step="1" type="range" value="48">
 <div aria-hidden="true" class="buy-window-ends"><span>Oct 2021</span><span>Oct 2025</span></div>
+<details class="filter-drawer inline-filter-drawer">
+<summary>Buy-date breakdown</summary>
+<div class="filter-content">
 <p class="buy-window-strip-label">Which one-year buy dates count, 2013 to October 2025</p>
 <div aria-hidden="true" class="buy-window-strip" id="buy-window-strip"><span class="bw-five"></span><span class="bw-one"></span><span class="bw-out"></span><i class="bw-tick"></i></div>
 <div aria-hidden="true" class="buy-window-axis" id="buy-window-axis"><span id="buy-window-first">2013</span><span class="bw-axis-tick" id="buy-window-tick-label">Oct 2021</span><span>Oct 2025</span></div>
 <div class="buy-window-legend"><span><i class="bw-five"></i>Buy dates that can also be held five years</span><span><i class="bw-one"></i>One-year holds only</span><span><i class="bw-out"></i>Not included</span></div>
 <div class="buy-window-presets"><button data-buyend="2025-10" type="button">All buy dates</button><button data-buyend="2021-10" type="button">Five-year-eligible buy dates only</button></div>
+</div>
+</details>
 <p aria-live="polite" class="small muted" id="buy-window-readout"></p>
 </div>
 <figcaption>Same 279 coins throughout. The figure compares beating BTC from at least one one-year buy date with beating it from more than half of priced one-year buy dates. Drag the slider to change the last buy date included. The coins stay the same; only the buy dates change. At October 2021, every included buy date could also be held for five years.<span class="figure-source">Source: Coin History Research. Data through 14 October 2026.</span></figcaption>
