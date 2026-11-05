@@ -88,4 +88,13 @@ assert round(100 * basket[("rebalanced_ex_eth", "5")]["win_rate"], 1) == 3.6
 fixed_peaks = {int(r["date"][:4]): r["share_ahead_pct"] for r in extensions["fixed_annual_breadth"]}
 assert max(fixed_peaks[y] for y in (2023, 2024, 2025, 2026)) < 30
 
+buy_window = {r["cutoff"]: r for r in csv.DictReader((DIST / "fig2_buy_window.csv").open())}
+assert len(buy_window) == 49 and all(int(r["cohort_coins"]) == 279 for r in buy_window.values())
+final = buy_window["2025-10-14"]
+assert (int(final["ever_wins"]), int(final["eligible"]), int(final["majority_wins"]), int(final["priced"])) == (274, 279, 5, 279)
+assert round(100 * float(final["ever_share"]), 1) == round(float(common[1]["ever_winner_pct"]), 1)
+assert round(100 * float(final["majority_share"]), 1) == round(float(common[1]["majority_winner_pct"]), 1)
+checkpoints = {c: round(100 * float(buy_window[c]["majority_share"]), 1) for c in ("2021-10-14", "2022-10-14", "2023-10-14", "2024-10-14", "2025-10-14")}
+assert checkpoints == {"2021-10-14": 28.0, "2022-10-14": 13.3, "2023-10-14": 7.9, "2024-10-14": 3.2, "2025-10-14": 1.8}, checkpoints
+
 print("PASS: every highlighted paper number matches generated study files.")

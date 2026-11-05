@@ -30,6 +30,16 @@ These figures use every eligible one-year start for each coin in the fixed cohor
 
 This does not contradict the 1.8% one-year result. The 1.8% figure uses every available one-year start. The 28.3% figure restricts the one-year comparison to the older starts that also have a five-year endpoint, removing later calendar periods from the one-year sample.
 
+## The one-year result depends on buy dates, not just holding length
+
+**Claim:** For the same 279 coins, the share beating Bitcoin from most one-year buy dates is 28.0% using buy dates through October 2021, then 13.3%, 7.9%, 3.2% and 1.8% as each later year of buy dates is added.
+
+- Output: `dist/fig2_buy_window.csv`
+- Generator: `scripts/build_buy_window.py`
+- Check: `scripts/verify_publication_claims.py`
+
+The final row reproduces the published 1.8% exactly. The October 2021 row differs slightly from the 28.3% common-start result, which also requires prices at every one- through five-year exit.
+
 ## Market-cap thresholds do not solve selection
 
 **Claim:** Only 4.9% of coins with an observed five-year result after sustaining a $100 million market cap beat Bitcoin.

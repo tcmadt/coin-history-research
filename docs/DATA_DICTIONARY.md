@@ -24,6 +24,7 @@ Do not fill missing prices, reuse stale prices or infer a zero return from an ab
 | `rolling_coin_results.csv` | coin and horizon | Coin-level rolling-window outcomes |
 | `rolling_summary.csv` | horizon | Aggregate rolling-window statistics |
 | `common_start_horizons.csv` | horizon | Results restricted to starts valid at all one-to-five-year horizons |
+| `fig2_buy_window.csv` | last one-year buy date (monthly) | Figure 2 slider data: fixed-cohort one-year results as later buy dates are added |
 | `age_summary.csv` | observed age | Relative outcomes aligned by coin age |
 | `threshold_results.csv` | coin, threshold and horizon | Outcomes after sustained market-cap milestones |
 | `cohort_summary.csv` | cohort and horizon | Results grouped by coin vintage |

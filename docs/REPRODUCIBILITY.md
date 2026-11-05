@@ -42,6 +42,7 @@ From the repository root, the intended dependency order is:
 ```bash
 python3 scripts/build_windows.py
 python3 scripts/build_rolling.py
+python3 scripts/build_buy_window.py
 python3 scripts/build_portfolios.py
 python3 scripts/build_monthly_launches.py
 python3 scripts/build_portfolio_robustness.py

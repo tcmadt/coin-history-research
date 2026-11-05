@@ -78,3 +78,26 @@ body::after{content:none;display:none}
   .chart-host,.chart-figure-host,#cap-heatmap-host,.table-wrap,figure,svg{overflow:visible!important;max-width:100%}
   #chart,#cap-heatmap,#age-chart,#breadth-chart,#rolling-comparison,#category-chart,#portfolio-chart{width:100%!important;max-width:100%!important;min-width:0!important;height:auto!important}
 }
+.buy-window{margin:18px 0 6px;max-width:760px;font:13px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.buy-window-label{display:block;margin-bottom:6px;color:var(--ink)}
+.buy-window-label strong{font-weight:600;color:var(--accent)}
+#buy-window-range{display:block;width:100%;margin:4px 0 0;accent-color:var(--accent);min-height:28px;cursor:pointer}
+.buy-window-strip{position:relative;display:flex;height:12px;border:1px solid #c9d1d8;border-radius:2px;overflow:visible;background:#f4f4f4}
+.buy-window-strip>span{display:block;height:100%}
+.bw-five{background:#34658a}
+.bw-one{background:#9fbdd6}
+.bw-out{background:repeating-linear-gradient(135deg,#eee 0 4px,#fff 4px 8px)}
+.bw-tick{position:absolute;top:-4px;bottom:-4px;width:2px;margin-left:-1px;background:var(--ink)}
+.buy-window-axis{position:relative;display:flex;justify-content:space-between;height:18px;margin-top:4px;color:var(--muted);font-size:11px}
+.bw-axis-tick{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.buy-window-legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 0 10px;color:var(--muted);font-size:12px}
+.buy-window-legend span{display:inline-flex;align-items:center;gap:6px}
+.buy-window-legend i{display:inline-block;width:14px;height:10px;border:1px solid #c9d1d8}
+.buy-window-presets{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+.buy-window-presets button{border:1px solid var(--rule);padding:6px 10px;border-radius:2px;color:var(--ink);font-size:12px;background:white}
+.buy-window-presets button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:600}
+#buy-window-readout{margin:6px 0 0;min-height:3em}
+@media(max-width:650px){.buy-window-presets button{flex:1 1 auto}#buy-window-range{min-height:36px}}
+@media print{.buy-window-presets,#buy-window-range{display:none}}
+.buy-window-ends{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;margin:7px 0 14px}
+.buy-window-strip-label{margin:0 0 5px;color:var(--muted);font-size:12px}
