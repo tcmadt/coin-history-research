@@ -178,6 +178,24 @@ function drawCategoryBars(rows){const svg=$('category-chart'),host=svg.parentEle
 async function csv(){try{$('status').textContent='Preparing daily CSV…';await loadSelection([...state.ids,'btc','btc-coingecko']);const btc=new Map((await loadCoin('btc')).map(r=>[r[0],r[1]])),cg=new Map((await loadCoin('btc-coingecko')).map(r=>[r[0],r[1]])),range=resolveDates();let rows=['coin,name,source,date,price_usd,price_btc,wealth_vs_btc'];const quote=x=>'"'+String(x).replaceAll('"','""')+'"';for(const id of state.ids){const r=prepare(id,filterExplorerRows(id,await loadCoin(id)),state.meta.get(id).source.startsWith('CoinGecko')?cg:btc,range);if(r)for(const p of r.values)rows.push([r.id,quote(r.meta.name),quote(r.meta.source),date(p.d),p.usd,p.btc,p.relative].join(','))}download(new Blob([rows.join('\n')],{type:'text/csv'}),'coin-history-data.csv');$('status').textContent='Daily source CSV prepared.'}catch(e){$('status').textContent=e.message}}
 
 let printOpenStates=[];
-function preparePaperPrint(){const details=[...document.querySelectorAll('#research-notes details')];printOpenStates=details.map(x=>x.open);details.forEach(x=>x.open=true)}
-addEventListener('beforeprint',preparePaperPrint);addEventListener('afterprint',()=>{[...document.querySelectorAll('#research-notes details')].forEach((x,i)=>x.open=printOpenStates[i]??x.open)});
+const printFooter=document.createElement('style');
+document.head.append(printFooter);
+function preparePaperPrint(){
+ const date=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric'}).format(new Date());
+ const label=`PDF generated ${date}`;
+ printFooter.textContent=`@page :first { @bottom-center { content: "${label}"; font: 9pt system-ui; color: #686868; } }`;
+ // Keep the date in the document when the print engine lacks page margin boxes.
+ const fallback=$('pdf-generated');
+ fallback.textContent=label;
+ fallback.hidden=Boolean(printFooter.sheet?.cssRules[0]?.cssRules?.length);
+ const details=[...document.querySelectorAll('#research-notes details')];
+ printOpenStates=details.map(x=>x.open);
+ details.forEach(x=>x.open=true);
+}
+addEventListener('beforeprint',preparePaperPrint);
+addEventListener('afterprint',()=>{
+ $('pdf-generated').hidden=true;
+ printFooter.textContent='';
+ [...document.querySelectorAll('#research-notes details')].forEach((x,i)=>x.open=printOpenStates[i]??x.open);
+});
 $('export-svg').onclick=()=>exportImage('svg');$('export-png').onclick=()=>exportImage('png');$('export-csv').onclick=csv;$('print').onclick=()=>window.print();$('paper-pdf').onclick=()=>window.print();$('copy-link').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);$('status').textContent='Current view link copied.'}catch{$('status').textContent='Copy the current address from your browser.'}};document.querySelectorAll('.figure-download').forEach(button=>button.onclick=()=>exportNamedFigure(button.dataset.chart));document.querySelectorAll('.visual-download[data-visual]').forEach(button=>button.onclick=()=>exportHTMLElement(document.querySelector(button.dataset.visual),'sample-construction'));new MutationObserver(()=>enhanceTableDownloads()).observe(document.body,{childList:true,subtree:true});new ResizeObserver(()=>{if(state.view==='history')draw()}).observe($('chart-host'));init().then(async()=>{const explorer=await json('data/explorer.json');$('asset-count').textContent=explorer.length;await renderExtensions();document.querySelectorAll('#participation-examples table caption').forEach((caption,i)=>caption.textContent=caption.textContent.replace(/^Table \d+\./,`Table ${i+2}.`));enhanceTableDownloads()});

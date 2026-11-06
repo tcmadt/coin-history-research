@@ -53,13 +53,13 @@ main{max-width:1100px;margin-top:58px}header{margin-bottom:38px}h1{font-size:38p
 .disclosure-line{max-width:760px;margin:-10px auto 20px;text-align:center;color:var(--muted);font:12px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.results-analysis{margin-top:38px}.results-analysis>p{max-width:850px}.results-analysis svg{display:block;width:100%;height:auto}.split-visual{display:flex;max-width:850px;min-height:110px;margin:24px 0 18px;color:white}.split-visual>div{display:flex;flex-direction:column;justify-content:center;padding:18px;box-sizing:border-box}.split-visual b{font:500 28px/1 Georgia,serif}.split-visual span{margin-top:7px;font:13px/1.4 -apple-system,sans-serif}.split-visual .rerating{background:#34658a}.split-visual .dilution{background:#9a5c4c}.bias-table{max-width:850px}.bias-table td:last-child{font-weight:600;white-space:nowrap}.disclosure-box{margin:18px 0;padding:14px 18px;background:#fafafa;border-left:2px solid #888;font:13px/1.65 -apple-system,sans-serif}@media(max-width:650px){.split-visual b{font-size:22px}.split-visual>div{padding:12px}.split-visual span{font-size:12px}.bias-table table{min-width:620px}}
 #research-notes{margin-top:44px;border-top:0;padding-top:0}.references-drawer{border-top:1px solid var(--rule);border-bottom:0;padding-bottom:0}.references-content{padding-bottom:0}#research-notes+.disclosure-box{max-width:850px;margin-top:28px}.about-box{max-width:850px}
 .author-line a{font-weight:400;color:var(--muted);text-decoration:none}.author-line a:hover{text-decoration:underline}.inline-filter-drawer,.portfolio-filter-drawer{margin:16px 0}.inline-filter-drawer .filter-content,.portfolio-filter-drawer .filter-content{padding-top:4px}.portfolio-filter-drawer{width:100%}.portfolio-filter-drawer .section-filter-content{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:24px;align-items:start;padding:10px 0 0;border:0}.portfolio-filter-drawer .portfolio-options{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:auto;max-width:none;border:0;box-shadow:none;padding:5px 0 0}@media(max-width:650px){.portfolio-filter-drawer .section-filter-content{grid-template-columns:1fr}.portfolio-filter-drawer .portfolio-options{grid-template-columns:1fr}}
-.paper-pdf{border:0;padding:0;background:none;color:var(--muted);font:inherit;text-decoration:underline;text-underline-offset:3px}.paper-pdf:hover{background:none;color:var(--ink)}.portfolio-filter-drawer .section-filter-content{grid-template-columns:180px}@media(max-width:650px){.portfolio-filter-drawer .section-filter-content{grid-template-columns:1fr}}@media print{.paper-pdf,.filter-drawer{display:none!important}@page{size:auto;margin:.6in}}
-body::after{content:'DRAFT';position:fixed;inset:0;display:grid;place-items:center;pointer-events:none;z-index:9999;color:rgba(42,58,72,.055);font:700 clamp(72px,15vw,180px)/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.14em;transform:rotate(-28deg);transform-origin:center} @media print{body::after{color:rgba(42,58,72,.075);font-size:110pt}}
+.paper-pdf{display:inline-flex;align-items:center;justify-content:center;min-width:30px;min-height:30px;margin-left:5px;padding:0;border:1px solid var(--rule);border-radius:3px;color:var(--muted);vertical-align:middle}.paper-pdf:hover{color:var(--ink)}
+.paper-dates{margin:-8px 0 18px;text-align:center;color:var(--muted);font:italic 12px/1.5 system-ui,sans-serif}
+@media screen{#pdf-generated{display:none}}
+.portfolio-filter-drawer .section-filter-content{grid-template-columns:180px}@media(max-width:650px){.portfolio-filter-drawer .section-filter-content{grid-template-columns:1fr}}@media print{.paper-pdf,.filter-drawer{display:none!important}@page{size:auto;margin:.6in}}
 @media print{#introduction figure,#results figure{width:75%;margin-left:auto;margin-right:auto}}
 
 /* A compact research-note figure system. */
-.draft-badge{display:inline-block;margin-left:8px;padding:2px 6px;border:1px solid #9ca8b0;border-radius:2px;color:#526673;font:700 9px/1.2 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;vertical-align:1px}
-body::after{content:none;display:none}
 .paper-figure{width:100%;margin:24px auto 28px}
 .paper-figure.figure-simple{max-width:760px}
 .paper-figure.figure-dense{max-width:930px}
@@ -68,10 +68,9 @@ body::after{content:none;display:none}
 .figure-number{margin-right:5px;color:var(--accent);font:700 11px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.06em;text-transform:uppercase;vertical-align:2px;white-space:nowrap}
 .paper-figure figcaption{margin-top:10px;max-width:none;color:#4f4f4f}
 .paper-figure .figure-source{display:block;margin:3px 0 0;color:var(--muted);font:inherit}
-@media(max-width:650px){.paper-figure.figure-simple,.paper-figure.figure-dense,.paper-figure.figure-wide{max-width:none}.paper-figure{margin:20px 0 25px}.paper-figure .figure-title{font-size:16px}.figure-number{font-size:10px}.draft-badge{margin-left:5px}}
+@media(max-width:650px){.paper-figure.figure-simple,.paper-figure.figure-dense,.paper-figure.figure-wide{max-width:none}.paper-figure{margin:20px 0 25px}.paper-figure .figure-title{font-size:16px}.figure-number{font-size:10px}}
 @media print{
-  .draft-badge,.disclosure-link{display:none}
-  body::after{content:'DRAFT';position:fixed;inset:0;display:grid;place-items:center;pointer-events:none;z-index:9999;color:rgba(42,58,72,.075);font:700 110pt/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.14em;transform:rotate(-28deg);transform-origin:center}
+  .disclosure-link{display:none}
   #introduction .figure-wide{width:95%;max-width:none}
   #results .figure-simple{width:70%;max-width:none}
   #results .figure-dense{width:85%;max-width:100%}
