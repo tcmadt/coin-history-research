@@ -18,7 +18,7 @@
 <meta content="Most coins in this study beat Bitcoin from at least one buy date. Few did so from most buy dates." name="twitter:description"/>
 <meta content="https://tcmadt.github.io/coin-history-research/figures/og-figure1.png" name="twitter:image"/>
 <title>Do Altcoins Outperform Bitcoin?</title>
-<link href="style.css?v=fig2-hold" rel="stylesheet"/>
+<link href="style.css?v=methods-box" rel="stylesheet"/>
 </head>
 <body>
 <main>
@@ -176,7 +176,20 @@
 <section id="paper-methods">
 <h2>2. Data and methods</h2>
 <p>The study begins with 844 asset histories, including BTC. Removing stablecoins, wrapped or bridged assets, unresolved token changes and other excluded instruments leaves 746 altcoins. Of these, 279 have at least one complete five-year price window. The same group is used for every holding-period comparison, so changes across horizons do not come from changing the coins. Of the 279, 272 also have matching five-year market-cap data. The formal tests use Coin Metrics; the explorer adds two separately labeled histories from CoinGecko.</p>
-<p>Every comparison puts the same starting amount into an altcoin and BTC on the same day, then measures both on the same ending day. For each holding period from one to five years, the study repeats that comparison from every daily buy date with enough history. These periods overlap, so they are different views of history rather than independent bets. The 1.8% one-year figure uses all eligible one-year buy dates for the 279 coins. A separate <a href="#ref-robustness">robustness check</a> uses the same coins but only buy dates with valid endpoints at every horizon from one to five years. On those matched dates, 28.3% of coins beat BTC from more than half of their buy dates at one year, falling to 5.4% at five years. If either the entry or exit price is missing, the result remains unknown. The study never carries forward an old price or assumes the coin fell to zero. In a separate sensitivity test, treating missing five-year exits as total losses lowered the median from 0.065× to 0.058× BTC. That test covers coins with recorded histories. Coins that failed before the source covered them are missing entirely, which may bias the results in favor of altcoins. Separate tests line coins up by age, wait until they cross sustained market-cap thresholds, or build portfolios using only information available before each rebalance.</p>
+<p>Every comparison puts the same starting amount into an altcoin and BTC on the same day, then measures both on the same ending day.</p>
+<aside class="methods-box" aria-labelledby="methods-box-title">
+<h3 id="methods-box-title">How a win is counted</h3>
+<div class="methods-equation">
+<strong>Wealth relative to BTC</strong><span>=</span>
+<span class="methods-fraction"><span>Altcoin exit price ÷ altcoin buy price</span><span class="sr-only">divided by</span><span>BTC exit price ÷ BTC buy price</span></span>
+</div>
+<div class="methods-equation">
+<strong>Coin’s win rate</strong><span>=</span>
+<span class="methods-fraction"><span>Priced buy dates with relative wealth above 1×</span><span class="sr-only">divided by</span><span>All priced buy dates for that coin at that holding period</span></span>
+</div>
+<p><em>A coin wins at least once if any priced window beats BTC. It wins on most buy dates if its win rate exceeds 50%.</em></p>
+</aside>
+<p>For each holding period from one to five years, the study repeats that comparison from every daily buy date with enough history. These periods overlap, so they are different views of history rather than independent bets. The 1.8% one-year figure uses all eligible one-year buy dates for the 279 coins. A separate <a href="#ref-robustness">robustness check</a> uses the same coins but only buy dates with valid endpoints at every horizon from one to five years. On those matched dates, 28.3% of coins beat BTC from more than half of their buy dates at one year, falling to 5.4% at five years. If either the entry or exit price is missing, the result remains unknown. The study never carries forward an old price or assumes the coin fell to zero. In a separate sensitivity test, treating missing five-year exits as total losses lowered the median from 0.065× to 0.058× BTC. That test covers coins with recorded histories. Coins that failed before the source covered them are missing entirely, which may bias the results in favor of altcoins. Separate tests line coins up by age, wait until they cross sustained market-cap thresholds, or build portfolios using only information available before each rebalance.</p>
 <p>The study measures price returns rather than total returns. It does not add staking rewards or airdrops, and it does not subtract trading costs, spreads or market impact. Those omissions cut both ways, although the measurable gaps mostly make altcoins look better. Even crediting every altcoin with a generous 20% annual yield lifts the median five-year result to only 0.16× BTC. Detailed rules, limitations, the AI disclosure and the replication package appear in References.<sup><a aria-label="Study rules" href="#ref-rules">[1]</a></sup><sup><a aria-label="Limitations and directional bias" href="#ref-limitations">[2]</a></sup><sup><a aria-label="AI disclosure" href="#ref-ai">[3]</a></sup></p>
 </section>
 <section id="results">
